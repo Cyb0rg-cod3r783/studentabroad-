@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import UniversityMap from '../components/UniversityMap';
 
 const HomePage = () => {
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(''); 
   const [selectedCountry, setSelectedCountry] = useState('');
   const [selectedField, setSelectedField] = useState('');
   const [selectedBudget, setSelectedBudget] = useState('');
