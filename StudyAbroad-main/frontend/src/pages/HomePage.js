@@ -8,7 +8,6 @@ const HomePage = () => {
   const [selectedBudget, setSelectedBudget] = useState('');
   const [selectedDegree, setSelectedDegree] = useState('');
 
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const typingStrings = ["USA 🇺🇸", "UK 🇬🇧", "Canada 🇨🇦", "Germany 🇩🇪", "Australia 🇦🇺"];
@@ -135,7 +134,8 @@ const HomePage = () => {
       cursor: 'pointer',
       zIndex: 1,
       position: 'relative',
-      boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)'
+      boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
+      transition: 'all 0.3s ease'
     },
     typedText: {
       color: '#f72585',
@@ -157,7 +157,8 @@ const HomePage = () => {
       borderRadius: '50px 0 0 50px',
       fontSize: '1rem',
       boxShadow: '0 5px 20px rgba(0, 0, 0, 0.1)',
-      outline: 'none'
+      outline: 'none',
+      transition: 'box-shadow 0.3s ease'
     },
     searchButton: {
       padding: '0 25px',
@@ -166,7 +167,8 @@ const HomePage = () => {
       border: 'none',
       borderRadius: '0 50px 50px 0',
       cursor: 'pointer',
-      fontWeight: 600
+      fontWeight: 600,
+      transition: 'all 0.3s ease'
     },
     filters: {
       display: 'flex',
@@ -184,7 +186,8 @@ const HomePage = () => {
       fontSize: '1rem',
       minWidth: '180px',
       boxShadow: '0 2px 10px rgba(0, 0, 0, 0.05)',
-      cursor: 'pointer'
+      cursor: 'pointer',
+      transition: 'all 0.3s ease'
     },
     stats: {
       display: 'flex',
@@ -201,7 +204,8 @@ const HomePage = () => {
       textAlign: 'center',
       padding: '20px',
       flex: 1,
-      minWidth: '200px'
+      minWidth: '200px',
+      transition: 'transform 0.3s ease'
     },
     statH3: {
       fontSize: '3rem',
@@ -239,12 +243,14 @@ const HomePage = () => {
       borderRadius: '15px',
       overflow: 'hidden',
       boxShadow: '0 5px 20px rgba(0, 0, 0, 0.08)',
-      transition: 'transform 0.3s, box-shadow 0.3s'
+      transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+      cursor: 'pointer'
     },
     cardImg: {
       width: '100%',
       height: '200px',
-      objectFit: 'cover'
+      objectFit: 'cover',
+      transition: 'transform 0.3s ease'
     },
     cardH3: {
       padding: '20px 20px 10px',
@@ -264,7 +270,8 @@ const HomePage = () => {
       borderRadius: '8px',
       cursor: 'pointer',
       fontWeight: 500,
-      width: 'calc(100% - 40px)'
+      width: 'calc(100% - 40px)',
+      transition: 'all 0.3s ease'
     },
     featuresGrid: {
       display: 'grid',
@@ -277,12 +284,15 @@ const HomePage = () => {
       textAlign: 'center',
       padding: '30px 20px',
       borderRadius: '15px',
-      background: '#f8f9fa'
+      background: '#f8f9fa',
+      transition: 'all 0.3s ease',
+      cursor: 'pointer'
     },
     featureIcon: {
       fontSize: '3rem',
       marginBottom: '20px',
-      color: '#4361ee'
+      color: '#4361ee',
+      transition: 'transform 0.3s ease'
     },
     countriesGrid: {
       display: 'grid',
@@ -296,12 +306,15 @@ const HomePage = () => {
       borderRadius: '15px',
       overflow: 'hidden',
       boxShadow: '0 5px 15px rgba(0, 0, 0, 0.08)',
-      textAlign: 'center'
+      textAlign: 'center',
+      transition: 'all 0.3s ease',
+      cursor: 'pointer'
     },
     countryImg: {
       height: '120px',
       width: '100%',
-      objectFit: 'cover'
+      objectFit: 'cover',
+      transition: 'transform 0.3s ease'
     },
     countryName: {
       padding: '15px',
@@ -319,14 +332,17 @@ const HomePage = () => {
       background: '#f8f9fa',
       borderRadius: '15px',
       padding: '30px',
-      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.05)'
+      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.05)',
+      transition: 'all 0.3s ease',
+      cursor: 'pointer'
     },
     feedbackAvatar: {
       width: '70px',
       height: '70px',
       borderRadius: '50%',
       objectFit: 'cover',
-      marginBottom: '15px'
+      marginBottom: '15px',
+      transition: 'transform 0.3s ease'
     },
     feedbackName: {
       fontWeight: 600,
@@ -357,6 +373,14 @@ const HomePage = () => {
         <button
           style={styles.heroButton}
           onClick={() => window.location.href = '/recommendations'}
+          onMouseEnter={(e) => {
+            e.target.style.transform = 'scale(1.05)';
+            e.target.style.boxShadow = '0 6px 20px rgba(247, 37, 133, 0.4)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.transform = 'scale(1)';
+            e.target.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+          }}
         >
           Find My Match
         </button>
@@ -370,58 +394,82 @@ const HomePage = () => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           style={styles.searchInput}
+          onFocus={(e) => {
+            e.target.style.boxShadow = '0 8px 25px rgba(67, 97, 238, 0.2)';
+          }}
+          onBlur={(e) => {
+            e.target.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
+          }}
         />
-        <button onClick={handleSearch} style={styles.searchButton}>
+        <button 
+          onClick={handleSearch} 
+          style={styles.searchButton}
+          onMouseEnter={(e) => {
+            e.target.style.background = '#3a0ca3';
+            e.target.style.transform = 'scale(1.02)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.background = '#4361ee';
+            e.target.style.transform = 'scale(1)';
+          }}
+        >
           🔍 Search
         </button>
       </div>
 
-
-
       {/* Stats Section */}
       <div style={styles.stats}>
-        <div style={styles.statBox}>
-          <h3 style={styles.statH3}>{stats.countries}</h3>
-          <p style={styles.statP}>Countries</p>
-        </div>
-        <div style={styles.statBox}>
-          <h3 style={styles.statH3}>{stats.universities}</h3>
-          <p style={styles.statP}>Universities</p>
-        </div>
-        <div style={styles.statBox}>
-          <h3 style={styles.statH3}>{stats.scholarships}</h3>
-          <p style={styles.statP}>Scholarships</p>
-        </div>
-        <div style={styles.statBox}>
-          <h3 style={styles.statH3}>{stats.students}</h3>
-          <p style={styles.statP}>Students Placed</p>
-        </div>
+        {[
+          { value: stats.countries, label: 'Countries' },
+          { value: stats.universities, label: 'Universities' },
+          { value: stats.scholarships, label: 'Scholarships' },
+          { value: stats.students, label: 'Students Placed' }
+        ].map((stat, idx) => (
+          <div 
+            key={idx}
+            style={styles.statBox}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-10px)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+            }}
+          >
+            <h3 style={styles.statH3}>{stat.value}</h3>
+            <p style={styles.statP}>{stat.label}</p>
+          </div>
+        ))}
       </div>
 
       {/* Features Section */}
       <section style={styles.sectionWhite}>
         <h2 style={styles.sectionTitle}>Why Choose Us</h2>
         <div style={styles.featuresGrid}>
-          <div style={styles.featureCard}>
-            <div style={styles.featureIcon}>💵</div>
-            <h3>Scholarship Assistance</h3>
-            <p style={{ color: '#666' }}>Get guidance on thousands of scholarships tailored to your profile and needs.</p>
-          </div>
-          <div style={styles.featureCard}>
-            <div style={styles.featureIcon}>🛂</div>
-            <h3>Visa Support</h3>
-            <p style={{ color: '#666' }}>Expert assistance with visa applications and documentation for your study abroad journey.</p>
-          </div>
-          <div style={styles.featureCard}>
-            <div style={styles.featureIcon}>🏠</div>
-            <h3>Accommodation Help</h3>
-            <p style={{ color: '#666' }}>Find safe and affordable housing options near your university campus.</p>
-          </div>
-          <div style={styles.featureCard}>
-            <div style={styles.featureIcon}>🎓</div>
-            <h3>Career Guidance</h3>
-            <p style={{ color: '#666' }}>Connect with alumni and career counselors for post-study opportunities.</p>
-          </div>
+          {[
+            { icon: '💵', title: 'Scholarship Assistance', desc: 'Get guidance on thousands of scholarships tailored to your profile and needs.' },
+            { icon: '🛂', title: 'Visa Support', desc: 'Expert assistance with visa applications and documentation for your study abroad journey.' },
+            { icon: '🏠', title: 'Accommodation Help', desc: 'Find safe and affordable housing options near your university campus.' },
+            { icon: '🎓', title: 'Career Guidance', desc: 'Connect with alumni and career counselors for post-study opportunities.' }
+          ].map((feature, idx) => (
+            <div 
+              key={idx}
+              style={styles.featureCard}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-10px)';
+                e.currentTarget.style.boxShadow = '0 10px 30px rgba(67, 97, 238, 0.2)';
+                e.currentTarget.querySelector('.feature-icon').style.transform = 'scale(1.2) rotate(5deg)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = 'none';
+                e.currentTarget.querySelector('.feature-icon').style.transform = 'scale(1) rotate(0deg)';
+              }}
+            >
+              <div className="feature-icon" style={styles.featureIcon}>{feature.icon}</div>
+              <h3>{feature.title}</h3>
+              <p style={{ color: '#666' }}>{feature.desc}</p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -429,78 +477,322 @@ const HomePage = () => {
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Top Universities</h2>
         <div style={styles.cardsContainer}>
-          <div style={styles.card}>
-            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Oxford" style={styles.cardImg} />
-            <h3 style={styles.cardH3}>Oxford University</h3>
-            <p style={styles.cardP}>Top-ranked programs in Science & Arts with centuries of academic excellence.</p>
-            <button style={styles.cardButton}>Apply Now</button>
-          </div>
-          <div style={styles.card}>
-            <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Harvard" style={styles.cardImg} />
-            <h3 style={styles.cardH3}>Harvard University</h3>
-            <p style={styles.cardP}>Global leader in Business & Law studies with unparalleled networking opportunities.</p>
-            <button style={styles.cardButton}>Apply Now</button>
-          </div>
-          <div style={styles.card}>
-            <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="MIT" style={styles.cardImg} />
-            <h3 style={styles.cardH3}>MIT</h3>
-            <p style={styles.cardP}>World-class Engineering & Technology programs at the forefront of innovation.</p>
-            <button style={styles.cardButton}>Apply Now</button>
-          </div>
+          {[
+            { img: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', name: 'Oxford University', desc: 'Top-ranked programs in Science & Arts with centuries of academic excellence.' },
+            { img: 'https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', name: 'Harvard University', desc: 'Global leader in Business & Law studies with unparalleled networking opportunities.' },
+            { img: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', name: 'MIT', desc: 'World-class Engineering & Technology programs at the forefront of innovation.' }
+          ].map((uni, idx) => (
+            <div 
+              key={idx}
+              style={styles.card}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-10px)';
+                e.currentTarget.style.boxShadow = '0 15px 40px rgba(0, 0, 0, 0.15)';
+                e.currentTarget.querySelector('img').style.transform = 'scale(1.1)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.08)';
+                e.currentTarget.querySelector('img').style.transform = 'scale(1)';
+              }}
+            >
+              <img src={uni.img} alt={uni.name} style={styles.cardImg} />
+              <h3 style={styles.cardH3}>{uni.name}</h3>
+              <p style={styles.cardP}>{uni.desc}</p>
+              <button 
+                style={styles.cardButton}
+                onMouseEnter={(e) => {
+                  e.target.style.background = '#3a0ca3';
+                  e.target.style.transform = 'scale(1.02)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.background = '#4361ee';
+                  e.target.style.transform = 'scale(1)';
+                }}
+              >
+                Apply Now
+              </button>
+            </div>
+          ))}
         </div>
       </section>
 
       {/* Filters */}
       <div style={styles.filters}>
-        <select value={selectedCountry} onChange={(e) => setSelectedCountry(e.target.value)} style={styles.select}>
-          <option value="">Choose Country</option>
-          <option value="US">USA</option>
-          <option value="UK">UK</option>
-          <option value="CA">Canada</option>
-          <option value="DE">Germany</option>
-          <option value="AU">Australia</option>
-        </select>
-
-        <select value={selectedField} onChange={(e) => setSelectedField(e.target.value)} style={styles.select}>
-          <option value="">Field of Study</option>
-          <option value="Engineering">Engineering</option>
-          <option value="Business">Business</option>
-          <option value="Medicine">Medicine</option>
-          <option value="Arts">Arts</option>
-        </select>
-
-        <select value={selectedBudget} onChange={(e) => setSelectedBudget(e.target.value)} style={styles.select}>
-          <option value="">Budget Range</option>
-          <option value="0-10000">Under $10,000</option>
-          <option value="10000-30000">$10,000 - $30,000</option>
-          <option value="30000+">$30,000+</option>
-        </select>
-
-        <select value={selectedDegree} onChange={(e) => setSelectedDegree(e.target.value)} style={styles.select}>
-          <option value="">Degree Level</option>
-          <option value="undergraduate">Undergraduate</option>
-          <option value="graduate">Graduate</option>
-          <option value="phd">PhD</option>
-        </select>
+        {[
+          { value: selectedCountry, setter: setSelectedCountry, options: [
+            { value: '', label: 'Choose Country' },
+            { value: 'US', label: 'USA' },
+            { value: 'UK', label: 'UK' },
+            { value: 'CA', label: 'Canada' },
+            { value: 'DE', label: 'Germany' },
+            { value: 'AU', label: 'Australia' }
+          ]},
+          { value: selectedField, setter: setSelectedField, options: [
+            { value: '', label: 'Field of Study' },
+            { value: 'Engineering', label: 'Engineering' },
+            { value: 'Business', label: 'Business' },
+            { value: 'Medicine', label: 'Medicine' },
+            { value: 'Arts', label: 'Arts' }
+          ]},
+          { value: selectedBudget, setter: setSelectedBudget, options: [
+            { value: '', label: 'Budget Range' },
+            { value: '0-10000', label: 'Under $10,000' },
+            { value: '10000-30000', label: '$10,000 - $30,000' },
+            { value: '30000+', label: '$30,000+' }
+          ]},
+          { value: selectedDegree, setter: setSelectedDegree, options: [
+            { value: '', label: 'Degree Level' },
+            { value: 'undergraduate', label: 'Undergraduate' },
+            { value: 'graduate', label: 'Graduate' },
+            { value: 'phd', label: 'PhD' }
+          ]}
+        ].map((filter, idx) => (
+          <select 
+            key={idx}
+            value={filter.value} 
+            onChange={(e) => filter.setter(e.target.value)} 
+            style={styles.select}
+            onMouseEnter={(e) => {
+              e.target.style.borderColor = '#4361ee';
+              e.target.style.boxShadow = '0 4px 15px rgba(67, 97, 238, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.borderColor = '#ddd';
+              e.target.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.05)';
+            }}
+          >
+            {filter.options.map((opt, i) => (
+              <option key={i} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
+        ))}
       </div>
 
       {/* University Map Section */}
-      <section className="bg-gray-50 py-20">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-4 text-indigo-900">Explore Universities Worldwide</h2>
-          <div className="w-20 h-1 bg-pink-500 mx-auto mb-12"></div>
-          <div className="mb-6 text-center">
-            <p className="text-gray-600">
+      <section style={{
+        padding: '80px 5%',
+        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        {/* Animated Background Elements */}
+        <div style={{
+          position: 'absolute',
+          top: '-50px',
+          right: '-50px',
+          width: '300px',
+          height: '300px',
+          background: 'rgba(255, 255, 255, 0.1)',
+          borderRadius: '50%',
+          filter: 'blur(60px)'
+        }}></div>
+        <div style={{
+          position: 'absolute',
+          bottom: '-100px',
+          left: '-100px',
+          width: '400px',
+          height: '400px',
+          background: 'rgba(255, 255, 255, 0.1)',
+          borderRadius: '50%',
+          filter: 'blur(80px)'
+        }}></div>
+
+        <div style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
+          {/* Section Header */}
+          <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <div style={{
+              display: 'inline-block',
+              padding: '8px 20px',
+              background: 'rgba(255, 255, 255, 0.2)',
+              borderRadius: '50px',
+              marginBottom: '20px',
+              backdropFilter: 'blur(10px)',
+              border: '1px solid rgba(255, 255, 255, 0.3)'
+            }}>
+              <span style={{ color: 'white', fontSize: '0.9rem', fontWeight: 600 }}>🌍 Interactive Map</span>
+            </div>
+            
+            <h2 style={{
+              fontSize: '3rem',
+              fontWeight: 800,
+              color: 'white',
+              marginBottom: '15px',
+              textShadow: '0 2px 20px rgba(0, 0, 0, 0.2)'
+            }}>
+              Explore Universities Worldwide
+            </h2>
+            
+            <div style={{
+              width: '80px',
+              height: '4px',
+              background: 'linear-gradient(90deg, #f72585, #ffd60a)',
+              margin: '0 auto 25px',
+              borderRadius: '2px',
+              boxShadow: '0 2px 10px rgba(247, 37, 133, 0.5)'
+            }}></div>
+            
+            <p style={{
+              color: 'rgba(255, 255, 255, 0.95)',
+              fontSize: '1.1rem',
+              maxWidth: '700px',
+              margin: '0 auto',
+              lineHeight: '1.6'
+            }}>
               {selectedCountry
-                ? `Showing universities in ${selectedCountry === 'US' ? 'USA' : selectedCountry === 'UK' ? 'United Kingdom' : selectedCountry === 'CA' ? 'Canada' : selectedCountry === 'AU' ? 'Australia' : selectedCountry}`
-                : 'Showing universities worldwide - Use the filters above to narrow down by country'}
+                ? `📍 Showing universities in ${selectedCountry === 'US' ? 'USA' : selectedCountry === 'UK' ? 'United Kingdom' : selectedCountry === 'CA' ? 'Canada' : selectedCountry === 'AU' ? 'Australia' : selectedCountry}`
+                : '🗺️ Discover universities worldwide - Use the filters above to narrow down by country'}
             </p>
           </div>
-          <UniversityMap
-            selectedCountry={selectedCountry}
-            height="600px"
-            showControls={true}
-          />
+
+          {/* Map Container with Enhanced Styling */}
+          <div style={{
+            background: 'white',
+            borderRadius: '25px',
+            padding: '30px',
+            boxShadow: '0 20px 60px rgba(0, 0, 0, 0.3)',
+            border: '1px solid rgba(255, 255, 255, 0.2)',
+            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = 'translateY(-5px)';
+            e.currentTarget.style.boxShadow = '0 25px 70px rgba(0, 0, 0, 0.35)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'translateY(0)';
+            e.currentTarget.style.boxShadow = '0 20px 60px rgba(0, 0, 0, 0.3)';
+          }}>
+            {/* Map Info Bar */}
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              marginBottom: '20px',
+              padding: '15px 20px',
+              background: 'linear-gradient(135deg, #f0f4ff 0%, #e8eeff 100%)',
+              borderRadius: '15px',
+              flexWrap: 'wrap',
+              gap: '15px'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <span style={{ fontSize: '1.5rem' }}>🎓</span>
+                <span style={{ color: '#3a0ca3', fontWeight: 600 }}>Interactive University Explorer</span>
+              </div>
+              <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
+                <div style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: '5px',
+                  padding: '5px 12px',
+                  background: 'white',
+                  borderRadius: '8px',
+                  fontSize: '0.9rem'
+                }}>
+                  <span style={{ color: '#4361ee' }}>●</span>
+                  <span style={{ color: '#666' }}>Click markers for details</span>
+                </div>
+                <div style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: '5px',
+                  padding: '5px 12px',
+                  background: 'white',
+                  borderRadius: '8px',
+                  fontSize: '0.9rem'
+                }}>
+                  <span style={{ color: '#f72585' }}>●</span>
+                  <span style={{ color: '#666' }}>Zoom & pan enabled</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Map Component */}
+            <div style={{
+              borderRadius: '15px',
+              overflow: 'hidden',
+              boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
+            }}>
+              <UniversityMap
+                selectedCountry={selectedCountry}
+                height="600px"
+                showControls={true}
+              />
+            </div>
+
+            {/* Map Legend/Stats */}
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
+              gap: '15px',
+              marginTop: '25px'
+            }}>
+              {[
+                { icon: '🏫', label: 'Total Universities', value: '500+' },
+                { icon: '🌎', label: 'Countries', value: '30+' },
+                { icon: '💰', label: 'Scholarships', value: '1000+' },
+                { icon: '✈️', label: 'Success Stories', value: '10K+' }
+              ].map((item, idx) => (
+                <div 
+                  key={idx}
+                  style={{
+                    textAlign: 'center',
+                    padding: '20px 15px',
+                    background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
+                    borderRadius: '12px',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.background = 'linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%)';
+                    e.currentTarget.style.color = 'white';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.background = 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)';
+                    e.currentTarget.style.color = 'inherit';
+                  }}
+                >
+                  <div style={{ fontSize: '2rem', marginBottom: '8px' }}>{item.icon}</div>
+                  <div style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '5px' }}>{item.value}</div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.8 }}>{item.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Bottom CTA */}
+          <div style={{
+            textAlign: 'center',
+            marginTop: '50px'
+          }}>
+            <button style={{
+              padding: '15px 40px',
+              background: 'white',
+              color: '#3a0ca3',
+              border: 'none',
+              borderRadius: '50px',
+              fontSize: '1.1rem',
+              fontWeight: 700,
+              cursor: 'pointer',
+              boxShadow: '0 8px 25px rgba(0, 0, 0, 0.2)',
+              transition: 'all 0.3s ease'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.transform = 'scale(1.05)';
+              e.target.style.boxShadow = '0 12px 35px rgba(0, 0, 0, 0.3)';
+              e.target.style.background = '#f72585';
+              e.target.style.color = 'white';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.transform = 'scale(1)';
+              e.target.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.2)';
+              e.target.style.background = 'white';
+              e.target.style.color = '#3a0ca3';
+            }}>
+              🚀 Get Personalized Recommendations
+            </button>
+          </div>
         </div>
       </section>
 
@@ -514,16 +806,26 @@ const HomePage = () => {
             { name: 'Canada', img: 'https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' },
             { name: 'Australia', img: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80' }
           ].map((country, idx) => (
-            <div key={idx} style={styles.countryCard}>
+            <div 
+              key={idx} 
+              style={styles.countryCard}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-8px)';
+                e.currentTarget.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.15)';
+                e.currentTarget.querySelector('img').style.transform = 'scale(1.1)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.08)';
+                e.currentTarget.querySelector('img').style.transform = 'scale(1)';
+              }}
+            >
               <img src={country.img} alt={country.name} style={styles.countryImg} />
               <div style={styles.countryName}>{country.name}</div>
             </div>
           ))}
         </div>
       </section>
-
-
-
 
       {/* Student Testimonials */}
       <section style={styles.section}>
@@ -534,7 +836,20 @@ const HomePage = () => {
             { name: 'Rahul Verma', img: 'https://randomuser.me/api/portraits/men/32.jpg', text: 'User-friendly and reliable, with all details in one place. The visa assistance made the process so much smoother.' },
             { name: 'Priya Patel', img: 'https://randomuser.me/api/portraits/women/44.jpg', text: 'The accommodation service helped me find a perfect place near my campus. I couldn\'t have done it without StudentAbroad!' }
           ].map((review, idx) => (
-            <div key={idx} style={styles.feedbackCard}>
+            <div 
+              key={idx} 
+              style={styles.feedbackCard}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-8px)';
+                e.currentTarget.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.12)';
+                e.currentTarget.querySelector('img').style.transform = 'scale(1.1)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.05)';
+                e.currentTarget.querySelector('img').style.transform = 'scale(1)';
+              }}
+            >
               <img src={review.img} alt={review.name} style={styles.feedbackAvatar} />
               <div style={styles.feedbackName}>{review.name}</div>
               <div style={styles.stars}>⭐⭐⭐⭐⭐</div>
