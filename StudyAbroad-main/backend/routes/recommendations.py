@@ -11,15 +11,24 @@ from datetime import datetime
 from typing import Dict, List, Optional
 
 from ml.ml_service import get_ml_service
-from models.user_repository import UserRepository
+from services.firebase_user_service import FirebaseUserService
+from services.firebase_recommendation_service import FirebaseRecommendationService
 from utils.data_validator import validate_user_profile_data
 
 # Create blueprint
 recommendations_bp = Blueprint('recommendations', __name__, url_prefix='/api/recommendations')
 
 # Initialize services
+try:
+    user_service = FirebaseUserService()
+    recommendation_service = FirebaseRecommendationService()
+    print("✅ Recommendations using Firebase Services")
+except Exception as e:
+    print(f"❌ Firebase Services failed: {e}")
+    user_service = None
+    recommendation_service = None
+# Initialize ML service
 ml_service = get_ml_service()
-user_repository = UserRepository()
 
 
 @recommendations_bp.route('/predict/<int:university_id>', methods=['POST'])
@@ -59,11 +68,11 @@ def predict_admission_probability(university_id: int):
                 }), 400
         else:
             # Use current user's profile from database
-            user = user_repository.get_user_by_id(current_user_id)
+            user = user_service.get_user_by_id(current_user_id)
             if not user:
                 return jsonify({'error': 'User not found'}), 404
             
-            user_profile = user.to_dict()
+            user_profile = user
             
             # Check if user has sufficient profile data
             required_fields = ['cgpa', 'gre_score']
@@ -139,11 +148,11 @@ def predict_batch_admission():
                 }), 400
         else:
             # Use current user's profile from database
-            user = user_repository.get_user_by_id(current_user_id)
+            user = user_service.get_user_by_id(current_user_id)
             if not user:
                 return jsonify({'error': 'User not found'}), 404
             
-            user_profile = user.to_dict()
+            user_profile = user
         
         # Make batch predictions
         predictions = ml_service.predict_batch_admission(user_profile, university_ids)
@@ -218,11 +227,11 @@ def generate_recommendations():
                 }), 400
         elif current_user_id:
             # Use current user's profile from database if authenticated
-            user = user_repository.get_user_by_id(current_user_id)
+            user = user_service.get_user_by_id(current_user_id)
             if not user:
                 return jsonify({'error': 'User not found'}), 404
             
-            user_profile = user.to_dict()
+            user_profile = user
             
             # Check if user has sufficient profile data
             required_fields = ['cgpa', 'field_of_study']
@@ -305,11 +314,11 @@ def explain_recommendation(university_id: int):
                 }), 400
         else:
             # Use current user's profile from database
-            user = user_repository.get_user_by_id(current_user_id)
+            user = user_service.get_user_by_id(current_user_id)
             if not user:
                 return jsonify({'error': 'User not found'}), 404
             
-            user_profile = user.to_dict()
+            user_profile = user
         
         # Get explanation
         explanation = ml_service.get_recommendation_explanation(user_profile, university_id)
@@ -387,10 +396,10 @@ def get_cost_analysis():
         if 'user_profile' in data and data['user_profile']:
             user_profile = data['user_profile']
         else:
-            user = user_repository.get_user_by_id(current_user_id)
+            user = user_service.get_user_by_id(current_user_id)
             if not user:
                 return jsonify({'error': 'User not found'}), 404
-            user_profile = user.to_dict()
+            user_profile = user
         
         # Generate cost analysis
         cost_analysis = ml_service.generate_cost_analysis(user_profile, university_ids, analysis_type)
@@ -439,10 +448,10 @@ def get_cost_trends(university_id: int):
         if 'user_profile' in data and data['user_profile']:
             user_profile = data['user_profile']
         else:
-            user = user_repository.get_user_by_id(current_user_id)
+            user = user_service.get_user_by_id(current_user_id)
             if not user:
                 return jsonify({'error': 'User not found'}), 404
-            user_profile = user.to_dict()
+            user_profile = user
         
         # Generate cost trends
         cost_trends = ml_service.generate_cost_trends(user_profile, university_id, years, inflation_rate)

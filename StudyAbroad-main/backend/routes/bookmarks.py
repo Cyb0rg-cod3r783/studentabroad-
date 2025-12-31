@@ -1,15 +1,13 @@
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt_identity
-from models import get_db_session, User
-from models.bookmark import Bookmark
-from sqlalchemy.exc import IntegrityError
 
 # Import services with error handling
 try:
     from services.firebase_university_service import FirebaseUniversityService
+    from services.firebase_bookmark_service import FirebaseBookmarkService
     FIREBASE_AVAILABLE = True
 except ImportError as e:
-    print(f"Firebase service not available: {e}")
+    print(f"Firebase services not available: {e}")
     FIREBASE_AVAILABLE = False
 
 from services.university_service_simple import UniversityService
@@ -17,17 +15,20 @@ from services.university_service_simple import UniversityService
 # Create blueprint for bookmark routes
 bookmarks_bp = Blueprint('bookmarks', __name__, url_prefix='/api/bookmarks')
 
-# Initialize university service with Firebase fallback
+# Initialize services with Firebase
 if FIREBASE_AVAILABLE:
     try:
         university_service = FirebaseUniversityService()
-        print("✅ Bookmarks using Firebase University Service")
+        bookmark_service = FirebaseBookmarkService()
+        print("✅ Bookmarks using Firebase Services")
     except Exception as e:
         print(f"⚠️ Bookmarks Firebase failed, using JSON fallback: {e}")
         university_service = UniversityService()
+        bookmark_service = None
         print("✅ Bookmarks using JSON University Service")
 else:
     university_service = UniversityService()
+    bookmark_service = None
     print("✅ Bookmarks using JSON University Service (Firebase not available)")
 
 @bookmarks_bp.route('', methods=['GET'])
@@ -35,48 +36,50 @@ else:
 def get_user_bookmarks():
     """Get all bookmarked universities for the current user"""
     try:
-        current_user_id = int(get_jwt_identity())
-        
-        # Get database session
-        session = next(get_db_session())
-        
-        try:
-            # Get user's bookmarks
-            bookmarks = session.query(Bookmark).filter_by(user_id=current_user_id).all()
-            
-            # Get university details for each bookmark
-            bookmarked_universities = []
-            for bookmark in bookmarks:
-                university = university_service.get_university_by_id(bookmark.university_id)
-                if university:
-                    bookmarked_universities.append({
-                        'bookmark_id': bookmark.id,
-                        'university': university,
-                        'bookmarked_at': bookmark.created_at.isoformat(),
-                        'notes': bookmark.notes
-                    })
-            
+        if not bookmark_service:
             return jsonify({
-                'success': True,
-                'data': bookmarked_universities,
-                'total': len(bookmarked_universities)
-            }), 200
+                'error': 'Bookmark service not available',
+                'code': 'SERVICE_UNAVAILABLE'
+            }), 503
             
-        except Exception as e:
-            return jsonify({
-                'error': 'Failed to get bookmarks',
-                'code': 'BOOKMARKS_FETCH_ERROR',
-                'details': str(e)
-            }), 500
-        finally:
-            session.close()
-            
+        current_user_id = get_jwt_identity()
+        
+        # Get user's bookmarks from Firebase
+        bookmarks = bookmark_service.get_user_bookmarks(current_user_id)
+        
+        # Get university details for each bookmark
+        bookmarked_universities = []
+        for bookmark in bookmarks:
+            university = university_service.get_university_by_id(bookmark['university_id'])
+            if university:
+                # Handle datetime conversion
+                created_at = bookmark['created_at']
+                if hasattr(created_at, 'isoformat'):
+                    created_at = created_at.isoformat()
+                elif isinstance(created_at, str):
+                    created_at = created_at
+                else:
+                    created_at = str(created_at)
+                    
+                bookmarked_universities.append({
+                    'bookmark_id': bookmark['id'],
+                    'university': university,
+                    'bookmarked_at': created_at,
+                    'notes': bookmark.get('notes', '')
+                })
+        
+        return jsonify({
+            'success': True,
+            'data': bookmarked_universities,
+            'total': len(bookmarked_universities)
+        }), 200
+        
     except Exception as e:
         return jsonify({
-            'error': 'Authentication failed',
-            'code': 'AUTH_ERROR',
+            'error': 'Failed to get bookmarks',
+            'code': 'BOOKMARKS_FETCH_ERROR',
             'details': str(e)
-        }), 401
+        }), 500
 
 @bookmarks_bp.route('', methods=['POST'])
 @jwt_required()

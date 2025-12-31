@@ -1,10 +1,18 @@
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt_identity
-from models import get_db_session, User
+from services.firebase_user_service import FirebaseUserService
 import json
 
 # Create blueprint for user routes
 users_bp = Blueprint('users', __name__, url_prefix='/api/users')
+
+# Initialize Firebase User Service
+try:
+    user_service = FirebaseUserService()
+    print("✅ Users using Firebase User Service")
+except Exception as e:
+    print(f"❌ Firebase User Service failed: {e}")
+    user_service = None
 
 def validate_cgpa(cgpa):
     """Validate CGPA value"""

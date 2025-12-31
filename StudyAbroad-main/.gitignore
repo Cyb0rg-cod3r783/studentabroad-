@@ -13,6 +13,12 @@ dist/
 .env.test.local
 .env.production.local
 
+# Firebase credentials (NEVER commit these!)
+firebase-service-account.json
+*firebase-service-account*.json
+firebase-adminsdk-*.json
+serviceAccountKey.json
+
 # Database files
 *.db
 *.sqlite

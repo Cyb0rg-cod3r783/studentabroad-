@@ -1,22 +1,11 @@
 # Models package initialization
+# 
+# Note: This project now uses Firebase for database operations.
+# SQLAlchemy models have been replaced with Firebase services:
+# - services/firebase_user_service.py
+# - services/firebase_bookmark_service.py  
+# - services/firebase_recommendation_service.py
+#
+# This file is kept for backward compatibility but should not be used.
 
-# Import all models
-from .user import User
-from .bookmark import Bookmark, UserPreference, SearchHistory
-from .recommendation import RecommendationResult, AdmissionPrediction, RecommendationSession
-from .database import DatabaseManager, db_manager, get_db_session, init_db
-
-# Export all models and database utilities
-__all__ = [
-    'User',
-    'Bookmark',
-    'UserPreference', 
-    'SearchHistory',
-    'RecommendationResult',
-    'AdmissionPrediction',
-    'RecommendationSession',
-    'DatabaseManager',
-    'db_manager',
-    'get_db_session',
-    'init_db'
-]
+__all__ = []

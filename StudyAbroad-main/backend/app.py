@@ -1,13 +1,12 @@
 """
 Simple Flask App
-Study Abroad Platform without complex security middleware
+Study Abroad Platform with Firebase Database
 """
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 import os
 from dotenv import load_dotenv
-from models import init_db
 from routes.auth import auth_bp
 from routes.users import users_bp
 from routes.universities import universities_bp
@@ -25,17 +24,12 @@ CORS(app, origins=['http://localhost:3000', 'http://127.0.0.1:3000'])
 
 # Basic configuration
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'your-secret-key-change-in-production')
-app.config['DATABASE_URL'] = os.getenv('DATABASE_URL', 'sqlite:///database/student_abroad.db')
 
 # JWT configuration
 app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY', 'jwt-secret-change-in-production')
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = False
 
 jwt = JWTManager(app)
-
-# Initialize database
-with app.app_context():
-    init_db()
 
 # Register blueprints
 app.register_blueprint(auth_bp)
@@ -57,10 +51,19 @@ def home():
 @app.route('/api/health')
 def health_check():
     """Health check endpoint"""
+    firebase_status = 'connected'
+    try:
+        # Test Firebase connection
+        from services.firebase_user_service import FirebaseUserService
+        test_service = FirebaseUserService()
+        firebase_status = 'connected'
+    except Exception as e:
+        firebase_status = f'error: {str(e)}'
+    
     return jsonify({
         'status': 'healthy',
-        'database': 'connected',
-        'firebase': 'connected' if os.path.exists('studyabroad-e9afb-firebase-adminsdk-fbsvc-a1e7ee1a7f.json') else 'not configured'
+        'database': 'firebase',
+        'firebase': firebase_status
     })
 
 # Error handlers
@@ -75,8 +78,8 @@ def internal_error(error):
 if __name__ == '__main__':
     print("🚀 STARTING STUDY ABROAD PLATFORM")
     print("=" * 50)
-    print("✅ Simple Flask app (no complex security)")
-    print("✅ Firebase integration ready")
+    print("✅ Firebase-powered Flask app")
+    print("✅ Cloud database integration")
     print("✅ 200 universities available")
     print("\n🌐 Server starting...")
     print("   URL: http://localhost:5000")

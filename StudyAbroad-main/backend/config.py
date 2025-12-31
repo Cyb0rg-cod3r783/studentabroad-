@@ -6,7 +6,6 @@ load_dotenv()
 class Config:
     """Base configuration class"""
     SECRET_KEY = os.getenv('SECRET_KEY', 'dev-secret-key-change-in-production')
-    DATABASE_URL = os.getenv('DATABASE_URL', 'sqlite:///database/student_abroad.db')
     
     # ML Model settings
     ML_MODEL_PATH = os.getenv('ML_MODEL_PATH', 'models/')
@@ -33,7 +32,6 @@ class TestingConfig(Config):
     """Testing configuration"""
     DEBUG = True
     TESTING = True
-    DATABASE_URL = 'sqlite:///:memory:'
 
 # Configuration dictionary
 config = {
