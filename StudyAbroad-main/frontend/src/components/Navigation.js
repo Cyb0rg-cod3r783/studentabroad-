@@ -144,7 +144,6 @@ const Navigation = React.memo(() => {
           to="/"
           className="nav-logo"
           onClick={closeMobileMenu}
-          style={{ textDecoration: 'none !important' }}
         >
           <span className="logo-icon">🎓</span>
           <span className="logo-text">StudyAbroad</span>
@@ -157,7 +156,6 @@ const Navigation = React.memo(() => {
             to="/"
             className={`nav-link ${isActive('/') ? 'active' : ''}`}
             onClick={closeMobileMenu}
-            style={{ textDecoration: 'none' }}
           >
             <span className="nav-icon">🏠</span>
             <span className="nav-text">Home</span>
@@ -167,7 +165,6 @@ const Navigation = React.memo(() => {
             to="/search"
             className={`nav-link ${isActive('/search') ? 'active' : ''}`}
             onClick={closeMobileMenu}
-            style={{ textDecoration: 'none' }}
           >
             <span className="nav-icon">🔍</span>
             <span className="nav-text">Search</span>
@@ -180,7 +177,6 @@ const Navigation = React.memo(() => {
                 to="/compare"
                 className={`nav-link ${isActive('/compare') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
-                style={{ textDecoration: 'none' }}
               >
                 <span className="nav-icon">📊</span>
                 <span className="nav-text">Compare</span>
@@ -190,7 +186,6 @@ const Navigation = React.memo(() => {
                 to="/recommendations"
                 className={`nav-link ${isActive('/recommendations') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
-                style={{ textDecoration: 'none' }}
               >
                 <span className="nav-icon">🎯</span>
                 <span className="nav-text">AI Recommendations</span>
@@ -201,7 +196,6 @@ const Navigation = React.memo(() => {
                 className={`nav-link ${isActive('/bookmarks') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
                 onMouseEnter={prefetchBookmarks}
-                style={{ textDecoration: 'none' }}
               >
                 <span className="nav-icon">📚</span>
                 <span className="nav-text">Bookmarks</span>
@@ -266,7 +260,6 @@ const Navigation = React.memo(() => {
                         closeMobileMenu();
                       }}
                       onMouseEnter={prefetchProfile}
-                      style={{ textDecoration: 'none' }}
                     >
                       <span className="dropdown-icon">👤</span>
                       Profile Settings
@@ -279,7 +272,6 @@ const Navigation = React.memo(() => {
                         setShowUserDropdown(false);
                         closeMobileMenu();
                       }}
-                      style={{ textDecoration: 'none' }}
                     >
                       <span className="dropdown-icon">⚙️</span>
                       Preferences
@@ -292,7 +284,6 @@ const Navigation = React.memo(() => {
                         setShowUserDropdown(false);
                         closeMobileMenu();
                       }}
-                      style={{ textDecoration: 'none' }}
                     >
                       <span className="dropdown-icon">❓</span>
                       Help & Support
@@ -319,7 +310,6 @@ const Navigation = React.memo(() => {
                 to="/login"
                 className={`nav-link ${isActive('/login') ? 'active' : ''}`}
                 onClick={closeMobileMenu}
-                style={{ textDecoration: 'none' }}
               >
                 <span className="nav-icon">🔑</span>
                 <span className="nav-text">Login</span>
@@ -329,7 +319,6 @@ const Navigation = React.memo(() => {
                 to="/register"
                 className="nav-link nav-register-btn"
                 onClick={closeMobileMenu}
-                style={{ textDecoration: 'none' }}
               >
                 <span className="nav-icon">✨</span>
                 <span className="nav-text">Get Started</span>
