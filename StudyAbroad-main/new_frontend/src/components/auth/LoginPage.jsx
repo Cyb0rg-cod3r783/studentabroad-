@@ -1,9 +1,36 @@
 import React, { useState } from 'react';
-import { Mail, Lock, Eye, EyeOff, ArrowRight, Github } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Mail, Lock, Eye, EyeOff, ArrowRight, AlertCircle, Loader2 } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
+import { authService } from '../../services/api';
 
 const LoginPage = () => {
+    const navigate = useNavigate();
     const [showPassword, setShowPassword] = useState(false);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
+
+    const handleLogin = async (e) => {
+        e.preventDefault();
+        setLoading(true);
+        setError('');
+
+        try {
+            const data = await authService.login(email, password);
+            // Store token and user data
+            localStorage.setItem('token', data.access_token);
+            localStorage.setItem('user', JSON.stringify(data.user));
+
+            // Navigate to dashboard
+            navigate('/dashboard');
+        } catch (err) {
+            console.error("Login failed:", err);
+            setError(err.response?.data?.error || 'Failed to login. Please check your credentials.');
+        } finally {
+            setLoading(false);
+        }
+    };
 
     return (
         <div className="min-h-screen flex bg-white">
@@ -55,14 +82,24 @@ const LoginPage = () => {
                         <p className="text-gray-500">Please enter your details to access your dashboard.</p>
                     </div>
 
-                    <form className="space-y-6">
+                    {error && (
+                        <div className="bg-red-50 text-red-600 p-4 rounded-xl flex items-start gap-3 text-sm animate-shake">
+                            <AlertCircle className="flex-shrink-0 mt-0.5" size={16} />
+                            {error}
+                        </div>
+                    )}
+
+                    <form className="space-y-6" onSubmit={handleLogin}>
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
                             <div className="relative">
                                 <input
                                     type="email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
                                     className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#4353FF] transition-all"
                                     placeholder="name@example.com"
+                                    required
                                 />
                                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                             </div>
@@ -73,8 +110,11 @@ const LoginPage = () => {
                             <div className="relative">
                                 <input
                                     type={showPassword ? "text" : "password"}
+                                    value={password}
+                                    onChange={(e) => setPassword(e.target.value)}
                                     className="w-full pl-10 pr-12 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#4353FF] transition-all"
                                     placeholder="••••••••"
+                                    required
                                 />
                                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                                 <button
@@ -95,8 +135,20 @@ const LoginPage = () => {
                             <a href="#" className="text-sm font-semibold text-[#4353FF] hover:underline">Forgot Password?</a>
                         </div>
 
-                        <button className="w-full bg-[#1A1B4B] text-white py-3.5 rounded-xl font-bold hover:bg-opacity-90 transition-all shadow-lg shadow-indigo-900/20 flex items-center justify-center gap-2 group">
-                            Sign In <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                        <button
+                            type="submit"
+                            disabled={loading}
+                            className="w-full bg-[#1A1B4B] text-white py-3.5 rounded-xl font-bold hover:bg-opacity-90 transition-all shadow-lg shadow-indigo-900/20 flex items-center justify-center gap-2 group disabled:opacity-70 disabled:cursor-not-allowed"
+                        >
+                            {loading ? (
+                                <>
+                                    <Loader2 size={20} className="animate-spin" /> Signing In...
+                                </>
+                            ) : (
+                                <>
+                                    Sign In <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                                </>
+                            )}
                         </button>
                     </form>
 

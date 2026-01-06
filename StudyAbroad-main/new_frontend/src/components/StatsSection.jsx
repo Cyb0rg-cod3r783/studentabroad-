@@ -1,35 +1,69 @@
-import React from 'react';
-import { Users, GraduationCap, Globe, Award } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Users, GraduationCap, Globe, Award, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
-
-const stats = [
-    {
-        icon: Users,
-        value: "50,000+",
-        label: "Students Placed",
-        color: "bg-emerald-500/20 text-emerald-300"
-    },
-    {
-        icon: GraduationCap,
-        value: "1,200+",
-        label: "Partner Universities",
-        color: "bg-blue-500/20 text-blue-300"
-    },
-    {
-        icon: Globe,
-        value: "45+",
-        label: "Countries",
-        color: "bg-purple-500/20 text-purple-300"
-    },
-    {
-        icon: Award,
-        value: "98%",
-        label: "Success Rate",
-        color: "bg-orange-500/20 text-orange-300"
-    }
-];
+import { universityService } from '../services/api';
 
 const StatsSection = () => {
+    const [stats, setStats] = useState([
+        {
+            icon: Users,
+            value: "50,000+",
+            label: "Students Placed",
+            color: "bg-emerald-500/20 text-emerald-300",
+            key: 'students'
+        },
+        {
+            icon: GraduationCap,
+            value: "200+",
+            label: "Partner Universities",
+            color: "bg-blue-500/20 text-blue-300",
+            key: 'universities'
+        },
+        {
+            icon: Globe,
+            value: "45+",
+            label: "Countries",
+            color: "bg-purple-500/20 text-purple-300",
+            key: 'countries'
+        },
+        {
+            icon: Award,
+            value: "98%",
+            label: "Success Rate",
+            color: "bg-orange-500/20 text-orange-300",
+            key: 'success_rate'
+        }
+    ]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchStats = async () => {
+            try {
+                const response = await universityService.getStatistics();
+                if (response.success && response.data) {
+                    const data = response.data;
+                    setStats(prev => prev.map(stat => {
+                        if (stat.key === 'universities') {
+                            return { ...stat, value: `${data.total_universities || 200}+` };
+                        }
+                        if (stat.key === 'countries') {
+                            return { ...stat, value: `${data.total_countries || 45}+` };
+                        }
+                        // Keep other stats as defaults (students, success_rate are platform metrics)
+                        return stat;
+                    }));
+                }
+            } catch (error) {
+                console.error('Failed to fetch stats:', error);
+                // Keep default values on error
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchStats();
+    }, []);
+
     return (
         <div className="bg-gradient-to-r from-[#4353FF] to-[#3E3B92] py-20 relative overflow-hidden">
             {/* Subtle Overlay Pattern */}
@@ -64,7 +98,9 @@ const StatsSection = () => {
                             <div className={`w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-6 ${stat.color} group-hover:scale-110 transition-transform duration-300`}>
                                 <stat.icon size={32} />
                             </div>
-                            <h3 className="text-4xl font-bold text-white mb-2">{stat.value}</h3>
+                            <h3 className="text-4xl font-bold text-white mb-2">
+                                {loading ? <Loader2 className="animate-spin mx-auto" size={32} /> : stat.value}
+                            </h3>
                             <p className="text-blue-100 font-medium">{stat.label}</p>
                         </motion.div>
                     ))}

@@ -14,6 +14,7 @@ import ResourcesPage from './components/ResourcesPage';
 import LoginPage from './components/auth/LoginPage';
 import SignupPage from './components/auth/SignupPage';
 import UniversityDetailsPage from './components/UniversityDetailsPage';
+import RecommendationsPage from './components/RecommendationsPage';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/university/:id" element={<UniversityDetailsPage />} />
+          <Route path="/recommendations" element={<RecommendationsPage />} />
         </Routes>
         <Footer />
       </div>

@@ -1,13 +1,66 @@
 import React, { useState } from 'react';
-import { Mail, Lock, Eye, EyeOff, User, ArrowRight, CheckCircle } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Mail, Lock, Eye, EyeOff, User, ArrowRight, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
+import { authService } from '../../services/api';
 
 const SignupPage = () => {
+    const navigate = useNavigate();
     const [showPassword, setShowPassword] = useState(false);
+    const [formData, setFormData] = useState({
+        fullName: '',
+        email: '',
+        password: '',
+        confirmPassword: ''
+    });
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.type === 'text' && e.target.name === undefined ? 'fullName' : e.target.type]: e.target.value });
+        // Note: simple handling, better to use name attribute
+    };
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
+    const handleSignup = async (e) => {
+        e.preventDefault();
+        setLoading(true);
+        setError('');
+
+        if (formData.password.length < 6) {
+            setError('Password must be at least 6 characters long');
+            setLoading(false);
+            return;
+        }
+
+        try {
+            // Backend expects email and password
+            const data = await authService.signup({
+                email: formData.email,
+                password: formData.password,
+                // Add other fields if backend supports them later, currently auth.py only uses email/password for creation
+                // but we can store extra data if we modify the backend.
+            });
+
+            // Automatically login after signup (store token)
+            localStorage.setItem('token', data.access_token);
+            localStorage.setItem('user', JSON.stringify(data.user));
+
+            navigate('/dashboard');
+        } catch (err) {
+            console.error("Signup failed:", err);
+            setError(err.response?.data?.error || 'Failed to create account. Please try again.');
+        } finally {
+            setLoading(false);
+        }
+    };
 
     return (
         <div className="min-h-screen flex bg-white">
-            {/* Left Side - Image (Different from Login) */}
+            {/* Left Side - Image */}
             <div className="hidden lg:flex lg:w-1/2 relative bg-[#4353FF] text-white overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#1A1B4B] to-[#4353FF]/60 z-10"></div>
                 <img
@@ -48,12 +101,22 @@ const SignupPage = () => {
                         <p className="text-gray-500">Join thousands of students achieving their dreams.</p>
                     </div>
 
-                    <form className="space-y-5">
+                    {error && (
+                        <div className="bg-red-50 text-red-600 p-4 rounded-xl flex items-start gap-3 text-sm animate-shake">
+                            <AlertCircle className="flex-shrink-0 mt-0.5" size={16} />
+                            {error}
+                        </div>
+                    )}
+
+                    <form className="space-y-5" onSubmit={handleSignup}>
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
                             <div className="relative">
                                 <input
                                     type="text"
+                                    name="fullName"
+                                    value={formData.fullName}
+                                    onChange={handleInputChange}
                                     className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#4353FF] transition-all"
                                     placeholder="John Doe"
                                 />
@@ -66,8 +129,12 @@ const SignupPage = () => {
                             <div className="relative">
                                 <input
                                     type="email"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleInputChange}
                                     className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#4353FF] transition-all"
                                     placeholder="name@example.com"
+                                    required
                                 />
                                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                             </div>
@@ -78,8 +145,12 @@ const SignupPage = () => {
                             <div className="relative">
                                 <input
                                     type={showPassword ? "text" : "password"}
+                                    name="password"
+                                    value={formData.password}
+                                    onChange={handleInputChange}
                                     className="w-full pl-10 pr-12 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#4353FF] transition-all"
                                     placeholder="Create a strong password"
+                                    required
                                 />
                                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                                 <button
@@ -90,7 +161,7 @@ const SignupPage = () => {
                                     {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
                                 </button>
                             </div>
-                            <p className="text-xs text-gray-500 mt-2">Must be at least 8 characters long.</p>
+                            <p className="text-xs text-gray-500 mt-2">Must be at least 6 characters long.</p>
                         </div>
 
                         <div className="flex items-start gap-3">
@@ -100,8 +171,20 @@ const SignupPage = () => {
                             </span>
                         </div>
 
-                        <button className="w-full bg-[#4353FF] text-white py-3.5 rounded-xl font-bold hover:bg-opacity-90 transition-all shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2 group">
-                            Create Account <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                        <button
+                            type="submit"
+                            disabled={loading}
+                            className="w-full bg-[#4353FF] text-white py-3.5 rounded-xl font-bold hover:bg-opacity-90 transition-all shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2 group disabled:opacity-70 disabled:cursor-not-allowed"
+                        >
+                            {loading ? (
+                                <>
+                                    <Loader2 size={20} className="animate-spin" /> Creating Account...
+                                </>
+                            ) : (
+                                <>
+                                    Create Account <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                                </>
+                            )}
                         </button>
                     </form>
 

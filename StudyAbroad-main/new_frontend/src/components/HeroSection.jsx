@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Sparkles, BookOpen, Globe, LayoutGrid } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
     const [activeTab, setActiveTab] = useState('all');
@@ -36,14 +37,14 @@ const HeroSection = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-                        <button className="bg-[#FF6B6B] hover:bg-[#EE5A5A] text-white px-8 py-4 rounded-lg font-semibold text-lg flex items-center gap-2 shadow-lg hover:shadow-xl transition-all w-full sm:w-auto justify-center">
+                        <Link to="/search" className="bg-[#FF6B6B] hover:bg-[#EE5A5A] text-white px-8 py-4 rounded-lg font-semibold text-lg flex items-center gap-2 shadow-lg hover:shadow-xl transition-all w-full sm:w-auto justify-center">
                             <Search size={20} />
                             Find Your University
-                        </button>
-                        <button className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-lg font-semibold text-lg flex items-center gap-2 transition-all w-full sm:w-auto justify-center">
+                        </Link>
+                        <Link to="/recommendations" className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-lg font-semibold text-lg flex items-center gap-2 transition-all w-full sm:w-auto justify-center">
                             <Sparkles size={20} />
                             Get AI Recommendations
-                        </button>
+                        </Link>
                     </div>
                 </motion.div>
 
@@ -66,8 +67,8 @@ const HeroSection = () => {
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === tab.id
-                                        ? 'bg-[#1A1B4B] text-white'
-                                        : 'text-gray-600 hover:bg-gray-100'
+                                    ? 'bg-[#1A1B4B] text-white'
+                                    : 'text-gray-600 hover:bg-gray-100'
                                     }`}
                             >
                                 <tab.icon size={16} />
