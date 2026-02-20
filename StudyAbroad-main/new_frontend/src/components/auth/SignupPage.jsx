@@ -72,7 +72,7 @@ const SignupPage = () => {
                 <div className="relative z-20 flex flex-col justify-between h-full p-16">
                     <div className="flex items-center gap-2 font-bold text-2xl">
                         <span className="bg-white/20 p-2 rounded-lg backdrop-blur-sm">🎓</span>
-                        Study Abroad Final Boss
+                        Study Abroad
                     </div>
 
                     <div className="space-y-8">
@@ -88,7 +88,7 @@ const SignupPage = () => {
                     </div>
 
                     <div className="text-sm opacity-60">
-                        © 2026 Study Abroad Final Boss. All rights reserved.
+                        © 2026 Study Abroad. All rights reserved.
                     </div>
                 </div>
             </div>

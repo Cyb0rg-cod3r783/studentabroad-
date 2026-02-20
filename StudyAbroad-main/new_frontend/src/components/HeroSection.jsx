@@ -1,10 +1,33 @@
 import React, { useState } from 'react';
 import { Search, Sparkles, BookOpen, Globe, LayoutGrid } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
     const [activeTab, setActiveTab] = useState('all');
+    const [searchQuery, setSearchQuery] = useState('');
+    const navigate = useNavigate();
+
+    const handleSearch = (e) => {
+        if (e) e.preventDefault();
+        if (!searchQuery.trim()) return;
+
+        // Pass filter type if specific tab is selected
+        let targetUrl = `/search?q=${encodeURIComponent(searchQuery)}`;
+
+        // basic mapping for tabs - currently backend just searches "q", 
+        // but we can pass extra params if needed or just use 'q' for now.
+        // If user selected 'countries', we might want to map to country filter?
+        // For now, let's keep it simple: just text search.
+
+        navigate(targetUrl);
+    };
+
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            handleSearch();
+        }
+    };
 
     return (
         <div className="relative min-h-[600px] flex items-center justify-center pt-20 pb-32 overflow-hidden">
@@ -78,13 +101,22 @@ const HeroSection = () => {
                     </div>
 
                     {/* Search Input */}
-                    <div className="relative">
-                        <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
+                    <div className="relative flex items-center p-2">
+                        <Search className="absolute left-6 text-gray-400" size={20} />
                         <input
                             type="text"
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                            onKeyDown={handleKeyDown}
                             placeholder="Search universities, programs, or countries..."
-                            className="w-full pl-12 pr-4 py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#4353FF] focus:border-transparent text-gray-600 placeholder-gray-400 text-lg"
+                            className="w-full pl-12 pr-32 py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#4353FF] focus:border-transparent text-gray-600 placeholder-gray-400 text-lg"
                         />
+                        <button
+                            onClick={handleSearch}
+                            className="absolute right-4 bg-[#4353FF] hover:bg-[#3642cc] text-white px-6 py-2.5 rounded-lg font-semibold transition-colors shadow-sm"
+                        >
+                            Search
+                        </button>
                     </div>
                 </motion.div>
             </div>

@@ -15,7 +15,7 @@ class FirebaseUniversityService:
         try:
             # Initialize Firebase if not already done
             if not firebase_admin._apps:
-                service_account_path = "studyabroad-e9afb-firebase-adminsdk-fbsvc-a1e7ee1a7f.json"
+                service_account_path = "firebase-service-account.json"
                 if os.path.exists(service_account_path):
                     cred = credentials.Certificate(service_account_path)
                     firebase_admin.initialize_app(cred)
@@ -29,6 +29,69 @@ class FirebaseUniversityService:
             print(f"❌ Firebase initialization failed: {e}")
             raise
     
+    def _map_to_frontend(self, data: Dict[str, Any]) -> Dict[str, Any]:
+        """Map Firestore list schema to frontend expected format"""
+        if not data:
+            return {}
+            
+        # create a copy to avoid mutating cache if we add that later
+        uni = data.copy()
+        
+        # Map fields
+        uni['ranking'] = uni.get('current_ranking')
+        
+        # Tuition (Flatten + Keep Structure)
+        # Frontend might expect specific keys, we pass what we have
+        if 'tuition' in uni and isinstance(uni['tuition'], dict):
+            uni['tuition_fee'] = uni['tuition'].get('undergraduate_usd') # Basic fallback
+            
+            # Map to user's requested specific structure (EU-centric example) if available
+            uni['tuition_fee_eur_per_semester'] = {
+                "EU_EEA": uni['tuition'].get('undergraduate_eu_sem'),
+                "non_EU": uni['tuition'].get('undergraduate_non_eu_sem')
+            }
+            uni['student_union_fee_eur_per_semester'] = uni['tuition'].get('student_union_fee_sem')
+            
+        # Admission (Pass through nested object if standard keys match, or map individual)
+        # User requested: min_cgpa, min_gre, etc in flattened or specific struct?
+        # User example: "admission_requirements": { "min_cgpa": ... } - Wait, user JSON had flattened degree_programs but admission not explicitly shown in main root? 
+        # Ah, user request said: "faculties": [], "degree_programs": {}, "total_programs": ...
+        # My previous code flattened admission. I will Keep it flattened if that's what frontend uses currently, 
+        # OR add the nested object as 'admission_requirements' if they want that.
+        # User prompt: "admission_requirements": { ... } was in MY plan, but user JSON example in prompt had:
+        # "min_cgpa" is NOT in the user's JSON list above! 
+        # Wait, the user's JSON list in the prompt DOES NOT have admission requirements at root.
+        # It has `degree_programs`.
+        # It has `tuition_fee_eur_per_semester`.
+        # It has `living_cost_estimate_per_month_eur`.
+        # It does NOT explicitly show `admission_requirements` in the prompt's JSON block (unless I missed it).
+        # Checking prompt...
+        # "faculties": string[], "degree_programs": { ... }, "total_programs": ..., "tuition_fee_eur_per_semester": ..., "living_cost_estimate_per_month_eur": ...
+        # It does NOT list `min_cgpa` etc.
+        # However, previous frontend code (RecommendationsPage) definitely uses `min_cgpa`.
+        # I will PRESERVE flattened admission scores for existing frontend compatibility AND add the nested if useful.
+        
+        if 'admission_requirements' in uni and isinstance(uni['admission_requirements'], dict):
+            reqs = uni['admission_requirements']
+            # Flatten for current frontend (Search/Recs)
+            uni['min_cgpa'] = reqs.get('min_cgpa')
+            uni['min_gre'] = reqs.get('min_gre')
+            uni['min_ielts'] = reqs.get('min_ielts')
+            uni['min_toefl'] = reqs.get('min_toefl')
+            uni['acceptance_rate'] = reqs.get('acceptance_rate')
+            
+            # Also keep nested as 'admission_requirements'
+            # uni['admission_requirements'] = reqs 
+
+        # Living Costs
+        if 'living_costs' in uni:
+             uni['living_cost_estimate_per_month_eur'] = uni['living_costs']
+
+        # Ensure ID is string/int consistent
+        uni['id'] = str(uni.get('id', ''))
+            
+        return uni
+
     def load_universities(self) -> List[Dict[str, Any]]:
         """Load all universities from Firebase"""
         try:
@@ -37,9 +100,9 @@ class FirebaseUniversityService:
             
             universities = []
             for doc in docs:
-                university = doc.to_dict()
-                university['id'] = int(doc.id) if doc.id.isdigit() else doc.id
-                universities.append(university)
+                data = doc.to_dict()
+                data['id'] = doc.id
+                universities.append(self._map_to_frontend(data))
             
             return universities
         except Exception as e:
@@ -85,9 +148,9 @@ class FirebaseUniversityService:
             doc = doc_ref.get()
             
             if doc.exists:
-                university = doc.to_dict()
-                university['id'] = int(doc.id) if doc.id.isdigit() else doc.id
-                return university
+                data = doc.to_dict()
+                data['id'] = doc.id
+                return self._map_to_frontend(data)
             return None
         except Exception as e:
             print(f"Error getting university {university_id}: {e}")
@@ -112,8 +175,9 @@ class FirebaseUniversityService:
             universities = []
             
             for doc in docs:
-                university = doc.to_dict()
-                university['id'] = int(doc.id) if doc.id.isdigit() else doc.id
+                data = doc.to_dict()
+                data['id'] = doc.id
+                university = self._map_to_frontend(data)
                 
                 # Apply additional filters that can't be done in Firestore
                 if self._matches_filters(university, filters):
@@ -156,12 +220,18 @@ class FirebaseUniversityService:
                 return False
         
         # Ranking filters
+        # Ranking filters
+        # Treat missing/0 ranking as infinity so it doesn't match "Top X" queries
+        uni_ranking = university.get('ranking')
+        if not uni_ranking:
+            uni_ranking = float('inf')
+            
         if 'min_ranking' in filters and filters['min_ranking']:
-            if university.get('ranking', float('inf')) < int(filters['min_ranking']):
+            if uni_ranking < int(filters['min_ranking']):
                 return False
         
         if 'max_ranking' in filters and filters['max_ranking']:
-            if university.get('ranking', 0) > int(filters['max_ranking']):
+            if uni_ranking > int(filters['max_ranking']):
                 return False
         
         # CGPA filters - Fixed logic

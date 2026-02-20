@@ -1,0 +1,2989 @@
+[
+  {
+    "name": "Indian Institute of Science (IISc), Bangalore",
+    "india_rank": "#1",
+    "world_rank": "#219 (QS 2026)",
+    "location": "Bengaluru, Karnataka",
+    "established": 1909,
+    "type": "Public (Institute of Eminence)",
+    "student_statistics": { "total": "4,500", "international": "2%" },
+    "student_society": "Pravega Techfest",
+    "academy": "Advanced Science & Research Focus",
+    "cost": { 
+      "tuition": "₹15k - ₹60k", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹800",
+    "deadline": "March 31",
+    "courses": [
+      { "name": "B.Sc (Research)", "eligibility": "12th Pass (60%)", "criteria": "JEE/NEET/IAT", "fees": "₹30,000/yr" }
+    ]
+  },
+  {
+    "name": "Jawaharlal Nehru University (JNU)",
+    "india_rank": "#2",
+    "world_rank": "#558 (QS 2026)",
+    "location": "New Delhi, Delhi",
+    "established": 1969,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "8,500", "international": "10%" },
+    "student_society": "JNU Student Union (JNUSU)",
+    "academy": "Social Sciences & International Studies",
+    "cost": { 
+      "tuition": "₹300 - ₹1,200", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "May 15",
+    "courses": [
+      { "name": "B.A. (Hons) Languages", "eligibility": "12th Pass", "criteria": "CUET-UG", "fees": "₹432/yr" }
+    ]
+  },
+  {
+    "name": "Jamia Millia Islamia (JMI)",
+    "india_rank": "#3",
+    "world_rank": "#761 (QS 2026)",
+    "location": "New Delhi, Delhi",
+    "established": 1920,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "20,000", "international": "5%" },
+    "student_society": "Cultural Committee, Jamia Drama Club",
+    "academy": "Engineering & Media Studies Focus",
+    "cost": { 
+      "tuition": "₹15k - ₹60k", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹700",
+    "deadline": "April 15",
+    "courses": [
+      { "name": "B.Tech (All)", "eligibility": "12th (55%)", "criteria": "JEE Main", "fees": "₹16,150/yr" }
+    ]
+  },
+  {
+    "name": "Banaras Hindu University (BHU)",
+    "india_rank": "#5",
+    "world_rank": "#601 (THE 2026)",
+    "location": "Varanasi, Uttar Pradesh",
+    "established": 1916,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "30,000", "international": "4%" },
+    "student_society": "Kashi Utkarsh, Spic Macay BHU",
+    "academy": "Classical Arts & Agriculture Focus",
+    "cost": { 
+      "tuition": "₹5,000 - ₹30,000", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹750",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.A. / B.Com", "eligibility": "12th Pass", "criteria": "CUET-UG", "fees": "₹3,400/yr" }
+    ]
+  },
+  {
+    "name": "University of Delhi (DU)",
+    "india_rank": "#6",
+    "world_rank": "#328 (QS 2026)",
+    "location": "New Delhi, Delhi",
+    "established": 1922,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "1.3L", "international": "4%" },
+    "student_society": "DUSU, Debating Society",
+    "academy": "Liberal Arts & Commerce Core",
+    "cost": { 
+      "tuition": "₹8,000 - ₹25,000", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹650",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.Com (Hons)", "eligibility": "12th Pass", "criteria": "CUET-UG", "fees": "₹15,000/yr" }
+    ]
+  },
+  {
+    "name": "BITS Pilani",
+    "india_rank": "#7",
+    "world_rank": "#668 (QS 2026)",
+    "location": "Pilani, Rajasthan",
+    "established": 1964,
+    "type": "Deemed (Private)",
+    "student_statistics": { "total": "15,000", "international": "2%" },
+    "student_society": "OASIS, Department of Visual Arts",
+    "academy": "Technology & Science Innovation",
+    "cost": { 
+      "tuition": "₹5.4L+", 
+      "living_monthly": "₹10,000+" 
+    },
+    "admission_fees": "₹3,400",
+    "deadline": "May 15",
+    "courses": [
+      { "name": "B.E. Computer Science", "eligibility": "12th (75% PCM)", "criteria": "BITSAT", "fees": "₹5,41,000/yr" }
+    ]
+  },
+  {
+    "name": "Aligarh Muslim University (AMU)",
+    "india_rank": "#10",
+    "world_rank": "#801 (QS 2026)",
+    "location": "Aligarh, Uttar Pradesh",
+    "established": 1920,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "28,000", "international": "3%" },
+    "student_society": "AMU Riding Club, Drama Club",
+    "academy": "Law & Medicine Focus",
+    "cost": { 
+      "tuition": "₹12k - ₹25k", 
+      "living_monthly": "₹6,000+" 
+    },
+    "admission_fees": "₹700",
+    "deadline": "April 30",
+    "courses": [
+      { "name": "B.Tech", "eligibility": "12th (50% PCM)", "criteria": "AMUEE", "fees": "₹19,000/yr" }
+    ]
+  },
+  {
+    "name": "Manipal Academy of Higher Education",
+    "india_rank": "#4",
+    "world_rank": "#851 (QS 2026)",
+    "location": "Manipal, Karnataka",
+    "established": 1953,
+    "type": "Deemed (Private)",
+    "student_statistics": { "total": "30,000", "international": "15%" },
+    "student_society": "Revels Cultural Fest",
+    "academy": "Medicine & Business Excellence",
+    "cost": { 
+      "tuition": "₹3.2L+", 
+      "living_monthly": "₹20,000+" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "March 15",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (50% PCM)", "criteria": "MET Score", "fees": "₹3,35,000/yr" }
+    ]
+  },
+  {
+    "name": "Vellore Institute of Technology (VIT)",
+    "india_rank": "#8",
+    "world_rank": "#791 (QS 2026)",
+    "location": "Vellore, Tamil Nadu",
+    "established": 1984,
+    "type": "Deemed (Private)",
+    "student_statistics": { "total": "35,000", "international": "12%" },
+    "student_society": "Riviera, Gravitas",
+    "academy": "Engineering & IT Focus",
+    "cost": { 
+      "tuition": "₹1.9L - ₹4.5L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹1,200",
+    "deadline": "April 15",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "VITEEE", "fees": "₹1,98,000/yr" }
+    ]
+  },
+  {
+    "name": "Anna University",
+    "india_rank": "#13",
+    "world_rank": "#427 (QS 2026)",
+    "location": "Chennai, Tamil Nadu",
+    "established": 1978,
+    "type": "Public (State)",
+    "student_statistics": { "total": "12,000", "international": "5%" },
+    "student_society": "Kurukshetra Tech Fest",
+    "academy": "Engineering & Technology",
+    "cost": { 
+      "tuition": "₹55k - ₹1.5L", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹500",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.E. Computer Science", "eligibility": "12th (50%)", "criteria": "TNEA Counseling", "fees": "₹55,000/yr" }
+    ]
+  },
+  {
+    "name": "Jadavpur University",
+    "india_rank": "#9",
+    "world_rank": "#741 (QS 2026)",
+    "location": "Kolkata, West Bengal",
+    "established": 1955,
+    "type": "Public (State)",
+    "student_statistics": { "total": "11,000", "international": "3%" },
+    "student_society": "Srijan Tech Fest",
+    "academy": "Engineering & Arts Merit",
+    "cost": { 
+      "tuition": "₹2,400 - ₹10,000", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹500",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.E. Computer Science", "eligibility": "12th Pass", "criteria": "WBJEE", "fees": "₹2,400/yr" }
+    ]
+  },
+  {
+    "name": "Amrita Vishwa Vidyapeetham",
+    "india_rank": "#7",
+    "world_rank": "#801 (QS 2026)",
+    "location": "Coimbatore, Tamil Nadu",
+    "established": 1994,
+    "type": "Deemed (Private)",
+    "student_statistics": { "total": "20,000", "international": "5%" },
+    "student_society": "Anokha Tech Fest",
+    "academy": "Engineering & Healthcare",
+    "cost": { 
+      "tuition": "₹2.5L - ₹6L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹1,200",
+    "deadline": "May 15",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "AEEE/JEE", "fees": "₹3,50,000/yr" }
+    ]
+  },
+  {
+    "name": "University of Hyderabad",
+    "india_rank": "#10",
+    "world_rank": "#841 (QS 2026)",
+    "location": "Hyderabad, Telangana",
+    "established": 1974,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "5,000", "international": "3%" },
+    "student_society": "Sukoon Cultural Fest",
+    "academy": "PG & Research Focus",
+    "cost": { 
+      "tuition": "₹15k - ₹40k", 
+      "living_monthly": "₹10,000+" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "M.Sc Computer Science", "eligibility": "Graduate", "criteria": "CUET-PG", "fees": "₹25,000/yr" }
+    ]
+  },
+  {
+    "name": "Chandigarh University",
+    "india_rank": "#27",
+    "world_rank": "#465 (QS 2026)",
+    "location": "Mohali, Punjab",
+    "established": 2012,
+    "type": "Private",
+    "student_statistics": { "total": "25,000", "international": "12%" },
+    "student_society": "CU Fests",
+    "academy": "Business & Engineering",
+    "cost": { 
+      "tuition": "₹1.8L - ₹3L", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.E. Computer Science", "eligibility": "12th (50%)", "criteria": "CUCET", "fees": "₹2,12,000/yr" }
+    ]
+  },
+  {
+    "name": "Lovely Professional University (LPU)",
+    "india_rank": "#38",
+    "world_rank": "#601 (THE 2026)",
+    "location": "Phagwara, Punjab",
+    "established": 2005,
+    "type": "Private",
+    "student_statistics": { "total": "35,000", "international": "15%" },
+    "student_society": "Virtuoso",
+    "academy": "Tech & Design",
+    "cost": { 
+      "tuition": "₹1.5L - ₹3.5L", 
+      "living_monthly": "₹10,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "LPUNEST", "fees": "₹1,90,000/yr" }
+    ]
+  },
+  {
+    "name": "Thapar Inst. of Engineering & Tech.",
+    "india_rank": "#20",
+    "world_rank": "#801 (QS 2026)",
+    "location": "Patiala, Punjab",
+    "established": 1956,
+    "type": "Deemed (Private)",
+    "student_statistics": { "total": "10,000", "international": "3%" },
+    "student_society": "Saturnalia Fest",
+    "academy": "Technical Innovation",
+    "cost": { 
+      "tuition": "₹4.5L+", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹1,500",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.E. CSE", "eligibility": "12th (60%)", "criteria": "JEE Main/TIET", "fees": "₹4,80,000/yr" }
+    ]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Trichy",
+    "india_rank": "#9 (Engineering)",
+    "world_rank": "#701 (QS 2026)",
+    "location": "Tiruchirappalli, Tamil Nadu",
+    "established": 1964,
+    "type": "Public (National Importance)",
+    "student_statistics": { "total": "6,500", "international": "5%" },
+    "student_society": "Festember, Pragyan",
+    "academy": "High Technology Research",
+    "cost": { 
+      "tuition": "₹1.2L - ₹2.5L", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech Mechanical", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,35,000/yr" }
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Bombay (IITB)",
+    "india_rank": "#3",
+    "world_rank": "#149 (QS 2026)",
+    "location": "Mumbai, Maharashtra",
+    "established": 1958,
+    "type": "Public (Institute of Eminence)",
+    "student_statistics": { "total": "12,000", "international": "3%" },
+    "student_society": "Mood Indigo, Techfest",
+    "academy": "Aerospace & Engineering Excellence",
+    "cost": { 
+      "tuition": "₹2L - ₹5L", 
+      "living_monthly": "₹18,000+" 
+    },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,15,000/yr" }
+    ]
+  },
+  {
+    "name": "Savitribai Phule Pune University",
+    "india_rank": "#35",
+    "world_rank": "#566 (QS 2026)",
+    "location": "Pune, Maharashtra",
+    "established": 1949,
+    "type": "Public (State)",
+    "student_statistics": { "total": "7L (Affiliated)", "international": "10%" },
+    "student_society": "SPPU Cultural Club",
+    "academy": "Pure Sciences & Research",
+    "cost": { 
+      "tuition": "₹15k - ₹80k", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "July 10",
+    "courses": [
+      { "name": "M.Sc Computer Science", "eligibility": "B.Sc Degree", "criteria": "Entrance Test", "fees": "₹45,000/yr" }
+    ]
+  },
+  {
+    "name": "Tata Institute of Social Sciences (TISS)",
+    "india_rank": "#60",
+    "world_rank": "Unranked",
+    "location": "Mumbai, Maharashtra",
+    "established": 1936,
+    "type": "Deemed (Govt Aided)",
+    "student_statistics": { "total": "2,500", "international": "5%" },
+    "student_society": "TISS Student Union",
+    "academy": "Social Work & HR Focus",
+    "cost": { 
+      "tuition": "₹50k - ₹2L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "Feb 15",
+    "courses": [
+      { "name": "M.A. HR Management", "eligibility": "Graduate", "criteria": "CUET-PG", "fees": "₹1,05,000/yr" }
+    ]
+  },
+  {
+    "name": "Ashoka University",
+    "india_rank": "#1 (New-Age Private)",
+    "world_rank": "Unranked",
+    "location": "Sonipat, Haryana",
+    "established": 2014,
+    "type": "Private",
+    "student_statistics": { "total": "2,800", "international": "12%" },
+    "student_society": "Ashoka Debate Society",
+    "academy": "Liberal Arts & Sciences",
+    "cost": { 
+      "tuition": "₹9.5L+", 
+      "living_monthly": "₹25,000+" 
+    },
+    "admission_fees": "₹2,500",
+    "deadline": "Jan 15",
+    "courses": [
+      { "name": "B.Sc Computer Science", "eligibility": "12th Pass", "criteria": "AAT Aptitude", "fees": "₹9,80,000/yr" }
+    ]
+  },
+  {
+    "name": "Shiv Nadar University",
+    "india_rank": "#57",
+    "world_rank": "Unranked",
+    "location": "Greater Noida, UP",
+    "established": 2011,
+    "type": "Private",
+    "student_statistics": { "total": "3,500", "international": "5%" },
+    "student_society": "SNU Music Society",
+    "academy": "Multi-disciplinary Research",
+    "cost": { 
+      "tuition": "₹2.5L - ₹5L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹1,900",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "SNUSAT/JEE", "fees": "₹3,50,000/yr" }
+    ]
+  },
+  {
+    "name": "Kalasalingam Academy of Research and Ed.",
+    "india_rank": "#36",
+    "world_rank": "801 (THE 2026)",
+    "location": "Krishnankoil, Tamil Nadu",
+    "established": 1984,
+    "type": "Deemed",
+    "student_statistics": { "total": "15,000", "international": "4%" },
+    "student_society": "KARE Tech",
+    "academy": "Engineering & Technology",
+    "cost": { 
+      "tuition": "₹1L - ₹2.5L", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th Pass", "criteria": "KREEE/JEE", "fees": "₹1,20,000/yr" }
+    ]
+  },
+  {
+    "name": "Siksha 'O' Anusandhan",
+    "india_rank": "#15",
+    "world_rank": "801 (THE 2026)",
+    "location": "Bhubaneswar, Odisha",
+    "established": 1996,
+    "type": "Deemed",
+    "student_statistics": { "total": "12,000", "international": "5%" },
+    "student_society": "SOA Cultural Club",
+    "academy": "Medical & Engineering",
+    "cost": { 
+      "tuition": "₹1.5L - ₹3.5L", 
+      "living_monthly": "₹10,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th Pass", "criteria": "SAAT/JEE", "fees": "₹2,35,000/yr" }
+    ]
+  },
+  {
+    "name": "S.R.M. Institute of Science and Tech",
+    "india_rank": "#18",
+    "world_rank": "#1001 (QS 2026)",
+    "location": "Chennai, Tamil Nadu",
+    "established": 1985,
+    "type": "Deemed",
+    "student_statistics": { "total": "40,000+", "international": "10%" },
+    "student_society": "SRM Milan",
+    "academy": "Technology & Science",
+    "cost": { 
+      "tuition": "₹2.5L - ₹4.5L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹1,200",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "SRMJEEE", "fees": "₹3,00,000/yr" }
+    ]
+  },
+  {
+    "name": "University of Mumbai",
+    "india_rank": "#11 (State Public)",
+    "world_rank": "#1001-1200 (QS 2026)",
+    "location": "Mumbai, Maharashtra",
+    "established": 1857,
+    "type": "Public (State)",
+    "student_statistics": { "total": "8,00,000+", "international": "2%" },
+    "student_society": "MU Cultural Youth Festival",
+    "academy": "Commerce, Law & Marine Science Focus",
+    "cost": { 
+      "tuition": "₹5k - ₹1.5L", 
+      "living_monthly": "₹15,000 - ₹30,000" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "July 15",
+    "courses": [
+      { "name": "B.E. / B.Tech", "eligibility": "12th (45%)", "criteria": "MHT-CET / JEE Main", "fees": "₹60,000 - ₹1.5L/yr" }
+    ]
+  },
+  {
+    "name": "Savitribai Phule Pune University (SPPU)",
+    "india_rank": "#56 (Overall) / #11 (State Public)",
+    "world_rank": "#566 (QS 2026)",
+    "location": "Pune, Maharashtra",
+    "established": 1949,
+    "type": "Public (State)",
+    "student_statistics": { "total": "7,00,000", "international": "10%" },
+    "student_society": "Oxford of the East Hub",
+    "academy": "Space Science & Statistics Excellence",
+    "cost": { 
+      "tuition": "₹15k - ₹80k", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "July 10",
+    "courses": [
+      { "name": "M.Sc Statistics", "eligibility": "Graduation (45%)", "criteria": "SPPU Entrance (OEE)", "fees": "₹45,000/yr" }
+    ]
+  },
+  {
+    "name": "Visvesvaraya Technological University (VTU)",
+    "india_rank": "#80 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Belagavi, Karnataka",
+    "established": 1998,
+    "type": "Public (State Technical)",
+    "student_statistics": { "total": "4,00,000+", "international": "3%" },
+    "student_society": "VTU Inter-Collegiate Fest",
+    "academy": "Technical & Engineering Core",
+    "cost": { 
+      "tuition": "₹65k - ₹1.25L", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹1,200",
+    "deadline": "September 30",
+    "courses": [
+      { "name": "B.Tech Computer Science", "eligibility": "12th (45% PCM)", "criteria": "KCET / COMEDK", "fees": "₹65,000 - ₹1.25L/yr" }
+    ]
+  },
+  {
+    "name": "Bangalore University",
+    "india_rank": "#65 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1886,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,00,000+", "international": "5%" },
+    "student_society": "Jnana Jyothi Hub",
+    "academy": "Management & Pure Sciences",
+    "cost": { 
+      "tuition": "₹15k - ₹65k", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹800",
+    "deadline": "December 31",
+    "courses": [
+      { "name": "BCA", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹20,000 - ₹45,000/yr" }
+    ]
+  },
+  {
+    "name": "Institute of Chemical Technology (ICT) Mumbai",
+    "india_rank": "#41 (Univ)",
+    "world_rank": "801-1000",
+    "location": "Matunga, Mumbai",
+    "established": 1933,
+    "type": "Public (State Deemed)",
+    "student_statistics": { "total": "3,000", "international": "5%" },
+    "student_society": "Manzar Cultural Fest",
+    "academy": "Chemical Tech & Pharma Focus",
+    "cost": { 
+      "tuition": "₹85,000/yr", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech Chemical Eng.", "eligibility": "12th (75%)", "criteria": "MHT-CET", "fees": "₹85,000/yr" }
+    ]
+  },
+  {
+    "name": "Shivaji University",
+    "india_rank": "#151-200",
+    "world_rank": "Unranked",
+    "location": "Kolhapur, Maharashtra",
+    "established": 1962,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,00,000", "international": "1%" },
+    "student_society": "Shivaji Univ Youth Festival",
+    "academy": "Social Sciences & Agri-Tech",
+    "cost": { 
+      "tuition": "₹8,000 - ₹45,000", 
+      "living_monthly": "₹6,000+" 
+    },
+    "admission_fees": "₹500",
+    "deadline": "August 15",
+    "courses": [
+      { "name": "B.Com", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹9,500/yr" }
+    ]
+  },
+  {
+    "name": "Jadavpur University",
+    "india_rank": "#9 (University) / #1 (State Public)",
+    "world_rank": "#671-680 (QS 2026)",
+    "location": "Kolkata, West Bengal",
+    "established": 1955,
+    "type": "Public (State)",
+    "student_statistics": { "total": "11,000", "international": "3%" },
+    "student_society": "Srijan (Tech Fest), Sanskriti",
+    "academy": "Engineering, Science & Arts Excellence",
+    "cost": { 
+      "tuition": "₹2,400 - ₹10,000 (Highly Subsidized)", 
+      "living_monthly": "₹8,000 - ₹15,000" 
+    },
+    "admission_fees": "₹500",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.E. Computer Science", "eligibility": "12th Pass", "criteria": "WBJEE Rank", "fees": "₹2,400/yr" }
+    ]
+    },
+  {
+    "name": "University of Calcutta",
+    "india_rank": "#39 (Overall)",
+    "world_rank": "#771-780 (QS 2026)",
+    "location": "Kolkata, West Bengal",
+    "established": 1857,
+    "type": "Public (State)",
+    "student_statistics": { "total": "22,000 (Campus)", "international": "2%" },
+    "student_society": "Calcutta University Students' Union",
+    "academy": "Heritage, Law & Science Research",
+    "cost": { 
+      "tuition": "₹3,000 - ₹12,000", 
+      "living_monthly": "₹10,000+" 
+    },
+    "admission_fees": "₹100",
+    "deadline": "July 31",
+    "courses": [
+      { "name": "B.A. / B.Sc (Hons)", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹2,000 - ₹5,000/yr" }
+    ]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Rourkela",
+    "india_rank": "#19 (Engineering)",
+    "world_rank": "#801-1000 (QS)",
+    "location": "Rourkela, Odisha",
+    "established": 1961,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "7,000", "international": "4%" },
+    "student_society": "Innova (Tech Fest), Nitrutsav",
+    "academy": "Industrial Engineering & Tech",
+    "cost": { 
+      "tuition": "₹1.25L - ₹2.1L", 
+      "living_monthly": "₹7,000 - ₹12,000" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech Metallurgy", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,30,000/yr" }
+    ]
+  },
+  {
+    "name": "Kalinga Institute of Industrial Technology (KIIT)",
+    "india_rank": "#17 (University)",
+    "world_rank": "#901-950 (QS)",
+    "location": "Bhubaneswar, Odisha",
+    "established": 1992,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "30,000", "international": "10%" },
+    "student_society": "KIITFest",
+    "academy": "Technical & Medical Sciences",
+    "cost": { 
+      "tuition": "₹3.5L - ₹15L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "None (KIITEE is free)",
+    "deadline": "March 20",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "KIITEE Score", "fees": "₹3,50,000/yr" }
+    ]
+  },
+  {
+    "name": "Devi Ahilya Vishwavidyalaya (DAVV)",
+    "india_rank": "#151-200",
+    "world_rank": "Unranked",
+    "location": "Indore, Madhya Pradesh",
+    "established": 1964,
+    "type": "Public (State)",
+    "student_statistics": { "total": "2.5L (Affiliated)", "international": "1%" },
+    "student_society": "DAVV Cultural Club",
+    "academy": "Management & IT focus (IIPS/IET)",
+    "cost": { 
+      "tuition": "₹20,000 - ₹85,000", 
+      "living_monthly": "₹10,000 - ₹18,000" 
+    },
+    "admission_fees": "₹1,500 (CET)",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.E. (IET DAVV)", "eligibility": "12th Pass", "criteria": "JEE Main / DAVV-CET", "fees": "₹75,000/yr" }
+    ]
+  },
+  {
+    "name": "IIT Indore",
+    "india_rank": "#14 (Engineering)",
+    "world_rank": "#480 (QS 2026)",
+    "location": "Indore, Madhya Pradesh",
+    "established": 2009,
+    "type": "Public (National Importance)",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "Fluxus (Cultural Fest)",
+    "academy": "Advanced Engineering & Astronomy",
+    "cost": { 
+      "tuition": "₹2.1L - ₹2.5L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech Space Sciences", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,20,000/yr" }
+    ]
+},
+  {
+    "name": "Indian Institute of Technology Guwahati (IITG)",
+    "india_rank": "#7 (Engineering) / #9 (Overall)",
+    "world_rank": "#344 (QS 2026)",
+    "location": "Guwahati, Assam",
+    "established": 1994,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "7,000", "international": "3%" },
+    "student_society": "Alcheringa (Cultural), Techniche",
+    "academy": "Advanced Computing & Nanotechnology Focus",
+    "cost": { 
+      "tuition": "₹2,15,000/yr", 
+      "living_monthly": "₹12,000 - ₹20,000" 
+    },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15",
+    "scholarships": [
+      { "name": "Ishan Uday (NER)", "benefit": "₹7,800/mo", "criteria": "NER Domicile + Professional Course" }
+    ],
+    "courses": [
+      { "name": "B.Tech Data Science & AI", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,15,000/yr" }
+    ]
+  },
+  {
+    "name": "Tezpur University",
+    "india_rank": "#79 (University)",
+    "world_rank": "#1001-1200 (QS 2026)",
+    "location": "Tezpur, Assam",
+    "established": 1994,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "4,500", "international": "2%" },
+    "student_society": "Srijan, TechXetra",
+    "academy": "Solar Energy & Food Tech Excellence",
+    "cost": { 
+      "tuition": "₹25,000 - ₹60,000", 
+      "living_monthly": "₹8,000 - ₹12,000" 
+    },
+    "admission_fees": "₹800",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.Tech Food Engineering", "eligibility": "12th (50% PCM)", "criteria": "JEE Main / TUEE", "fees": "₹35,000/yr" }
+    ]
+  },
+  {
+    "name": "North-Eastern Hill University (NEHU)",
+    "india_rank": "#66 (University)",
+    "world_rank": "#801-850 (Asian Rankings 2026)",
+    "location": "Shillong, Meghalaya",
+    "established": 1973,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "5,500 (Campus)", "international": "5%" },
+    "student_society": "NEHU Student Union",
+    "academy": "Bio-Sciences & Tourism Focus",
+    "cost": { 
+      "tuition": "₹6,000 - ₹15,000", 
+      "living_monthly": "₹10,000 - ₹18,000" 
+    },
+    "admission_fees": "₹600",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech Information Technology", "eligibility": "12th (50%)", "criteria": "JEE Main", "fees": "₹11,000/yr" }
+    ]
+  },
+  {
+    "name": "Mizoram University",
+    "india_rank": "#82 (University)",
+    "world_rank": "Unranked",
+    "location": "Aizawl, Mizoram",
+    "established": 2001,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "4,000", "international": "1%" },
+    "student_society": "MZUSU",
+    "academy": "Environmental Science & Architecture",
+    "cost": { 
+      "tuition": "₹9,000 - ₹20,000", 
+      "living_monthly": "₹8,000 - ₹12,000" 
+    },
+    "admission_fees": "₹700",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Arch", "eligibility": "12th (50%)", "criteria": "NATA", "fees": "₹16,000/yr" }
+    ]
+  },
+  {
+    "name": "Sikkim Manipal University (SMU)",
+    "india_rank": "#24 (IIRF Private 2025)",
+    "world_rank": "Unranked",
+    "location": "Gangtok, Sikkim",
+    "established": 1995,
+    "type": "Private",
+    "student_statistics": { "total": "6,000", "international": "8%" },
+    "student_society": "SMIT Tech Fest",
+    "academy": "Medical & Technical Excellence",
+    "cost": { 
+      "tuition": "₹1.8L - ₹4.5L", 
+      "living_monthly": "₹12,000 - ₹20,000" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (50%)", "criteria": "SMIT Offline Test / JEE", "fees": "₹2,60,000/yr" }
+    ]
+},
+  {
+    "name": "Indian Institute of Technology Madras (IITM)",
+    "india_rank": "#1 (Engineering) / #1 (Overall)",
+    "world_rank": "#227 (QS 2026)",
+    "location": "Chennai, Tamil Nadu",
+    "established": 1959,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "10,000+", "international": "3%" },
+    "student_society": "Saarang (Cultural), Shaastra (Tech)",
+    "academy": "Deep Tech, AI & Marine Engineering",
+    "cost": { "tuition": "₹2,15,000/yr", "living_monthly": "₹15,000 - ₹25,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15",
+    "scholarships": [
+      { "name": "Institute Merit-cum-Means", "benefit": "67% Tuition Waiver", "criteria": "Income < 4.5L" }
+    ],
+    "courses": [
+      { "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,15,000/yr" }
+    ]
+  },
+  {
+    "name": "University of Hyderabad (UoH)",
+    "india_rank": "#10 (University)",
+    "world_rank": "#801-850 (QS 2026)",
+    "location": "Hyderabad, Telangana",
+    "established": 1974,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "5,500", "international": "5%" },
+    "student_society": "Sukoon Cultural Fest",
+    "academy": "PG Research & Life Sciences",
+    "cost": { "tuition": "₹15,000 - ₹50,000", "living_monthly": "₹10,000 - ₹15,000" },
+    "admission_fees": "₹600",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "M.Sc Neural & Cognitive Sciences", "eligibility": "B.Sc Degree", "criteria": "CUET-PG", "fees": "₹22,000/yr" }
+    ]
+  },
+  {
+    "name": "Kerala University",
+    "india_rank": "#25 (University) / #5 (State Public)",
+    "world_rank": "Unranked",
+    "location": "Thiruvananthapuram, Kerala",
+    "established": 1937,
+    "type": "Public (State)",
+    "student_statistics": { "total": "12,000 (Campus)", "international": "2%" },
+    "student_society": "University Union",
+    "academy": "Oceanography & Linguistics",
+    "cost": { "tuition": "₹5,000 - ₹25,000", "living_monthly": "₹12,000 - ₹18,000" },
+    "admission_fees": "₹500",
+    "deadline": "July 15",
+    "courses": [
+      { "name": "B.Sc Physics", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹6,000/yr" }
+    ]
+  },
+  {
+    "name": "Andhra University",
+    "india_rank": "#23 (University) / #4 (State Public)",
+    "world_rank": "Unranked",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "established": 1926,
+    "type": "Public (State)",
+    "student_statistics": { "total": "15,000 (Campus)", "international": "4%" },
+    "student_society": "AU Student Union",
+    "academy": "Marine Engineering & Pharmacy",
+    "cost": { "tuition": "₹10,000 - ₹1,50,000", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹1,200",
+    "deadline": "August 30",
+    "courses": [
+      { "name": "B.Tech Marine Eng.", "eligibility": "12th (50% PCM)", "criteria": "APEAPCET", "fees": "₹1,10,000/yr" }
+    ]
+  },
+  {
+    "name": "Amrita Vishwa Vidyapeetham",
+    "india_rank": "#7 (University) / #8 (Overall)",
+    "world_rank": "#601-800 (THE 2026)",
+    "location": "Coimbatore, Tamil Nadu",
+    "established": 2003,
+    "type": "Deemed (Private)",
+    "student_statistics": { "total": "20,000", "international": "10%" },
+    "student_society": "Anokha (Tech Fest)",
+    "academy": "Sustainable Tech & Healthcare",
+    "cost": { "tuition": "₹2,50,000 - ₹12,00,000", "living_monthly": "₹15,000 - ₹22,000" },
+    "admission_fees": "₹1,200",
+    "deadline": "May 15",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60% PCM)", "criteria": "AEEE / JEE Main", "fees": "₹3,50,000/yr" }
+    ]
+},
+  {
+    "name": "Dhirubhai Ambani Institute of Info. & Comm. Tech (DA-IICT)",
+    "india_rank": "#101-150 (Engg)",
+    "world_rank": "Unranked",
+    "location": "Gandhinagar, Gujarat",
+    "established": 2001,
+    "type": "Private",
+    "student_statistics": { "total": "2,200", "international": "2%" },
+    "student_society": "Synapse (Cultural Fest), Sambhav",
+    "academy": "ICT, Data Science & VLSI Focus",
+    "cost": { 
+      "tuition": "₹1.78L - ₹2L per semester", 
+      "living_monthly": "₹10,000+" 
+    },
+    "admission_fees": "₹2,500",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech ICT (Hons)", "eligibility": "12th (60%)", "criteria": "JEE Main", "fees": "₹3.57L/yr" },
+      { "name": "M.Sc Data Science", "eligibility": "B.Sc/B.Tech (60%)", "criteria": "Entrance Test", "fees": "₹1.6L/yr" }
+    ]
+  },
+  {
+    "name": "Gujarat Technological University (GTU)",
+    "india_rank": "#151-200 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Ahmedabad, Gujarat",
+    "established": 2007,
+    "type": "Public (State Technical)",
+    "student_statistics": { "total": "4,00,000+", "international": "5%" },
+    "student_society": "GTU Techfest",
+    "academy": "Engineering, Cybersecurity & Pharmacy Hub",
+    "cost": { 
+      "tuition": "₹1,500 - ₹40,000", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "August 31",
+    "courses": [
+      { "name": "B.E. Computer Engineering", "eligibility": "12th (45%)", "criteria": "GUJCET / ACPC", "fees": "₹40,000/yr" },
+      { "name": "M.E. Cybersecurity", "eligibility": "B.E./B.Tech", "criteria": "GATE / PGCET", "fees": "₹26,000/yr" }
+    ]
+  },
+  {
+    "name": "Maharaja Sayajirao University of Baroda (MSU)",
+    "india_rank": "#151-200 (Overall)",
+    "world_rank": "#=397 (QS Southern Asia 2026)",
+    "location": "Vadodara, Gujarat",
+    "established": 1949,
+    "type": "Public (State)",
+    "student_statistics": { "total": "45,000", "international": "3%" },
+    "student_society": "MSU Union, Footprints",
+    "academy": "Fine Arts, Engineering & Archaeology",
+    "cost": { 
+      "tuition": "₹1,500 - ₹10,000 (Subsidized)", 
+      "living_monthly": "₹8,000+" 
+    },
+    "admission_fees": "₹500",
+    "deadline": "January 31",
+    "courses": [
+      { "name": "B.E. Computer Science", "eligibility": "12th (45%)", "criteria": "JEE Main / ACPC", "fees": "₹9,840/yr" }
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Gandhinagar (IITGN)",
+    "india_rank": "#25 (Overall)",
+    "world_rank": "#=452 (QS 2026)",
+    "location": "Gandhinagar, Gujarat",
+    "established": 2008,
+    "type": "Public (National Importance)",
+    "student_statistics": { "total": "2,000", "international": "4%" },
+    "student_society": "Blithchron (Cultural), Amalthea",
+    "academy": "Interdisciplinary Research & Innovation",
+    "cost": { 
+      "tuition": "₹2.29L - ₹4L", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech Engineering", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2.3L/yr" }
+    ]
+  },
+  {
+    "name": "Sardar Patel University (SPU)",
+    "india_rank": "#151-200 (Univ)",
+    "world_rank": "#1201-1300 (QS Asia 2026)",
+    "location": "Vallabh Vidyanagar, Gujarat",
+    "established": 1955,
+    "type": "Public (State)",
+    "student_statistics": { "total": "23,500", "international": "3%" },
+    "student_society": "SPU Youth Festival",
+    "academy": "Management & Material Sciences Focus",
+    "cost": { 
+      "tuition": "₹3,500 - ₹90,000", 
+      "living_monthly": "₹6,000+" 
+    },
+    "admission_fees": "₹500",
+    "deadline": "July 31",
+    "courses": [
+      { "name": "MCA", "eligibility": "Bachelor Degree", "criteria": "CMAT / Merit", "fees": "₹42,000/yr" }
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Jodhpur",
+    "india_rank": "#27 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Jodhpur, Rajasthan",
+    "established": 2008,
+    "type": "Public (National Importance)",
+    "student_statistics": { "total": "4,000", "international": "2%" },
+    "student_society": "Fluxus Cultural Fest",
+    "academy": "AI, Robotics & Green Tech Focus",
+    "cost": { "tuition": "₹2L - ₹8L", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [
+      { "name": "B.Tech AI & Data Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,00,000/yr" }
+    ]
+  },
+  {
+    "name": "Malaviya National Institute of Tech (MNIT) Jaipur",
+    "india_rank": "#42 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Jaipur, Rajasthan",
+    "established": 1963,
+    "type": "Public (NIT)",
+    "student_statistics": { "total": "5,500", "international": "3%" },
+    "student_society": "Blitzschlag Cultural Fest",
+    "academy": "Core Engineering & Management",
+    "cost": { "tuition": "₹1.4L - ₹6.5L", "living_monthly": "₹10,000 - ₹15,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech Mechanical Eng.", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,40,000/yr" }
+    ]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Kurukshetra",
+    "india_rank": "#81 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Kurukshetra, Haryana",
+    "established": 1963,
+    "type": "Public (NIT)",
+    "student_statistics": { "total": "5,000", "international": "2%" },
+    "student_society": "Confluence (Cultural), Techspardha",
+    "academy": "Technical Innovation Hub",
+    "cost": { "tuition": "₹1.5L - ₹6L", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech Computer Engineering", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,50,000/yr" }
+    ]
+  },
+  {
+    "name": "Ashoka University",
+    "india_rank": "#1 (Private-New Age)",
+    "world_rank": "Unranked",
+    "location": "Sonipat, Haryana",
+    "established": 2014,
+    "type": "Private",
+    "student_statistics": { "total": "2,800", "international": "12%" },
+    "student_society": "Ashoka Debate Society, exSPLOre",
+    "academy": "Liberal Arts & Sciences Excellence",
+    "cost": { "tuition": "₹9.5L+", "living_monthly": "₹20,000 - ₹30,000" },
+    "admission_fees": "₹2,500",
+    "deadline": "Round 1: Jan 15",
+    "courses": [
+      { "name": "B.Sc Computer Science", "eligibility": "12th Pass", "criteria": "Ashoka Aptitude Test (AAT)", "fees": "₹9,80,000/yr" }
+    ]
+  },
+  {
+    "name": "University of Rajasthan",
+    "india_rank": "#101-150 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Jaipur, Rajasthan",
+    "established": 1947,
+    "type": "Public (State)",
+    "student_statistics": { "total": "30,000+", "international": "2%" },
+    "student_society": "Rajasthan Univ Student Union",
+    "academy": "Traditional Arts, Law & Sciences",
+    "cost": { "tuition": "₹5,000 - ₹45,000", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹500 - ₹1,500",
+    "deadline": "Jan 31 (Phase 1)",
+    "courses": [
+      { "name": "LLB (3 Year)", "eligibility": "Graduation", "criteria": "ULET Entrance", "fees": "₹15,000/yr" }
+    ]
+},
+  {
+    "name": "Central University of Rajasthan",
+    "india_rank": "#77 (NIRF)", "world_rank": "Unranked",
+    "location": "Ajmer, Rajasthan", "established": 2009, "type": "Public (Central)",
+    "student_statistics": { "total": "2,500", "international": "1%" },
+    "student_society": "CURaj Cultural Fest", "academy": "Atmospheric Science & Data Science",
+    "cost": { "tuition": "₹15k - ₹40k", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹600", "deadline": "May 30",
+    "courses": [{ "name": "M.Sc. Data Science", "eligibility": "B.Sc/B.Tech", "criteria": "CUET-PG", "fees": "₹22,000/yr" }]
+  },
+  {
+    "name": "Central University of South Bihar",
+    "india_rank": "#101-150", "world_rank": "Unranked",
+    "location": "Gaya, Bihar", "established": 2009, "type": "Public (Central)",
+    "student_statistics": { "total": "3,000", "international": "1%" },
+    "student_society": "CUSB Youth Festival", "academy": "Law & Bio-Informatics",
+    "cost": { "tuition": "₹12k - ₹35k", "living_monthly": "₹6,000+" },
+    "admission_fees": "₹600", "deadline": "June 15",
+    "courses": [{ "name": "B.A. LL.B (Hons)", "eligibility": "12th Pass", "criteria": "CUET-UG", "fees": "₹18,000/yr" }]
+  },
+  {
+    "name": "Central University of Punjab",
+    "india_rank": "#76 (NIRF)", "world_rank": "Unranked",
+    "location": "Bathinda, Punjab", "established": 2009, "type": "Public (Central)",
+    "student_statistics": { "total": "2,200", "international": "2%" },
+    "student_society": "CUPB Student Council", "academy": "Environmental Tech & Cyber Law",
+    "cost": { "tuition": "₹15k - ₹45k", "living_monthly": "₹7,000+" },
+    "admission_fees": "₹600", "deadline": "May 30",
+    "courses": [{ "name": "M.Tech Cyber Security", "eligibility": "B.Tech", "criteria": "CUET-PG", "fees": "₹45,000/yr" }]
+  },
+  {
+    "name": "Tezpur University",
+    "india_rank": "#79 (NIRF)", "world_rank": "#1001-1200",
+    "location": "Tezpur, Assam", "established": 1994, "type": "Public (Central)",
+    "student_statistics": { "total": "4,500", "international": "3%" },
+    "student_society": "Srijan", "academy": "Solar Energy & Food Tech",
+    "cost": { "tuition": "₹25k - ₹60k", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹800", "deadline": "May 30",
+    "courses": [{ "name": "B.Tech Food Eng.", "eligibility": "12th (50%)", "criteria": "JEE/TUEE", "fees": "₹35,000/yr" }]
+  },
+  {
+    "name": "Visva-Bharati University",
+    "india_rank": "#49 (NIRF)", "world_rank": "Unranked",
+    "location": "Santiniketan, West Bengal", "established": 1921, "type": "Public (Central)",
+    "student_statistics": { "total": "7,500", "international": "5%" },
+    "student_society": "Poush Mela Hub", "academy": "Fine Arts & Humanities",
+    "cost": { "tuition": "₹3k - ₹15k", "living_monthly": "₹6,000+" },
+    "admission_fees": "₹500", "deadline": "June 30",
+    "courses": [{ "name": "B.A. (Fine Arts)", "eligibility": "12th Pass", "criteria": "CUET-UG", "fees": "₹4,500/yr" }]
+  },
+  {
+    "name": "University of Delhi",
+    "india_rank": "#1 (NIRF)", "world_rank": "#1001-1200",
+    "location": "New Delhi", "established": 1929, "type": "Public (Central)",
+    "student_statistics": { "total": "45,000", "international": "5%" },
+    "student_society": "Delhi University Cultural Fest", "academy": "Liberal Arts & Social Sciences",
+    "cost": { "tuition": "₹2k - ₹8k", "living_monthly": "₹6,000+" },
+    "admission_fees": "₹500", "deadline": "June 30",
+    "courses": [{ "name": "B.A. Economics", "eligibility": "12th Pass", "criteria": "", "fees": "" }]
+  },
+  {
+    "name": "National Institute of Technology Karnataka (NITK), Surathkal",
+    "india_rank": "#17 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Surathkal, Karnataka",
+    "established": 1960,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "6,500", "international": "4%" },
+    "student_society": "Incident Cultural Fest, Engineer Tech Fest",
+    "academy": "Engineering and Applied Science Excellence",
+    "cost": { "tuition": "₹1.25L - ₹2.1L/yr", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,35,000/yr" }]
+  },
+  {
+    "name": "International Institute of Information Technology (IIIT) Bangalore",
+    "india_rank": "#69 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1999,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "1,500", "international": "2%" },
+    "student_society": "Infin8 Tech Fest",
+    "academy": "Digital Innovation, AI & Data Science",
+    "cost": { "tuition": "₹4.5L - ₹6L/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "April 30",
+    "courses": [{ "name": "Integrated M.Tech CSE", "eligibility": "12th (60%)", "criteria": "JEE Main", "fees": "₹4,80,000/yr" }]
+  },
+  {
+    "name": "RV College of Engineering (RVCE)",
+    "india_rank": "#99 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1963,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "5,500", "international": "5%" },
+    "student_society": "8th Mile Cultural Fest",
+    "academy": "Technical Excellence & Industry Hub",
+    "cost": { "tuition": "₹96,000 (KCET) - ₹16L (Mgmt)/yr", "living_monthly": "₹10,000 - ₹15,000" },
+    "admission_fees": "₹1,500",
+    "deadline": "May 15",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (50% PCM)", "criteria": "KCET/COMEDK", "fees": "₹2,66,000/yr" }]
+  },
+  {
+    "name": "M.S. Ramaiah Institute of Technology (MSRIT)",
+    "india_rank": "#75 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1962,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "6,000", "international": "3%" },
+    "student_society": "Udbhav Cultural Fest",
+    "academy": "Engineering and Healthcare Innovation",
+    "cost": { "tuition": "₹1.25L - ₹5L/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹1,200",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.E. Information Science", "eligibility": "12th (45% PCM)", "criteria": "KCET/COMEDK", "fees": "₹2,40,000/yr" }]
+  },
+  {
+    "name": "Christ (Deemed-to-be University)",
+    "india_rank": "#76 (Engineering) / #63 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1969,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "25,000", "international": "10%" },
+    "student_society": "In-Bloom Cultural Fest",
+    "academy": "Holistic Arts and Business Education",
+    "cost": { "tuition": "₹85,000 - ₹3.5L/yr", "living_monthly": "₹15,000 - ₹25,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "April 15",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (50%)", "criteria": "Christ Entrance Test", "fees": "₹2,20,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Dharwad",
+    "india_rank": "#77 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Dharwad, Karnataka",
+    "established": 2016,
+    "type": "Public (INI)",
+    "student_statistics": { "total": "1,200", "international": "1%" },
+    "student_society": "Paridhan (Cultural Fest)",
+    "academy": "Space and Technical Research",
+    "cost": { "tuition": "₹2.1L - ₹2.5L/yr", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Engineering Physics", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,25,000/yr" }]
+  },
+  {
+    "name": "Jain (Deemed-to-be University)",
+    "india_rank": "#84 (Engineering) / #62 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1990,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "15,000", "international": "8%" },
+    "student_society": "Pulse Cultural Fest",
+    "academy": "Entrepreneurship and Sports Focus",
+    "cost": { "tuition": "₹1.5L - ₹3.5L/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹1,050",
+    "deadline": "May 30",
+    "courses": [{ "name": "B.Tech Computer Science", "eligibility": "12th (45%)", "criteria": "JET Entrance", "fees": "₹2,80,000/yr" }]
+  },
+  {
+    "name": "PES University",
+    "india_rank": "#101-150 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1972,
+    "type": "Private",
+    "student_statistics": { "total": "12,000", "international": "5%" },
+    "student_society": "Aatmatrisha Cultural Fest",
+    "academy": "High Technology Research Hub",
+    "cost": { "tuition": "₹4.1L - ₹4.5L/yr", "living_monthly": "₹15,000 - ₹22,000" },
+    "admission_fees": "₹1,050",
+    "deadline": "April 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (45%)", "criteria": "PESSAT/KCET", "fees": "₹4,10,000/yr" }]
+  },
+  {
+    "name": "Visvesvaraya Technological University (VTU)",
+    "india_rank": "#69 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Belagavi, Karnataka",
+    "established": 1998,
+    "type": "Public (State)",
+    "student_statistics": { "total": "4,00,000+ (Affiliated)", "international": "2%" },
+    "student_society": "VTU Inter-Collegiate Fest",
+    "academy": "Technical and Applied Engineering",
+    "cost": { "tuition": "₹65,000 - ₹1.25L/yr", "living_monthly": "₹7,000 - ₹10,000" },
+    "admission_fees": "₹1,200",
+    "deadline": "Sept 30",
+    "courses": [{ "name": "M.Tech Cyber Security", "eligibility": "B.E./B.Tech", "criteria": "GATE/PGCET", "fees": "₹80,000/yr" }]
+  },
+  {
+    "name": "Bangalore University",
+    "india_rank": "#65 (University)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1886,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,00,000+", "international": "3%" },
+    "student_society": "Jnana Jyothi Hub",
+    "academy": "Arts, Commerce and Life Sciences",
+    "cost": { "tuition": "₹15,000 - ₹65,000/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹800",
+    "deadline": "July 15",
+    "courses": [{ "name": "B.Sc (Hons) Geography", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹44,800/yr" }]
+  },
+  {
+    "name": "University of Mysore",
+    "india_rank": "#71 (University)",
+    "world_rank": "Unranked",
+    "location": "Mysuru, Karnataka",
+    "established": 1916,
+    "type": "Public (State)",
+    "student_statistics": { "total": "1,00,000+", "international": "5%" },
+    "student_society": "Cultural Council UoM",
+    "academy": "Classical Research and Heritage Studies",
+    "cost": { "tuition": "₹12,000 - ₹50,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹500",
+    "deadline": "August 15",
+    "courses": [{ "name": "M.Sc Biochemistry", "eligibility": "B.Sc Degree", "criteria": "Entrance Test", "fees": "₹15,000/yr" }]
+  },
+  {
+    "name": "Karnatak University",
+    "india_rank": "#151-200 (University)",
+    "world_rank": "Unranked",
+    "location": "Dharwad, Karnataka",
+    "established": 1949,
+    "type": "Public (State)",
+    "student_statistics": { "total": "50,000+", "international": "1%" },
+    "student_society": "Youth Festival Dharwad",
+    "academy": "Classical Arts and Basic Sciences",
+    "cost": { "tuition": "₹4,640 - ₹82,830/yr", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹240",
+    "deadline": "Jan 31, 2026",
+    "courses": [{ "name": "MBA", "eligibility": "Graduation (45%)", "criteria": "PGCET/CAT/KMAT", "fees": "₹52,750/yr" }]
+  },
+  {
+    "name": "BMS College of Engineering (BMSCE)",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1946,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "5,000", "international": "3%" },
+    "student_society": "Utsav Cultural Fest",
+    "academy": "Legacy Engineering and Tech",
+    "cost": { "tuition": "₹2L - ₹40L (Mgmt)/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹1,500",
+    "deadline": "May 30",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (45% PCM)", "criteria": "KCET/COMEDK", "fees": "₹2,50,000/yr" }]
+  },
+  {
+    "name": "National Institute of Engineering (NIE)",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Mysuru, Karnataka",
+    "established": 1946,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "3,500", "international": "2%" },
+    "student_society": "Onyx Tech Fest",
+    "academy": "Mechanical and Civil Engineering Focus",
+    "cost": { "tuition": "₹1.5L - ₹3.5L/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.E. Electrical & Electronics", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹1,85,000/yr" }]
+  },
+  {
+    "name": "Alliance University",
+    "india_rank": "#151-200 (University)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 2010,
+    "type": "Private",
+    "student_statistics": { "total": "5,000", "international": "15%" },
+    "student_society": "Alliance Cultural Wing",
+    "academy": "Global Business and Legal Studies",
+    "cost": { "tuition": "₹3L - ₹15L/yr", "living_monthly": "₹20,000+" },
+    "admission_fees": "₹2,000",
+    "deadline": "April 30",
+    "courses": [{ "name": "MBA", "eligibility": "Graduation", "criteria": "AMAT/GMAT/CAT", "fees": "₹15,00,000 (Total)" }]
+  },
+  {
+    "name": "JSS Science and Technology University",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Mysuru, Karnataka",
+    "established": 1963,
+    "type": "Private",
+    "student_statistics": { "total": "6,000", "international": "3%" },
+    "student_society": "Jayciana Cultural Fest",
+    "academy": "Technical and Applied Sciences",
+    "cost": { "tuition": "₹1.5L - ₹4L/yr", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,100",
+    "deadline": "May 30",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹2,20,000/yr" }]
+  },
+  {
+    "name": "KLE Technological University",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Hubballi, Karnataka",
+    "established": 1947,
+    "type": "Private",
+    "student_statistics": { "total": "5,500", "international": "2%" },
+    "student_society": "Plethora Cultural Fest",
+    "academy": "Entrepreneurship and Tech Innovation",
+    "cost": { "tuition": "₹1.2L - ₹3.5L/yr", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.E. Automation & Robotics", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹1,80,000/yr" }]
+  },
+  {
+    "name": "REVA University",
+    "india_rank": "#151-200 (University)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 2012,
+    "type": "Private",
+    "student_statistics": { "total": "18,000", "international": "5%" },
+    "student_society": "REVA Kalaa Sinchana",
+    "academy": "Multidisciplinary Education and Design",
+    "cost": { "tuition": "₹1.5L - ₹4.5L/yr", "living_monthly": "₹12,000 - ₹18,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "May 15",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (45%)", "criteria": "REVA EET/KCET", "fees": "₹3,50,000/yr" }]
+  },
+  {
+    "name": "Nitte (Deemed-to-be University)",
+    "india_rank": "#80 (University)",
+    "world_rank": "Unranked",
+    "location": "Mangaluru, Karnataka",
+    "established": 2008,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "5,000", "international": "4%" },
+    "student_society": "Nitte Cultural Committee",
+    "academy": "Medical and Healthcare Excellence",
+    "cost": { "tuition": "₹2.5L - ₹20L/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹1,200",
+    "deadline": "March 30",
+    "courses": [{ "name": "MBBS", "eligibility": "12th (PCB)", "criteria": "NEET-UG", "fees": "₹18,50,000/yr" }]
+  },
+  {
+    "name": "Dayananda Sagar College of Engineering (DSCE)",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1979,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "6,500", "international": "3%" },
+    "student_society": "Dhwani Cultural Fest",
+    "academy": "Technical Innovation and Career Readiness",
+    "cost": { "tuition": "₹1.5L - ₹4.5L/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.E. CSE", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹2,30,000/yr" }]
+  },
+  {
+    "name": "University Visvesvaraya College of Engineering (UVCE)",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1917,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,500", "international": "1%" },
+    "student_society": "Impana Cultural Fest, Milagro",
+    "academy": "Legacy Public Engineering",
+    "cost": { "tuition": "₹40,000 - ₹90,000/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹500",
+    "deadline": "August 30",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (45% PCM)", "criteria": "KCET Only", "fees": "₹55,000/yr" }]
+  },
+  {
+    "name": "Siddaganga Institute of Technology (SIT)",
+    "india_rank": "#101-150 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Tumakuru, Karnataka",
+    "established": 1963,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "4,500", "international": "2%" },
+    "student_society": "Haldunya Cultural Fest",
+    "academy": "Ethical and Professional Engineering",
+    "cost": { "tuition": "₹95,000 - ₹4L/yr", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "July 15",
+    "courses": [{ "name": "B.E. Mechanical Eng.", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹1,85,000/yr" }]
+  },
+  {
+    "name": "NMAM Institute of Technology",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Nitte, Karnataka",
+    "established": 1986,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "3,500", "international": "2%" },
+    "student_society": "Incridea Tech Fest",
+    "academy": "Sustainable Technology & Design",
+    "cost": { "tuition": "₹1.5L - ₹3.5L/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.E. Civil Engineering", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹1,60,000/yr" }]
+  },
+  {
+    "name": "Sir M. Visvesvaraya Institute of Technology (Sir MVIT)",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1986,
+    "type": "Private",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "Kalanjali Cultural Fest",
+    "academy": "Engineering and Technical Excellence",
+    "cost": { "tuition": "₹1.5L - ₹4L/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.E. EEE", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹1,95,000/yr" }]
+  },
+  {
+    "name": "Bangalore Institute of Technology (BIT)",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bengaluru, Karnataka",
+    "established": 1979,
+    "type": "Private (Autonomous)",
+    "student_statistics": { "total": "4,500", "international": "3%" },
+    "student_society": "BIT Cultural Council",
+    "academy": "Professional Engineering and Management",
+    "cost": { "tuition": "₹1.5L - ₹4L/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.E. Electronics & Instrumentation", "eligibility": "12th (45%)", "criteria": "KCET/COMEDK", "fees": "₹1,85,000/yr" }]
+  
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Indore",
+    "india_rank": "#12 (Engineering)",
+    "world_rank": "#396 (QS 2026)",
+    "location": "Indore, Madhya Pradesh",
+    "established": 2009,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "Fluxus Cultural Fest",
+    "academy": "Space Science, AI & Metallurgy Engineering",
+    "cost": { 
+      "tuition": "₹1.01L/semester", 
+      "living_monthly": "₹12,000 - ₹20,000" 
+    },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [
+      { "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,02,000/yr" }
+    ]
+  },
+  {
+    "name": "Maulana Azad National Institute of Technology (MANIT)",
+    "india_rank": "#81 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bhopal, Madhya Pradesh",
+    "established": 1960,
+    "type": "Public (NIT)",
+    "student_statistics": { "total": "5,500", "international": "3%" },
+    "student_society": "Maffick (Cultural Fest)",
+    "academy": "Architecture, Energy & Technical Hub",
+    "cost": { 
+      "tuition": "₹1.4L/yr", 
+      "living_monthly": "₹10,000 - ₹15,000" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Arch", "eligibility": "12th (75%)", "criteria": "JEE Main (Paper 2)", "fees": "₹1,25,000/yr" }
+    ]
+  },
+  {
+    "name": "Nirma University",
+    "india_rank": "#101-150 (University)",
+    "world_rank": "Unranked",
+    "location": "Ahmedabad, Gujarat",
+    "established": 2003,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "10,000", "international": "8%" },
+    "student_society": "Nirma Cultural Youth Festival",
+    "academy": "Management, Law & Pharmacy Excellence",
+    "cost": { 
+      "tuition": "₹2.3L - ₹4.3L/yr", 
+      "living_monthly": "₹15,000+" 
+    },
+    "admission_fees": "₹1,500",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "Integrated BBA-MBA", "eligibility": "12th Pass", "criteria": "IPMAT / Merit", "fees": "₹3,89,000/yr" }
+    ]
+  },
+  {
+    "name": "Pandit Deendayal Energy University (PDEU)",
+    "india_rank": "#101-150 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Gandhinagar, Gujarat",
+    "established": 2007,
+    "type": "Private (State University)",
+    "student_statistics": { "total": "6,500", "international": "5%" },
+    "student_society": "Flare Cultural Fest",
+    "academy": "Petroleum Engineering & Green Energy",
+    "cost": { 
+      "tuition": "₹2.75L/semester", 
+      "living_monthly": "₹12,000+" 
+    },
+    "admission_fees": "₹1,200",
+    "deadline": "June 15",
+    "courses": [
+      { "name": "B.Tech Petroleum Engineering", "eligibility": "12th (45% PCM)", "criteria": "JEE Main", "fees": "₹2,88,250/yr" }
+    ]
+  },
+  {
+    "name": "Gujarat University",
+    "india_rank": "#61 (University)",
+    "world_rank": "Unranked",
+    "location": "Ahmedabad, Gujarat",
+    "established": 1949,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,00,000+", "international": "4%" },
+    "student_society": "Gujarat Univ Cultural Council",
+    "academy": "Bioinformatics & Networking Focus",
+    "cost": { 
+      "tuition": "₹15,000 - ₹30,000", 
+      "living_monthly": "₹10,000+" 
+    },
+    "admission_fees": "₹1,000",
+    "deadline": "February 5",
+    "courses": [
+      { "name": "M.Sc Computer Science", "eligibility": "B.Sc (60%)", "criteria": "Merit-based", "fees": "₹30,000/yr" }
+    ]
+},
+  {
+    "name": "SRM Institute of Science and Technology",
+    "india_rank": "#14 (Engineering)",
+    "world_rank": "#1001-1200 (QS 2026)",
+    "location": "Kattankulathur, Tamil Nadu",
+    "established": 1985,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "50,000+", "international": "10%" },
+    "student_society": "SRM Milan (Cultural), Aaruush (Tech)",
+    "academy": "Multi-disciplinary Tech & Biotech Excellence",
+    "cost": { "tuition": "₹2.5L - ₹4.5L/yr", "living_monthly": "₹15,000 - ₹20,000" },
+    "admission_fees": "₹1,200",
+    "deadline": "May 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "SRMJEEE / JEE Main", "fees": "₹4,00,000/yr" }]
+  },
+  {
+    "name": "Sathyabama Institute of Science and Technology",
+    "india_rank": "#60 (Overall)",
+    "world_rank": "Unranked",
+    "location": "Chennai, Tamil Nadu",
+    "established": 1987,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "20,000", "international": "5%" },
+    "student_society": "Sathyabama Cultural Wing",
+    "academy": "Space Technology & Marine Research",
+    "cost": { "tuition": "₹1.75L - ₹3L/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "April 15",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (45% PCM)", "criteria": "SAEEE / JEE Main", "fees": "₹2,50,000/yr" }]
+  },
+  {
+    "name": "Amrita Vishwa Vidyapeetham",
+    "india_rank": "#8 (University)",
+    "world_rank": "#801-1000 (QS 2026)",
+    "location": "Coimbatore, Tamil Nadu",
+    "established": 2003,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "22,000", "international": "8%" },
+    "student_society": "Anokha (Tech Fest)",
+    "academy": "Sustainable Computing & Health Sciences",
+    "cost": { "tuition": "₹2.5L - ₹6L/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹1,200",
+    "deadline": "May 15",
+    "courses": [{ "name": "B.Tech AI & Data Science", "eligibility": "12th (60% PCM)", "criteria": "AEEE / JEE Main", "fees": "₹3,50,000/yr" }]
+  },
+  {
+    "name": "Cochin University of Science and Technology (CUSAT)",
+    "india_rank": "#41 (University)",
+    "world_rank": "Unranked",
+    "location": "Kochi, Kerala",
+    "established": 1971,
+    "type": "Public (State)",
+    "student_statistics": { "total": "10,000", "international": "3%" },
+    "student_society": "Dhishana Tech Fest",
+    "academy": "Marine Tech, Ship Science & Polymer Tech",
+    "cost": { "tuition": "₹25k - ₹95k/yr", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,100",
+    "deadline": "March 31",
+    "courses": [{ "name": "B.Tech Marine Eng.", "eligibility": "12th (50% PCM)", "criteria": "CUSAT CAT", "fees": "₹85,000/yr" }]
+  },
+  {
+    "name": "SASTRA Deemed University",
+    "india_rank": "#53 (Overall)",
+    "world_rank": "Unranked",
+    "location": "Thanjavur, Tamil Nadu",
+    "established": 1984,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "15,000", "international": "2%" },
+    "student_society": "Kuruksastra Cultural Fest",
+    "academy": "Law, Engineering & Liberal Arts",
+    "cost": { "tuition": "₹1.4L - ₹2.5L/yr", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.Tech (CSE)", "eligibility": "12th (60%)", "criteria": "JEE Main + 12th Score", "fees": "₹1,85,000/yr" }]
+  },
+  {
+    "name": "PSG College of Technology",
+    "india_rank": "#127 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Coimbatore, Tamil Nadu",
+    "established": 1951,
+    "type": "Private (Govt Aided)",
+    "student_statistics": { "total": "8,500", "international": "2%" },
+    "student_society": "Kriya Tech Fest",
+    "academy": "Industrial Research & Automotive Excellence",
+    "cost": { "tuition": "₹55,000 - ₹2.2L/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.E. Robotics & Automation", "eligibility": "12th (50%)", "criteria": "TNEA Counseling", "fees": "₹85,000/yr" }]
+  },
+  {
+    "name": "International Institute of Information Technology (IIIT) Hyderabad",
+    "india_rank": "#38 (Engineering)",
+    "world_rank": "#601-650 (QS 2026)",
+    "location": "Gachibowli, Hyderabad, Telangana",
+    "established": 1998,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "1,800", "international": "5%" },
+    "student_society": "Felicity (Cultural), Felicity Tech",
+    "academy": "AI, Robotics, & Cybersecurity Excellence",
+    "cost": { "tuition": "₹4.0L/yr", "living_monthly": "₹12,000 - ₹20,000" },
+    "admission_fees": "₹2,500",
+    "deadline": "April 15 (UGEE)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "UGEE / JEE Main / Olympiad", "fees": "₹4,00,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Hyderabad",
+    "india_rank": "#7 (Engineering)",
+    "world_rank": "#248 (QS 2026)",
+    "location": "Sangareddy, Telangana",
+    "established": 2008,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "4,200", "international": "2%" },
+    "student_society": "Elan & nVision (Cultural/Tech)",
+    "academy": "Sustainable Tech & 6G Research",
+    "cost": { "tuition": "₹2.2L/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech AI", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,20,000/yr" }]
+  },
+  {
+    "name": "Jawaharlal Nehru Technological University (JNTUH)",
+    "india_rank": "#94 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Kukatpally, Hyderabad, Telangana",
+    "established": 1972,
+    "type": "Public (State)",
+    "student_statistics": { "total": "5,00,000+ (Affiliated)", "international": "3%" },
+    "student_society": "JNTU Tech Festival",
+    "academy": "Massive Technical & Engineering Hub",
+    "cost": { "tuition": "₹35k - ₹1.2L/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "May 30 (TG EAPCET)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (45%)", "criteria": "TG EAPCET", "fees": "₹1,19,000/yr" }]
+  },
+  {
+    "name": "Osmania University (OU)",
+    "india_rank": "#30 (University)",
+    "world_rank": "#1001-1200 (QS 2026)",
+    "location": "Amberpet, Hyderabad, Telangana",
+    "established": 1918,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,00,000+", "international": "5%" },
+    "student_society": "OU Cultural Youth Festival",
+    "academy": "Historical Heritage & Law Focus",
+    "cost": { "tuition": "₹12k - ₹60k/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹800",
+    "deadline": "July 15",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (45%)", "criteria": "TG EAPCET", "fees": "₹35,000/yr" }]
+  },
+  {
+    "name": "Andhra University (AU)",
+    "india_rank": "#23 (University)",
+    "world_rank": "Unranked",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "established": 1926,
+    "type": "Public (State)",
+    "student_statistics": { "total": "1,00,000+", "international": "4%" },
+    "student_society": "AU Cultural Council",
+    "academy": "Marine Engineering & Pharma Excellence",
+    "cost": { "tuition": "₹10k - ₹1.1L/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹1,200",
+    "deadline": "August 30 (AP EAPCET)",
+    "courses": [{ "name": "B.Tech Marine Eng.", "eligibility": "12th (45%)", "criteria": "AP EAPCET", "fees": "₹1,10,000/yr" }]
+  },
+  {
+    "name": "GITAM (Deemed to be University)",
+    "india_rank": "#101-150 (Overall)",
+    "world_rank": "Unranked",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "established": 1980,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "25,000", "international": "10%" },
+    "student_society": "GUSAC (Science & Activity Center)",
+    "academy": "Management & Global Engineering",
+    "cost": { "tuition": "₹2.5L - ₹5L/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹1,200",
+    "deadline": "April 30 (GAT)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "GAT Score", "fees": "₹3,40,000/yr" }]
+
+},
+  {
+    "name": "Indian Institute of Technology (IIT) Roorkee",
+    "india_rank": "#7 (Overall)",
+    "world_rank": "#339 (QS 2026)",
+    "location": "Roorkee, Uttarakhand",
+    "established": 1847,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "8,500", "international": "3%" },
+    "student_society": "Thomso (Cultural), Cognizance (Tech)",
+    "academy": "Civil, Hydrology & Cybersecurity Research",
+    "cost": { "tuition": "₹2.24L/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,24,000/yr" }]
+  },
+  {
+    "name": "University of Petroleum and Energy Studies (UPES)",
+    "india_rank": "#48 (University)",
+    "world_rank": "#901-950 (QS 2026)",
+    "location": "Dehradun, Uttarakhand",
+    "established": 2003,
+    "type": "Private",
+    "student_statistics": { "total": "16,000", "international": "5%" },
+    "student_society": "Wow (Cultural), Ignite (Tech)",
+    "academy": "Energy, Petroleum & Digital Tech Focus",
+    "cost": { "tuition": "₹4.5L - ₹6.5L/yr", "living_monthly": "₹15,000 - ₹25,000" },
+    "admission_fees": "₹1,750",
+    "deadline": "Jan 20, 2026 (Phase 1)",
+    "courses": [{ "name": "B.Tech CSE (Cyber Security)", "eligibility": "12th (50% PCM)", "criteria": "UPESEAT / JEE Main / CUET", "fees": "₹6,68,000/yr" }]
+  },
+  {
+    "name": "Amity University, Noida",
+    "india_rank": "#22 (University)",
+    "world_rank": "#1001-1200 (QS 2026)",
+    "location": "Noida, Uttar Pradesh",
+    "established": 2005,
+    "type": "Private",
+    "student_statistics": { "total": "35,000", "international": "15%" },
+    "student_society": "Amity Youth Fest",
+    "academy": "Global Business, Tech & Media Hub",
+    "cost": { "tuition": "₹1.5L - ₹5L/yr", "living_monthly": "₹15,000 - ₹30,000" },
+    "admission_fees": "₹1,100",
+    "deadline": "July 15",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "Amity JEE / Merit", "fees": "₹3,11,000/yr" }]
+  },
+  {
+    "name": "Graphic Era Deemed to be University",
+    "india_rank": "#52 (University)",
+    "world_rank": "Unranked",
+    "location": "Dehradun, Uttarakhand",
+    "established": 1993,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "12,000", "international": "4%" },
+    "student_society": "Grafest Cultural Fest",
+    "academy": "Industry-Ready Technical Education",
+    "cost": { "tuition": "₹2L - ₹4L/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹1,500",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "JEE Main / Merit", "fees": "₹3,20,000/yr" }]
+  },
+  {
+    "name": "Govind Ballabh Pant Univ. of Agriculture & Tech. (GBPUAT)",
+    "india_rank": "#9 (Agriculture)",
+    "world_rank": "Unranked",
+    "location": "Pantnagar, Uttarakhand",
+    "established": 1960,
+    "type": "Public (State)",
+    "student_statistics": { "total": "5,000", "international": "1%" },
+    "student_society": "Pantnagar Cultural Council",
+    "academy": "Pioneer of the Green Revolution",
+    "cost": { "tuition": "₹40,000 - ₹1.2L/yr", "living_monthly": "₹6,000+" },
+    "admission_fees": "₹1,200",
+    "deadline": "May 30",
+    "courses": [{ "name": "B.Sc Agriculture", "eligibility": "12th (PCB/M)", "criteria": "GBPUAT Entrance", "fees": "₹45,000/yr" }]
+  },
+  {
+    "name": "Shiv Nadar University (SNU)",
+    "india_rank": "#60 (University)",
+    "world_rank": "Unranked",
+    "location": "Dadri, Uttar Pradesh",
+    "established": 2011,
+    "type": "Private",
+    "student_statistics": { "total": "3,500", "international": "5%" },
+    "student_society": "Breeze Cultural Fest",
+    "academy": "Research-Intensive Multi-disciplinary Hub",
+    "cost": { "tuition": "₹2.5L - ₹6.5L/yr", "living_monthly": "₹20,000+" },
+    "admission_fees": "₹1,900",
+    "deadline": "March 31 (Phase 1)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "SNUSAT / JEE Main", "fees": "₹4,00,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (ISM) Dhanbad",
+    "india_rank": "#15 (Engineering)",
+    "world_rank": "#=591 (QS 2026)",
+    "location": "Dhanbad, Jharkhand",
+    "established": 1926,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "8,000", "international": "2%" },
+    "student_society": "Srijan (Cultural), Concetto (Tech)",
+    "academy": "Mining, Petroleum & Earth Sciences Excellence",
+    "cost": { "tuition": "₹1.0L - ₹1.2L per semester", "living_monthly": "₹10,000 - ₹15,000" },
+    "admission_fees": "₹5,000",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,40,000/yr" }]
+  },
+  {
+    "name": "Birla Institute of Technology (BIT), Mesra",
+    "india_rank": "#51 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Ranchi, Jharkhand",
+    "established": 1955,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "10,000", "international": "5%" },
+    "student_society": "Bitotsav (Cultural), Pantheon (Tech)",
+    "academy": "Space Engineering & Pharmaceutical Sciences",
+    "cost": { "tuition": "₹3.5L - ₹4.0L/yr", "living_monthly": "₹12,000 - ₹20,000" },
+    "admission_fees": "₹1,500",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹3,78,000/yr" }]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Jamshedpur",
+    "india_rank": "#85 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Jamshedpur, Jharkhand",
+    "established": 1960,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "5,000", "international": "2%" },
+    "student_society": "Culter (Cultural), Ojass (Tech)",
+    "academy": "Computational Mechanics & Information Security",
+    "cost": { "tuition": "₹62,500 per semester", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "M.Tech Information Security", "eligibility": "B.Tech (60%)", "criteria": "GATE", "fees": "₹94,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Patna",
+    "india_rank": "#39 (NIRF)",
+    "world_rank": "Unranked",
+    "location": "Patna, Bihar",
+    "established": 2008,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "3,500", "international": "2%" },
+    "student_society": "Anwesha (Cultural), Celesta (Tech)",
+    "academy": "Advanced Communication & Material Science",
+    "cost": { "tuition": "₹1.1L - ₹1.3L per semester", "living_monthly": "₹12,000 - ₹18,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech AI & Data Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,10,000/yr" }]
+  },
+  {
+    "name": "Central University of Jharkhand (CUJ)",
+    "india_rank": "#101-150 (University)",
+    "world_rank": "Unranked",
+    "location": "Ranchi, Jharkhand",
+    "established": 2009,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "4,500", "international": "3%" },
+    "student_society": "CUJ Cultural Council",
+    "academy": "Mass Communication & Environmental Science",
+    "cost": { "tuition": "₹15,000 - ₹50,000/yr", "living_monthly": "₹7,000 - ₹11,000" },
+    "admission_fees": "₹800",
+    "deadline": "May 30",
+    "courses": [{ "name": "Integrated M.Tech (Energy Eng.)", "eligibility": "12th (45% PCM)", "criteria": "CUET-UG", "fees": "₹45,000/yr" }]
+  },
+  {
+    "name": "Usha Martin University",
+    "india_rank": "NAAC 'A' Grade",
+    "world_rank": "Unranked",
+    "location": "Ranchi, Jharkhand",
+    "established": 2012,
+    "type": "Private",
+    "student_statistics": { "total": "5,000", "international": "1%" },
+    "student_society": "UMU Student Council",
+    "academy": "Skill-based IT & Management Education",
+    "cost": { "tuition": "₹80,000 - ₹1.5L/yr", "living_monthly": "₹8,000 - ₹14,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "Rolling Admissions",
+    "courses": [{ "name": "BCA", "eligibility": "12th (50%)", "criteria": "Merit-based", "fees": "₹85,000/yr" }]
+  },
+  {
+    "name": "BITS Pilani, K K Birla Goa Campus",
+    "india_rank": "#61-70 (NIRF)",
+    "world_rank": "#668 (QS 2026)",
+    "location": "Zuarinagar, Goa",
+    "established": 2004,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "4,000", "international": "3%" },
+    "student_society": "Waves (Cultural Fest), Quark (Tech Fest)",
+    "academy": "Computer Science & Information Systems Focus",
+    "cost": { "tuition": "₹2.75L - ₹3.3L per semester", "living_monthly": "₹15,000 - ₹25,000" },
+    "admission_fees": "₹60,500 (One-time)",
+    "deadline": "May 15 (BITSAT)",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (75% PCM)", "criteria": "BITSAT Score", "fees": "₹5.5L/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Goa",
+    "india_rank": "#65 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Ponda, Goa",
+    "established": 2016,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "1,200", "international": "1%" },
+    "student_society": "Fluxus Cultural Fest",
+    "academy": "Engineering & Applied Sciences",
+    "cost": { "tuition": "₹1.0L/semester", "living_monthly": "₹12,000 - ₹18,000" },
+    "admission_fees": "₹5,000",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Mechanical Eng.", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,00,000/yr" }]
+  },
+  {
+    "name": "Goa University",
+    "india_rank": "#151-200 (University)",
+    "world_rank": "#1501+ (QS Sustainability)",
+    "location": "Taleigao Plateau, Goa",
+    "established": 1985,
+    "type": "Public (State)",
+    "student_statistics": { "total": "30,000+", "international": "4%" },
+    "student_society": "GU Cultural Wing",
+    "academy": "Marine Science & Latin American Studies",
+    "cost": { "tuition": "₹15k - ₹60k/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹700 - ₹2,500",
+    "deadline": "July 15",
+    "courses": [{ "name": "MCA", "eligibility": "Graduation", "criteria": "GU-ART / Merit", "fees": "₹42,000/yr" }]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Goa",
+    "india_rank": "#88 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Ponda, Goa",
+    "established": 2010,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "2,500", "international": "2%" },
+    "student_society": "Saavyas Tech Fest",
+    "academy": "VLSI Design & Power Systems",
+    "cost": { "tuition": "₹62,500 per semester", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,47,000/yr" }]
+  },
+  {
+    "name": "Mizoram University",
+    "india_rank": "#82 (University)",
+    "world_rank": "Unranked",
+    "location": "Aizawl, Mizoram",
+    "established": 2001,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "4,000+", "international": "1%" },
+    "student_society": "MZUSU Cultural Fest",
+    "academy": "Environmental Science & Forestry",
+    "cost": { "tuition": "₹9,000 - ₹25,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹700",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.Tech Information Tech", "eligibility": "12th (50%)", "criteria": "JEE Main / MZU Entrance", "fees": "₹35,000/yr" }]
+  },
+  {
+    "name": "Sikkim Manipal University (SMU)",
+    "india_rank": "#101-150 (Overall)",
+    "world_rank": "Unranked",
+    "location": "Gangtok, Sikkim",
+    "established": 1995,
+    "type": "Private",
+    "student_statistics": { "total": "6,000", "international": "8%" },
+    "student_society": "SMIT Tech Fest",
+    "academy": "Medical & Technical Excellence",
+    "cost": { "tuition": "₹2L - ₹4L/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (50%)", "criteria": "JEE Main / MET", "fees": "₹2,60,000/yr" }]
+   },
+  {
+    "name": "Indian Institute of Technology (IIT) Kharagpur",
+    "india_rank": "#5 (Overall)",
+    "world_rank": "#215 (QS 2026)",
+    "location": "Kharagpur, West Bengal",
+    "established": 1951,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "12,000", "international": "3%" },
+    "student_society": "Spring Fest (Cultural), Kshitij (Tech)",
+    "academy": "First IIT, AI & Industrial Systems Excellence",
+    "cost": { "tuition": "₹2.24L/yr", "living_monthly": "₹12,000 - ₹20,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,24,000/yr" }]
+  },
+  {
+    "name": "Jadavpur University",
+    "india_rank": "#9 (University)",
+    "world_rank": "#741-750 (QS 2026)",
+    "location": "Kolkata, West Bengal",
+    "established": 1955,
+    "type": "Public (State)",
+    "student_statistics": { "total": "11,000", "international": "5%" },
+    "student_society": "Srijan (Tech Fest), Sanskriti",
+    "academy": "Best ROI Engineering & Arts Hub",
+    "cost": { "tuition": "₹2,400 - ₹5,000 (Subsidized)", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹200",
+    "deadline": "August 31",
+    "courses": [{ "name": "B.E. Information Technology", "eligibility": "12th (45%)", "criteria": "WBJEE Rank", "fees": "₹30,250/yr" }]
+  },
+  {
+    "name": "University of Calcutta",
+    "india_rank": "#12 (University)",
+    "world_rank": "#771-780 (QS 2026)",
+    "location": "Kolkata, West Bengal",
+    "established": 1857,
+    "type": "Public (State)",
+    "student_statistics": { "total": "22,000 (Campus)", "international": "4%" },
+    "student_society": "Calcutta University Union",
+    "academy": "Heritage, Law & Post-Graduate Research",
+    "cost": { "tuition": "₹1,500 - ₹3,000 (Subsidized)", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹100",
+    "deadline": "July 31",
+    "courses": [{ "name": "M.Sc Computer Science", "eligibility": "B.Sc (Hons)", "criteria": "Entrance/Merit", "fees": "₹77,000 (Total)" }]
+  },
+  {
+    "name": "Visva-Bharati University",
+    "india_rank": "#49 (University)",
+    "world_rank": "Unranked",
+    "location": "Santiniketan, West Bengal",
+    "established": 1921,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "7,500", "international": "5%" },
+    "student_society": "Poush Mela, Basanta Utsav",
+    "academy": "Fine Arts, Music & Rural Reconstruction",
+    "cost": { "tuition": "₹2,000 - ₹4,000", "living_monthly": "₹6,000 - ₹12,000" },
+    "admission_fees": "₹500",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.A. (Hons) Bengali", "eligibility": "12th (60%)", "criteria": "CUET-UG", "fees": "₹4,500/yr" }]
+  },
+  {
+    "name": "Maulana Abul Kalam Azad University of Tech (MAKAUT)",
+    "india_rank": "#101-150 (Overall)",
+    "world_rank": "Unranked",
+    "location": "Nadia, West Bengal",
+    "established": 2000,
+    "type": "Public (State)",
+    "student_statistics": { "total": "1,000+ (Campus)", "international": "2%" },
+    "student_society": "MAKAUT Tech Hub",
+    "academy": "State Technical Umbrella University",
+    "cost": { "tuition": "₹15,000 - ₹25,000", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15 (JEMAT/CET)",
+    "courses": [{ "name": "B.Sc Cyber Security", "eligibility": "12th Pass", "criteria": "CET Exam", "fees": "₹2.56L (Total)" }]
+  },
+  {
+    "name": "Presidency University",
+    "india_rank": "#151-200 (University)",
+    "world_rank": "Unranked",
+    "location": "Kolkata, West Bengal",
+    "established": 1817,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,000", "international": "3%" },
+    "student_society": "Presidency Debating Society",
+    "academy": "Premier Liberal Arts & Science Research",
+    "cost": { "tuition": "₹2,000 - ₹3,000", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹500",
+    "deadline": "June 15 (PUBDET)",
+    "courses": [{ "name": "B.Sc Biotechnology", "eligibility": "12th (65%)", "criteria": "PUBDET Exam", "fees": "₹3,500/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Mandi",
+    "india_rank": "#33 (Engineering)",
+    "world_rank": "#=516 (QS 2026)",
+    "location": "Mandi, Himachal Pradesh",
+    "established": 2009,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "2,500", "international": "2%" },
+    "student_society": "Exodia (Cultural Fest)",
+    "academy": "Sustainable Tech & High-Altitude Research",
+    "cost": { "tuition": "₹1.0L/semester", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Data Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,05,000/yr" }]
+  },
+  {
+    "name": "University of Kashmir",
+    "india_rank": "#45 (University)",
+    "world_rank": "Unranked",
+    "location": "Srinagar, Jammu & Kashmir",
+    "established": 1948,
+    "type": "Public (State)",
+    "student_statistics": { "total": "18,000", "international": "1%" },
+    "student_society": "Kashmir Univ Youth Club",
+    "academy": "Alpine Biodiversity & Remote Sensing",
+    "cost": { "tuition": "₹12,000 - ₹45,000/yr", "living_monthly": "₹7,000 - ₹12,000" },
+    "admission_fees": "₹500",
+    "deadline": "July 15",
+    "courses": [{ "name": "M.Sc Geoinformatics", "eligibility": "B.Sc Degree", "criteria": "Entrance Test", "fees": "₹18,000/yr" }]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Srinagar",
+    "india_rank": "#82 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Srinagar, Jammu & Kashmir",
+    "established": 1960,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "4,500", "international": "2%" },
+    "student_society": "Techvaganza (Tech Fest)",
+    "academy": "Structural & Water Resources Engineering",
+    "cost": { "tuition": "₹62,500 per semester", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech Civil Engineering", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,45,000/yr" }]
+  },
+  {
+    "name": "University of Jammu",
+    "india_rank": "#63 (University)",
+    "world_rank": "Unranked",
+    "location": "Jammu, Jammu & Kashmir",
+    "established": 1969,
+    "type": "Public (State)",
+    "student_statistics": { "total": "12,000", "international": "2%" },
+    "student_society": "Jammu Univ Cultural Council",
+    "academy": "Business Management & Life Sciences",
+    "cost": { "tuition": "₹10,000 - ₹50,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹800",
+    "deadline": "August 15",
+    "courses": [{ "name": "MBA", "eligibility": "Graduation", "criteria": "CAT / JUET", "fees": "₹45,000/yr" }]
+  },
+  {
+    "name": "University of Ladakh",
+    "india_rank": "New Institute",
+    "world_rank": "Unranked",
+    "location": "Leh/Kargil, Ladakh",
+    "established": 2018,
+    "type": "Public (State/UT)",
+    "student_statistics": { "total": "2,000", "international": "1%" },
+    "student_society": "Ladakh Univ Students Union",
+    "academy": "High-Altitude Ecology & Tourism",
+    "cost": { "tuition": "₹5,000 - ₹20,000/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹500",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.A. Tourism Management", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹8,000/yr" }]
+  },
+  {
+    "name": "Central University of Jammu",
+    "india_rank": "#101-150 (University)",
+    "world_rank": "Unranked",
+    "location": "Samba, Jammu",
+    "established": 2011,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "CUJ Cultural Fest",
+    "academy": "Cyber Security & National Security Studies",
+    "cost": { "tuition": "₹15,000 - ₹60,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.Tech Cyber Security", "eligibility": "12th (45% PCM)", "criteria": "JEE Main / CUET", "fees": "₹65,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Mandi",
+    "india_rank": "#33 (Engineering)",
+    "world_rank": "#=516 (QS 2026)",
+    "location": "Mandi, Himachal Pradesh",
+    "established": 2009,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "2,500", "international": "2%" },
+    "student_society": "Exodia (Cultural Fest)",
+    "academy": "Sustainable Tech & High-Altitude Research",
+    "cost": { "tuition": "₹1.0L/semester", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Data Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,05,000/yr" }]
+  },
+  {
+    "name": "University of Kashmir",
+    "india_rank": "#45 (University)",
+    "world_rank": "Unranked",
+    "location": "Srinagar, Jammu & Kashmir",
+    "established": 1948,
+    "type": "Public (State)",
+    "student_statistics": { "total": "18,000", "international": "1%" },
+    "student_society": "Kashmir Univ Youth Club",
+    "academy": "Alpine Biodiversity & Remote Sensing",
+    "cost": { "tuition": "₹12,000 - ₹45,000/yr", "living_monthly": "₹7,000 - ₹12,000" },
+    "admission_fees": "₹500",
+    "deadline": "July 15",
+    "courses": [{ "name": "M.Sc Geoinformatics", "eligibility": "B.Sc Degree", "criteria": "Entrance Test", "fees": "₹18,000/yr" }]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Srinagar",
+    "india_rank": "#82 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Srinagar, Jammu & Kashmir",
+    "established": 1960,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "4,500", "international": "2%" },
+    "student_society": "Techvaganza (Tech Fest)",
+    "academy": "Structural & Water Resources Engineering",
+    "cost": { "tuition": "₹62,500 per semester", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech Civil Engineering", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,45,000/yr" }]
+  },
+  {
+    "name": "University of Jammu",
+    "india_rank": "#63 (University)",
+    "world_rank": "Unranked",
+    "location": "Jammu, Jammu & Kashmir",
+    "established": 1969,
+    "type": "Public (State)",
+    "student_statistics": { "total": "12,000", "international": "2%" },
+    "student_society": "Jammu Univ Cultural Council",
+    "academy": "Business Management & Life Sciences",
+    "cost": { "tuition": "₹10,000 - ₹50,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹800",
+    "deadline": "August 15",
+    "courses": [{ "name": "MBA", "eligibility": "Graduation", "criteria": "CAT / JUET", "fees": "₹45,000/yr" }]
+  },
+  {
+    "name": "University of Ladakh",
+    "india_rank": "New Institute",
+    "world_rank": "Unranked",
+    "location": "Leh/Kargil, Ladakh",
+    "established": 2018,
+    "type": "Public (State/UT)",
+    "student_statistics": { "total": "2,000", "international": "1%" },
+    "student_society": "Ladakh Univ Students Union",
+    "academy": "High-Altitude Ecology & Tourism",
+    "cost": { "tuition": "₹5,000 - ₹20,000/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹500",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.A. Tourism Management", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹8,000/yr" }]
+  },
+  {
+    "name": "Central University of Jammu",
+    "india_rank": "#101-150 (University)",
+    "world_rank": "Unranked",
+    "location": "Samba, Jammu",
+    "established": 2011,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "CUJ Cultural Fest",
+    "academy": "Cyber Security & National Security Studies",
+    "cost": { "tuition": "₹15,000 - ₹60,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.Tech Cyber Security", "eligibility": "12th (45% PCM)", "criteria": "JEE Main / CUET", "fees": "₹65,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Bhilai",
+    "india_rank": "#72 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bhilai, Chhattisgarh",
+    "established": 2016,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "1,500", "international": "1%" },
+    "student_society": "Meraz Cultural Fest",
+    "academy": "Sustainable Tech & FinTech Excellence",
+    "cost": { "tuition": "₹1.1L - ₹2.2L/yr", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,21,000/yr" }]
+  },
+  {
+    "name": "International Institute of Information Technology (IIIT) Naya Raipur",
+    "india_rank": "#101-150 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Naya Raipur, Chhattisgarh",
+    "established": 2015,
+    "type": "Public-Private (State)",
+    "student_statistics": { "total": "800", "international": "2%" },
+    "student_society": "Aureole Cultural Fest",
+    "academy": "Next-Gen Communication & VLSI Focus",
+    "cost": { "tuition": "₹1.7L - ₹2.5L/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "July 15",
+    "courses": [{ "name": "B.Tech CSE (Data Science)", "eligibility": "12th (60%)", "criteria": "JEE Main", "fees": "₹1,71,000/yr" }]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Raipur",
+    "india_rank": "#86 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Raipur, Chhattisgarh",
+    "established": 1956,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "5,000", "international": "3%" },
+    "student_society": "Eclectika (Cultural), Avartan (Tech)",
+    "academy": "Industrial & Mining Engineering Excellence",
+    "cost": { "tuition": "₹1.25L/yr", "living_monthly": "₹6,000 - ₹12,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech Mining Engineering", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,25,000/yr" }]
+  },
+  {
+    "name": "Hidayatullah National Law University (HNLU)",
+    "india_rank": "#5 (Law)",
+    "world_rank": "Unranked",
+    "location": "Naya Raipur, Chhattisgarh",
+    "established": 2003,
+    "type": "Public (NLU)",
+    "student_statistics": { "total": "1,200", "international": "4%" },
+    "student_society": "Samanvay Cultural Fest",
+    "academy": "International Law & Corporate Governance",
+    "cost": { "tuition": "₹1.25L - ₹2.2L/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹5,000",
+    "deadline": "Dec 7, 2025 (CLAT 2026 Exam)",
+    "courses": [{ "name": "B.A. LL.B. (Hons)", "eligibility": "12th (45%)", "criteria": "CLAT Rank", "fees": "₹2,10,000/yr" }]
+  },
+  {
+    "name": "Pandit Ravishankar Shukla University (PRSU)",
+    "india_rank": "#51-100 (State Public)",
+    "world_rank": "#851-900 (QS Asia 2026)",
+    "location": "Raipur, Chhattisgarh",
+    "established": 1964,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,500 (Campus)", "international": "2%" },
+    "student_society": "PRSU Cultural Wing",
+    "academy": "Heritage Studies & Bio-Nanobiosensors",
+    "cost": { "tuition": "₹5,000 - ₹60,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹800",
+    "deadline": "July 15",
+    "courses": [{ "name": "M.Tech Opto Electronics", "eligibility": "B.E./B.Tech", "criteria": "GATE / Entrance", "fees": "₹48,400/yr" }]
+  },
+  {
+    "name": "SAGE University, Bhopal",
+    "india_rank": "Top Private (MP)",
+    "world_rank": "Unranked",
+    "location": "Bhopal, Madhya Pradesh",
+    "established": 2020,
+    "type": "Private",
+    "student_statistics": { "total": "5,000+", "international": "5%" },
+    "student_society": "SAGE Cultural Council",
+    "academy": "Advanced Computing & Green Engineering",
+    "cost": { "tuition": "₹60,000 - ₹2.5L/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹1,500",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech Cybersecurity", "eligibility": "12th (50%)", "criteria": "SEE Entrance", "fees": "₹1,25,000/yr" }]
+
+  },
+  {
+    "name": "Birla Institute of Technology and Science (BITS), Pilani",
+    "india_rank": "#11 (Engineering) / #7 (University)",
+    "world_rank": "#668 (QS 2026)",
+    "location": "Pilani, Rajasthan",
+    "established": 1964,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "15,000+", "international": "2%" },
+    "student_society": "Oasis (Cultural), Apogee (Tech)",
+    "academy": "Zero-Attendance Policy & High Tech Entrepreneurship",
+    "cost": { "tuition": "₹5.4L - ₹6.2L/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹3,400",
+    "deadline": "May 15 (BITSAT)",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (75% PCM)", "criteria": "BITSAT Score", "fees": "₹5,41,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Jodhpur",
+    "india_rank": "#27 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Jodhpur, Rajasthan",
+    "established": 2008,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "4,000", "international": "2%" },
+    "student_society": "Fluxus (Cultural), Ignus",
+    "academy": "AI, Robotics & Green Tech Excellence",
+    "cost": { "tuition": "₹2.2L/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech AI & Data Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,00,000/yr" }]
+  },
+  {
+    "name": "Malaviya National Institute of Technology (MNIT) Jaipur",
+    "india_rank": "#42 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Jaipur, Rajasthan",
+    "established": 1963,
+    "type": "Public (NIT)",
+    "student_statistics": { "total": "5,500", "international": "3%" },
+    "student_society": "Blitzschlag (Cultural), Sphinx (Tech)",
+    "academy": "Core Engineering & Urban Planning Focus",
+    "cost": { "tuition": "₹1.4L - ₹1.8L/yr", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,79,265/yr" }]
+  },
+  {
+    "name": "Manipal University Jaipur (MUJ)",
+    "india_rank": "#58 (Engineering) / #64 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Jaipur, Rajasthan",
+    "established": 2011,
+    "type": "Private",
+    "student_statistics": { "total": "18,000", "international": "10%" },
+    "student_society": "Oneiros (Cultural Fest)",
+    "academy": "Modern Infrastructure & Industry Placements",
+    "cost": { "tuition": "₹3.5L - ₹5L/yr", "living_monthly": "₹15,000 - ₹25,000" },
+    "admission_fees": "₹1,200",
+    "deadline": "June 15",
+    "courses": [{ "name": "B.Tech CSE (Cyber Security)", "eligibility": "12th (60%)", "criteria": "MET / JEE Main", "fees": "₹3,50,000/yr" }]
+  },
+  {
+    "name": "LNM Institute of Information Technology (LNMIIT)",
+    "india_rank": "#201-300 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Jaipur, Rajasthan",
+    "established": 2002,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "2,000", "international": "2%" },
+    "student_society": "Vivacity (Cultural), Plinth (Tech)",
+    "academy": "IT & Communication Specialized Hub",
+    "cost": { "tuition": "₹4.5L - ₹5.5L/yr", "living_monthly": "₹12,000 - ₹18,000" },
+    "admission_fees": "₹1,500",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "JEE Main / CUET", "fees": "₹5,54,000/yr" }]
+  },
+  {
+    "name": "Banasthali Vidyapith",
+    "india_rank": "#71 (Engineering) / #66 (Univ)",
+    "world_rank": "Unranked",
+    "location": "Banasthali, Rajasthan",
+    "established": 1935,
+    "type": "Private (Deemed - Women only)",
+    "student_statistics": { "total": "15,000", "international": "5%" },
+    "student_society": "Mayur (Cultural Fest)",
+    "academy": "Pioneer in Women's Technical Education",
+    "cost": { "tuition": "₹1.5L - ₹3.6L/yr", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹800",
+    "deadline": "April 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "Aptitude Test", "fees": "₹2,44,000/yr" }]
+  },
+  {
+    "name": "Central University of Rajasthan (CURAJ)",
+    "india_rank": "#89 (University)",
+    "world_rank": "#651-700 (QS Asia 2026)",
+    "location": "Ajmer, Rajasthan",
+    "established": 2009,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "CURAJ Cultural Council",
+    "academy": "Atmospheric Science & Data Science Focus",
+    "cost": { "tuition": "₹15,000 - ₹60,000/yr", "living_monthly": "₹8,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15",
+    "courses": [{ "name": "M.Sc. Data Science", "eligibility": "Graduation", "criteria": "CUET-PG", "fees": "₹35,000/yr" }]
+  },
+  {
+    "name": "Institute of Chemical Technology (ICT) Mumbai",
+    "india_rank": "#40 (University)",
+    "world_rank": "#801-1000 (QS 2026)",
+    "location": "Matunga, Mumbai, Maharashtra",
+    "established": 1933,
+    "type": "Public (Deemed)",
+    "student_statistics": { "total": "3,000", "international": "5%" },
+    "student_society": "Manzar (Cultural), Vortex (Tech)",
+    "academy": "Chemical Tech, Pharma & Dyestuff Excellence",
+    "cost": { "tuition": "₹89,100/yr", "living_monthly": "₹15,000 - ₹25,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Chem.Eng", "eligibility": "12th (50% PCM)", "criteria": "MHT-CET / JEE Main", "fees": "₹99,100 (First Year)" }]
+  },
+  {
+    "name": "COEP Technological University",
+    "india_rank": "#90 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Shivajinagar, Pune, Maharashtra",
+    "established": 1854,
+    "type": "Public (State University)",
+    "student_statistics": { "total": "4,500", "international": "2%" },
+    "student_society": "MindSpark (Tech), Zest (Sports)",
+    "academy": "Third Oldest Engineering College in Asia",
+    "cost": { "tuition": "₹1.4L/yr (Gen) / ₹85k (Reserved)", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "Feb 12 (MHT-CET Reg)",
+    "courses": [{ "name": "B.Tech Computer Engineering", "eligibility": "12th (45% PCM)", "criteria": "MHT-CET / JEE Main", "fees": "₹1,42,000/yr" }]
+  },
+  {
+    "name": "Visvesvaraya National Institute of Technology (VNIT) Nagpur",
+    "india_rank": "#44 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Nagpur, Maharashtra",
+    "established": 1960,
+    "type": "Public (NIT)",
+    "student_statistics": { "total": "5,500", "international": "3%" },
+    "student_society": "Aarohi (Cultural), Axis (Tech)",
+    "academy": "Core Engineering and VLSI Design Hub",
+    "cost": { "tuition": "₹1.25L/yr", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹2,04,000/yr" }]
+  },
+  {
+    "name": "Veermata Jijabai Technological Institute (VJTI) Mumbai",
+    "india_rank": "#101-150 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Matunga, Mumbai, Maharashtra",
+    "established": 1887,
+    "type": "Public (State Autonomous)",
+    "student_statistics": { "total": "4,000", "international": "2%" },
+    "student_society": "Pratigya (Cultural), Technovanza",
+    "academy": "Premier State-run Technical Institute",
+    "cost": { "tuition": "₹85,000/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "Feb 27 (MHT-CET Reg)",
+    "courses": [{ "name": "B.Tech IT", "eligibility": "12th (50% PCM)", "criteria": "MHT-CET / JEE Main", "fees": "₹84,051/yr" }]
+  },
+  {
+    "name": "Symbiosis International (Deemed University)",
+    "india_rank": "#24 (University)",
+    "world_rank": "#=591 (QS 2026)",
+    "location": "Pune, Maharashtra",
+    "established": 1971,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "35,000", "international": "25%" },
+    "student_society": "Symbi Pulse",
+    "academy": "Management, Law and International Studies",
+    "cost": { "tuition": "₹2.3L - ₹6.5L/yr", "living_monthly": "₹20,000+" },
+    "admission_fees": "₹2,250 (SET Exam)",
+    "deadline": "April 15 (SET Reg)",
+    "courses": [{ "name": "B.B.A (Honours)", "eligibility": "12th (50%)", "criteria": "SET Score", "fees": "₹3,57,500/yr" }]
+  },
+  {
+    "name": "Narsee Monjee Institute of Management Studies (NMIMS)",
+    "india_rank": "#52 (University)",
+    "world_rank": "Unranked",
+    "location": "Vile Parle, Mumbai, Maharashtra",
+    "established": 1981,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "15,000+", "international": "5%" },
+    "student_society": "NMIMS Cultural Wing",
+    "academy": "Premium Business & Technology Integrated Courses",
+    "cost": { "tuition": "₹4.0L - ₹5.5L/yr", "living_monthly": "₹30,000+" },
+    "admission_fees": "₹2,900",
+    "deadline": "March 22 (NMIMS-CET)",
+    "courses": [{ "name": "B.Tech + MBA Tech", "eligibility": "12th (45%)", "criteria": "NMIMS-CET", "fees": "₹5,25,000/yr" }]
+  },
+  {
+    "name": "International Institute of Information Technology (IIIT) Hyderabad",
+    "india_rank": "#38 (NIRF) / #3 (IIRF)",
+    "world_rank": "#601-650 (QS 2026)",
+    "location": "Gachibowli, Hyderabad, Telangana",
+    "established": 1998,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "2,000", "international": "5%" },
+    "student_society": "Felicity Cultural Fest",
+    "academy": "Global Leader in AI, Robotics & Security Research",
+    "cost": { "tuition": "₹4.5L/yr", "living_monthly": "₹15,000 - ₹25,000" },
+    "admission_fees": "₹2,500",
+    "deadline": "April 15 (UGEE)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "UGEE / JEE Main / Olympiad", "fees": "₹4,50,000/yr" }]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Hyderabad",
+    "india_rank": "#7 (Engineering)",
+    "world_rank": "#664 (QS 2026)",
+    "location": "Sangareddy, Telangana",
+    "established": 2008,
+    "type": "Public (Institute of National Importance)",
+    "student_statistics": { "total": "4,200", "international": "3%" },
+    "student_society": "Elan & nVision",
+    "academy": "6G Research, Space Tech & Bio-Medical Eng.",
+    "cost": { "tuition": "₹3.13L/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [{ "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹3,13,000/yr" }]
+  },
+  {
+    "name": "Jawaharlal Nehru Technological University (JNTUH)",
+    "india_rank": "#81 (NIRF 2025)",
+    "world_rank": "Unranked",
+    "location": "Hyderabad, Telangana",
+    "established": 1972,
+    "type": "Public (State)",
+    "student_statistics": { "total": "5,00,000+ (Affiliated)", "international": "2%" },
+    "student_society": "JNTU Tech Fest",
+    "academy": "Technical Umbrella for Telangana Engineering",
+    "cost": { "tuition": "₹60,000 - ₹2.58L/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "May 9-11 (TG EAPCET)",
+    "courses": [{ "name": "B.Tech ECE", "eligibility": "12th (45% PCM)", "criteria": "TG EAPCET", "fees": "₹60,000/yr" }]
+  },
+  {
+    "name": "University of Hyderabad (UoH)",
+    "india_rank": "#4 (India Today)",
+    "world_rank": "#801-850 (QS 2026)",
+    "location": "Gachibowli, Hyderabad, Telangana",
+    "established": 1974,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "5,500", "international": "6%" },
+    "student_society": "Sukoon Cultural Fest",
+    "academy": "Social Sciences, Life Science & Physics Focus",
+    "cost": { "tuition": "₹5,280 - ₹10,400/yr", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹600",
+    "deadline": "May 30",
+    "courses": [{ "name": "Integrated M.Tech CSE", "eligibility": "12th Pass", "criteria": "CUET-UG", "fees": "₹37,250/yr" }]
+  },
+  {
+    "name": "Osmania University",
+    "india_rank": "#55 (NIRF 2025)",
+    "world_rank": "#1201-1400 (QS 2026)",
+    "location": "Amberpet, Hyderabad, Telangana",
+    "established": 1918,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,00,000+", "international": "5%" },
+    "student_society": "OU Cultural Youth Festival",
+    "academy": "Legacy Multi-disciplinary Research & Law",
+    "cost": { "tuition": "₹4,520 - ₹70,800/yr", "living_monthly": "₹12,000+" },
+    "admission_fees": "₹800",
+    "deadline": "July 15",
+    "courses": [{ "name": "B.E. Computer Science", "eligibility": "12th (45%)", "criteria": "TG EAPCET", "fees": "₹70,800/yr" }]
+  },
+  {
+    "name": "KL University (KLEF)",
+    "india_rank": "#2nd (Digital Learning)",
+    "world_rank": "Band 801-1000 (THE 2026)",
+    "location": "Vijayawada, Andhra Pradesh",
+    "established": 1980,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "26,000+", "international": "10%" },
+    "student_society": "Samyak (Cultural Fest)",
+    "academy": "Entrepreneurship & Digital Learning Pioneer",
+    "cost": { "tuition": "₹2.5L - ₹4.65L/yr", "living_monthly": "₹12,000 - ₹22,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "March 25 (KLEEE)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (60% PCM)", "criteria": "KLEEE / JEE Main", "fees": "₹2,70,000/yr" }]
+  },
+  {
+    "name": "Thapar Institute of Engineering & Technology (TIET)",
+    "india_rank": "#29 (Engineering) / #26 (University)",
+    "world_rank": "#771-780 (QS 2026)",
+    "location": "Patiala, Punjab",
+    "established": 1956,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "10,000", "international": "2%" },
+    "student_society": "Saturnalia (Cultural), Aranya",
+    "academy": "Advanced AI & Cyber Forensics Hub",
+    "cost": { "tuition": "₹2.15L - ₹2.5L/semester", "living_monthly": "₹12,000 - ₹18,000" },
+    "admission_fees": "₹1,500",
+    "deadline": "May 10",
+    "courses": [
+      { "name": "B.Tech CSE (Cyber Security)", "eligibility": "12th (60%)", "criteria": "JEE Main", "fees": "₹5,08,000/yr" }
+    ]
+  },
+  {
+    "name": "Punjab Engineering College (PEC)",
+    "india_rank": "#101-150 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Chandigarh (UT)",
+    "established": 1921,
+    "type": "Public (Deemed)",
+    "student_statistics": { "total": "3,500", "international": "3%" },
+    "student_society": "PEC Fest (Cultural)",
+    "academy": "Legacy Engineering & Aerospace Focus",
+    "cost": { "tuition": "₹90,000 - ₹1.1L/semester", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [
+      { "name": "B.Tech Data Science", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,90,000/yr" }
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology (IIT) Jammu",
+    "india_rank": "#62 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Jagti, Jammu & Kashmir",
+    "established": 2016,
+    "type": "Public (INI)",
+    "student_statistics": { "total": "1,200", "international": "1%" },
+    "student_society": "Renaissance (Cultural)",
+    "academy": "High-Altitude & Defense Tech Research",
+    "cost": { "tuition": "₹1.0L/semester", "living_monthly": "₹10,000 - ₹15,000" },
+    "admission_fees": "₹2,800",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [
+      { "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Advanced", "fees": "₹2,20,000/yr" }
+    ]
+  },
+  {
+    "name": "Sher-e-Kashmir University of Agricultural Sciences (SKUAST-K)",
+    "india_rank": "#7 (Agriculture) / #94 (Overall)",
+    "world_rank": "Unranked",
+    "location": "Srinagar, Jammu & Kashmir",
+    "established": 1982,
+    "type": "Public (State)",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "SKUAST Youth Council",
+    "academy": "Temperate Agriculture & Cold Water Fisheries",
+    "cost": { "tuition": "₹25,000 - ₹50,000/yr", "living_monthly": "₹7,000 - ₹10,000" },
+    "admission_fees": "₹1,500",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Sc (Hons) Agriculture", "eligibility": "12th (50% PCB)", "criteria": "UET Entrance", "fees": "₹42,000/yr" }
+    ]
+  },
+  {
+    "name": "Sindhu Central University",
+    "india_rank": "Developing",
+    "world_rank": "Unranked",
+    "location": "Khaltse, Ladakh",
+    "established": 2023,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "500 (Initial)", "international": "0%" },
+    "student_society": "Himalayan Study Circle",
+    "academy": "Buddhist Studies & High-Altitude Ecology",
+    "cost": { "tuition": "₹5,000 - ₹15,000/yr", "living_monthly": "₹10,000 - ₹18,000" },
+    "admission_fees": "₹600",
+    "deadline": "May 30",
+    "courses": [
+      { "name": "B.A. Himalayan Studies", "eligibility": "12th Pass", "criteria": "CUET-UG", "fees": "₹6,000/yr" }
+    ]
+  },
+  {
+    "name": "National Institute of Technology (NIT) Rourkela",
+    "india_rank": "#37 (Engineering) / #15 (University)",
+    "world_rank": "#801-1000 (QS 2026)",
+    "location": "Rourkela, Odisha",
+    "established": 1961,
+    "type": "Public (INI)",
+    "student_statistics": { "total": "7,000", "international": "3%" },
+    "student_society": "Innova (Tech), Nitrutsav (Cultural)",
+    "academy": "Industrial Engineering & Software Systems",
+    "cost": { "tuition": "₹1.25L/yr", "living_monthly": "₹8,000 - ₹12,000" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 15 (JoSAA)",
+    "courses": [
+      { "name": "B.Tech Computer Science", "eligibility": "12th (75%)", "criteria": "JEE Main", "fees": "₹1,50,000/yr" }
+    ]
+  },
+  {
+    "name": "IIIT Bhubaneswar",
+    "india_rank": "#151-200 (Engineering)",
+    "world_rank": "Unranked",
+    "location": "Bhubaneswar, Odisha",
+    "established": 2006,
+    "type": "Public (State University)",
+    "student_statistics": { "total": "1,200", "international": "1%" },
+    "student_society": "Advaita (Tech-Cultural)",
+    "academy": "Information Technology & Communication Engineering",
+    "cost": { "tuition": "₹1.8L/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹1,000",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech CSE", "eligibility": "12th (60%)", "criteria": "JEE Main / OJEE", "fees": "₹1,90,000/yr" }
+    ]
+  },
+  {
+    "name": "Siksha 'O' Anusandhan (SOA)",
+    "india_rank": "#15 (University)",
+    "world_rank": "Band 1001-1200",
+    "location": "Bhubaneswar, Odisha",
+    "established": 1996,
+    "type": "Private (Deemed)",
+    "student_statistics": { "total": "12,000", "international": "5%" },
+    "student_society": "SOA Cultural Wing",
+    "academy": "Medical, Dental & Engineering Excellence",
+    "cost": { "tuition": "₹2.5L - ₹5L/yr", "living_monthly": "₹12,000 - ₹18,000" },
+    "admission_fees": "₹1,200",
+    "deadline": "May 30 (SAAT)",
+    "courses": [
+      { "name": "B.Tech Computer Science", "eligibility": "12th (60%)", "criteria": "SAAT / JEE Main", "fees": "₹2,65,000/yr" }
+    ]
+  },
+  {
+    "name": "Patna University",
+    "india_rank": "#151-200 (University)",
+    "world_rank": "Unranked",
+    "location": "Patna, Bihar",
+    "established": 1917,
+    "type": "Public (State)",
+    "student_statistics": { "total": "20,000+", "international": "1%" },
+    "student_society": "Patna Univ Student Union",
+    "academy": "Humanities, Law & Basic Sciences",
+    "cost": { "tuition": "₹2,000 - ₹20,000/yr", "living_monthly": "₹6,000 - ₹10,000" },
+    "admission_fees": "₹500",
+    "deadline": "July 15",
+    "courses": [
+      { "name": "B.A. (Hons)", "eligibility": "12th Pass", "criteria": "PUPUET Entrance", "fees": "₹3,500/yr" }
+    ]
+  },
+  {
+    "name": "North-Eastern Hill University (NEHU)",
+    "india_rank": "#80 (University)",
+    "world_rank": "Unranked",
+    "location": "Shillong, Meghalaya",
+    "established": 1973,
+    "type": "Public (Central)",
+    "student_statistics": { "total": "5,000", "international": "2%" },
+    "student_society": "NEHUSU",
+    "academy": "Bio-Sciences & Anthropology Hub",
+    "cost": { "tuition": "₹5,000 - ₹40,000/yr", "living_monthly": "₹8,000 - ₹15,000" },
+    "admission_fees": "₹800",
+    "deadline": "June 30",
+    "courses": [
+      { "name": "B.Tech Information Tech", "eligibility": "12th (45% PCM)", "criteria": "CUET-UG / JEE Main", "fees": "₹38,000/yr" }
+    ]
+},
+  {
+    "name": "S. P. Jain Institute of Management and Research (SPJIMR)",
+    "india_rank": "#20 (Management)", "world_rank": "#=40 (FT Global MBA)",
+    "location": "Andheri, Mumbai", "established": 1981, "type": "Private (Autonomous)",
+    "student_statistics": { "total": "1,200", "international": "8%" },
+    "student_society": "Sprint (Sports), Ojas", "academy": "Premier Management & Social Sensitivity",
+    "cost": { "tuition": "₹22L - ₹25L (Total)", "living_monthly": "₹20,000+" },
+    "admission_fees": "₹2,000", "deadline": "Nov 25, 2025 (for 2026)",
+    "courses": [{ "name": "PGDM", "eligibility": "Graduation", "criteria": "CAT / GMAT", "fees": "₹11,00,000/yr" }]
+  },
+  {
+    "name": "Grant Medical College & Sir J.J. Group of Hospitals",
+    "india_rank": "#11 (Medical)", "world_rank": "Unranked",
+    "location": "Byculla, Mumbai", "established": 1845, "type": "Public (State)",
+    "student_statistics": { "total": "2,500", "international": "1%" },
+    "student_society": "Astitva (Cultural)", "academy": "Clinical Excellence & Surgery Hub",
+    "cost": { "tuition": "₹1.2L/yr", "living_monthly": "₹10,000+" },
+    "admission_fees": "₹1,500", "deadline": "As per NEET Counseling",
+    "courses": [{ "name": "MBBS", "eligibility": "12th (PCB)", "criteria": "NEET-UG", "fees": "₹1,34,000/yr" }]
+  },
+  {
+    "name": "Sardar Patel Institute of Technology (SPIT)",
+    "india_rank": "#151-200 (Engg)", "world_rank": "Unranked",
+    "location": "Andheri, Mumbai", "established": 2005, "type": "Private (Autonomous)",
+    "student_statistics": { "total": "1,800", "international": "2%" },
+    "student_society": "Oculus (Cultural)", "academy": "IT, Data Science & Electronics Focus",
+    "cost": { "tuition": "₹1.7L/yr", "living_monthly": "₹15,000+" },
+    "admission_fees": "₹1,000", "deadline": "Feb 15 (MHT-CET)",
+    "courses": [{ "name": "B.Tech CSE", "eligibility": "12th (45% PCM)", "criteria": "MHT-CET / JEE Main", "fees": "₹1,72,000/yr" }]
+  },
+  {
+    "name": "Sydenham College of Commerce and Economics",
+    "india_rank": "Top 10 (Commerce)", "world_rank": "Unranked",
+    "location": "Churchgate, Mumbai", "established": 1913, "type": "Public (State)",
+    "student_statistics": { "total": "3,000", "international": "2%" },
+    "student_society": "Brouhaha (Cultural)", "academy": "Banking, Finance & Accountancy",
+    "cost": { "tuition": "₹5k - ₹15k/yr", "living_monthly": "₹20,000+" },
+    "admission_fees": "₹600", "deadline": "June 15",
+    "courses": [{ "name": "B.Com", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹6,000/yr" }]
+  },
+  {
+    "name": "Sophia College for Women",
+    "india_rank": "Top 20 (Arts)", "world_rank": "Unranked",
+    "location": "Breach Candy, Mumbai", "established": 1940, "type": "Private (Autonomous)",
+    "student_statistics": { "total": "2,800", "international": "3%" },
+    "student_society": "Kaleidoscope", "academy": "Liberal Arts & Science Excellence",
+    "cost": { "tuition": "₹15k - ₹40k/yr", "living_monthly": "₹25,000+" },
+    "admission_fees": "₹800", "deadline": "June 10",
+    "courses": [{ "name": "B.A. Psychology", "eligibility": "12th Pass", "criteria": "Merit-based", "fees": "₹25,000/yr" }]
+  }
+
+
+ 
+
+
+
+
+
+
+]
+
+
+
+
+ 
+
+

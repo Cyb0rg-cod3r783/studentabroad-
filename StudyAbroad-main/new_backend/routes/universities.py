@@ -16,10 +16,16 @@ from services.university_service_simple import UniversityService
 # Create blueprint for university routes
 universities_bp = Blueprint('universities', __name__, url_prefix='/api/universities')
 
-# Initialize university service - Force JSON service for now (Firebase DB may be empty)
-# TODO: Switch to Firebase when database is populated
-university_service = UniversityService()
-print("✅ Using JSON University Service (forced)")
+# Initialize university service
+# Force simple service only if Firebase fails
+# Force simple service due to Firestore Quota limit (Temporary Fix)
+# if FIREBASE_AVAILABLE:
+if False: # Forced Fallback
+    university_service = FirebaseUniversityService()
+    print("✅ Using Firebase University Service")
+else:
+    university_service = UniversityService()
+    print("⚠️ Using JSON University Service (Fallback)")
 
 def parse_query_params(request_args: Dict[str, Any]) -> Dict[str, Any]:
     """Parse and validate query parameters for university search"""

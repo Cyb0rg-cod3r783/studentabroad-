@@ -1,0 +1,2271 @@
+[
+  {
+    "name": "Technical University of Munich (TUM)",
+    "germany_rank": "#1",
+    "world_rank": "#26 (QS 2026)",
+    "location": "Munich, Bavaria",
+    "established": 1868,
+    "type": "Public (TU)",
+    "student_statistics": { "total_students": "52,000+", "international_students": "45%" },
+    "student_society": "TUM Student Council, ESN TUMi",
+    "academy": "TU9, Excellence University",
+    "cost": { "tuition_fees": "€2,000 - €6,000 / semester (Non-EU)", "living_cost_monthly": "€1,200+" },
+    "admission_fees": "€85 (Semester Fee)",
+    "deadline": "Winter: May 31 | Summer: Jan 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Aerospace",
+        "eligibility": "Bachelor in Mech/Aerospace Eng.",
+        "criteria": "English C1. GATE/GRE recommended for Non-EU.",
+        "fees": "€4,000-6,000/sem"
+      },
+      {
+        "course_name": "M.Sc. Informatics (Computer Science)",
+        "eligibility": "Bachelor in CS with strong Math/Algo grades.",
+        "criteria": "English C1. GRE Required (Quant 164+).",
+        "fees": "€4,000-6,000/sem"
+      },
+      {
+        "course_name": "M.Sc. Sustainable Management and Technology",
+        "eligibility": "Bachelor in Business or Eng.",
+        "criteria": "English C1. GMAT optional but good.",
+        "fees": "€4,000/sem"
+      },
+      {
+        "course_name": "M.Sc. Environmental Engineering",
+        "eligibility": "Bachelor in Civil/Env Eng.",
+        "criteria": "English B2/C1.",
+        "fees": "€4,000/sem"
+      }
+    ]
+  },
+  {
+    "name": "Ludwig Maximilian University of Munich (LMU)",
+    "germany_rank": "#2",
+    "world_rank": "#59 (QS 2025)",
+    "location": "Munich, Bavaria",
+    "established": 1472,
+    "type": "Public University",
+    "student_statistics": { "total_students": "52,451", "international_students": "18%" },
+    "student_society": "Studentenwerk München, Debating Union",
+    "academy": "U15, LERU",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€1,200+" },
+    "admission_fees": "€152 (Semester Fee)",
+    "deadline": "Winter: July 15 | Summer: Jan 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Data Science",
+        "eligibility": "Bachelor in Stat/CS/Math.",
+        "criteria": "English C1. Entrance Exam & Interview.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Economics",
+        "eligibility": "Bachelor in Econ with good Math/Econometrics.",
+        "criteria": "English C1. GRE strongly recommended.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Astrophysics",
+        "eligibility": "Bachelor in Physics.",
+        "criteria": "English B2. Strong physics background.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Neuro-Cognitive Psychology",
+        "eligibility": "Bachelor in Psych.",
+        "criteria": "English C1. Very competitive (Top 10%).",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "Heidelberg University",
+    "germany_rank": "#3",
+    "world_rank": "#84 (QS 2025)",
+    "location": "Heidelberg, Baden-Württemberg",
+    "established": 1386,
+    "type": "Public University",
+    "student_statistics": { "total_students": "29,689", "international_students": "18%" },
+    "student_society": "ESN Heidelberg, StuRa",
+    "academy": "U15, Coimbra Group",
+    "cost": { "tuition_fees": "€1,500 / semester (Non-EU)", "living_cost_monthly": "€950+" },
+    "admission_fees": "€171 (Semester Fee)",
+    "deadline": "Winter: June 15/July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Scientific Computing",
+        "eligibility": "Bachelor in Math/CS/Physics.",
+        "criteria": "English C1.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Molecular Biosciences",
+        "eligibility": "Bachelor in Bio/Biochem.",
+        "criteria": "English C1. Lab experience.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Physics",
+        "eligibility": "Bachelor in Physics.",
+        "criteria": "English B2/C1.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.A. American Studies",
+        "eligibility": "Bachelor in Humanities.",
+        "criteria": "English C1 (Native/Near-native).",
+        "fees": "€1,500/sem"
+      }
+    ]
+  },
+  {
+    "name": "Free University of Berlin (FU Berlin)",
+    "germany_rank": "#4",
+    "world_rank": "#97 (QS 2025)",
+    "location": "Berlin",
+    "established": 1948,
+    "type": "Public University",
+    "student_statistics": { "total_students": "33,000", "international_students": "13%" },
+    "student_society": "AStA FU, Sustainability Initiative",
+    "academy": "U15, Excellence University",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€1,000+" },
+    "admission_fees": "€312 (Includes Transit)",
+    "deadline": "Winter: May 31 (some courses) / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Data Science",
+        "eligibility": "Bachelor in CS/Math.",
+        "criteria": "English C1. Programming test.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Bioinformatics",
+        "eligibility": "Bachelor in Bio/CS.",
+        "criteria": "English C1.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.A. Global History",
+        "eligibility": "Bachelor in History.",
+        "criteria": "English C1. Joint degree with Humboldt.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Chemistry",
+        "eligibility": "Bachelor in Chemistry.",
+        "criteria": "English B2. Lab safety cert.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "RWTH Aachen University",
+    "germany_rank": "#5",
+    "world_rank": "#99 (QS 2025)",
+    "location": "Aachen, NRW",
+    "established": 1870,
+    "type": "Public (TU)",
+    "student_statistics": { "total_students": "47,000", "international_students": "30%" },
+    "student_society": "INCAS, Formula Student",
+    "academy": "TU9, IDEA League",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€900+" },
+    "admission_fees": "€318 (Includes Transit)",
+    "deadline": "Winter: March 1 (Non-EU)",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Software Systems Engineering",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English C1. GRE Required (Quant 164+, Verbal 145+).",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Data Science",
+        "eligibility": "Bachelor in CS/Math.",
+        "criteria": "English C1. GRE Required.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Production Engineering",
+        "eligibility": "Bachelor in Mech Eng.",
+        "criteria": "English B2. German A1 recommended.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Biomedical Engineering",
+        "eligibility": "Bachelor in Eng/Science.",
+        "criteria": "English C1. GRE recommended.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "Karlsruhe Institute of Technology (KIT)",
+    "germany_rank": "#6",
+    "world_rank": "#102 (QS 2025)",
+    "location": "Karlsruhe, Baden-Württemberg",
+    "established": 1825,
+    "type": "Public (TU)",
+    "student_statistics": { "total_students": "22,000", "international_students": "23%" },
+    "student_society": "AKK, ESN Karlsruhe",
+    "academy": "TU9, Helmholtz",
+    "cost": { "tuition_fees": "€1,500 / semester (Non-EU)", "living_cost_monthly": "€950+" },
+    "admission_fees": "€153 (Semester Fee)",
+    "deadline": "Winter: July 15 | Summer: Jan 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Mechanical Engineering (International)",
+        "eligibility": "Bachelor in Mech Eng.",
+        "criteria": "English B2. German A2 (for graduation).",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Geophysics",
+        "eligibility": "Bachelor in Physics/Geo.",
+        "criteria": "English B2.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Water Science and Engineering",
+        "eligibility": "Bachelor in Civil/Env Eng.",
+        "criteria": "English B2/C1.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Optics and Photonics",
+        "eligibility": "Bachelor in Physics/EE.",
+        "criteria": "English B2. High GPA.",
+        "fees": "€1,500/sem"
+      }
+    ]
+  },
+  {
+    "name": "Humboldt University of Berlin",
+    "germany_rank": "#7",
+    "world_rank": "#126 (QS 2025)",
+    "location": "Berlin",
+    "established": 1810,
+    "type": "Public University",
+    "student_statistics": { "total_students": "36,000", "international_students": "16%" },
+    "student_society": "Orbis Humboldtianus",
+    "academy": "U15, Excellence University",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€1,000+" },
+    "admission_fees": "€315 (Includes Transit)",
+    "deadline": "Winter: May 31 / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Economics and Management Science",
+        "eligibility": "Bachelor in Econ/Business.",
+        "criteria": "English C1. GMAT/GRE strongly recommended.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.A. British Studies",
+        "eligibility": "Bachelor in English/History.",
+        "criteria": "English C1 (IELTS 7.5).",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Optical Sciences",
+        "eligibility": "Bachelor in Physics.",
+        "criteria": "English B2.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Mind and Brain",
+        "eligibility": "Bachelor in Psych/Neuro.",
+        "criteria": "English C1. Very competitive.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "Technical University of Berlin (TU Berlin)",
+    "germany_rank": "#8",
+    "world_rank": "#147 (QS 2025)",
+    "location": "Berlin",
+    "established": 1879,
+    "type": "Public (TU)",
+    "student_statistics": { "total_students": "34,000", "international_students": "27%" },
+    "student_society": "Freitagsrunde, EBEC",
+    "academy": "TU9, Excellence University",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€1,000+" },
+    "admission_fees": "€307 (Includes Transit)",
+    "deadline": "Winter: July 15 (Often earlier via Uni-Assist)",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Computer Science",
+        "eligibility": "Bachelor in CS (Theoretical/Practical CS credits required).",
+        "criteria": "English B2/C1. Strict curriculum match.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Information Systems Management",
+        "eligibility": "Bachelor in IS/CS.",
+        "criteria": "English C1.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Global Production Engineering",
+        "eligibility": "Bachelor in Eng.",
+        "criteria": "English B2. 1 year work exp recommended.",
+        "fees": "€15,000 (Exception: This is a paid course)"
+      },
+      {
+        "course_name": "M.Sc. Geodesy and Geoinformation Science",
+        "eligibility": "Bachelor in Geo fields.",
+        "criteria": "English B2.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "University of Freiburg",
+    "germany_rank": "#9",
+    "world_rank": "#192 (QS 2025)",
+    "location": "Freiburg, Baden-Württemberg",
+    "established": 1457,
+    "type": "Public University",
+    "student_statistics": { "total_students": "24,500", "international_students": "17%" },
+    "student_society": "StuRa, ESN Freiburg",
+    "academy": "U15, LERU",
+    "cost": { "tuition_fees": "€1,500 / semester (Non-EU)", "living_cost_monthly": "€950+" },
+    "admission_fees": "€180 (Semester Fee)",
+    "deadline": "Winter: July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Embedded Systems Engineering",
+        "eligibility": "Bachelor in CS/EE.",
+        "criteria": "English C1 (IELTS 7.0).",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Sustainable Systems Engineering",
+        "eligibility": "Bachelor in Eng/Physics.",
+        "criteria": "English B2. German A1.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Economics",
+        "eligibility": "Bachelor in Econ.",
+        "criteria": "English B2. GRE recommended.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Environmental Governance",
+        "eligibility": "Bachelor in Social/Env Science.",
+        "criteria": "English C1. Work experience helpful.",
+        "fees": "€1,500/sem"
+      }
+    ]
+  },
+  {
+    "name": "University of Hamburg",
+    "germany_rank": "#10",
+    "world_rank": "#205 (QS 2025)",
+    "location": "Hamburg",
+    "established": 1919,
+    "type": "Public University",
+    "student_statistics": { "total_students": "43,000", "international_students": "14%" },
+    "student_society": "PIASTA (Intercultural Living)",
+    "academy": "U15, Excellence University",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€1,100+" },
+    "admission_fees": "€340 (Includes Transit)",
+    "deadline": "Winter: July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Intelligent Adaptive Systems",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English C1. Strong AI/Robotics interest.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Economics",
+        "eligibility": "Bachelor in Econ/Math.",
+        "criteria": "English C1. GRE recommended.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Integrated Climate System Sciences",
+        "eligibility": "Bachelor in Meteorology/Physics.",
+        "criteria": "English C1.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Physics",
+        "eligibility": "Bachelor in Physics.",
+        "criteria": "English C1.",
+        "fees": "None"
+      }
+    ]
+  },
+
+  {
+    "name": "University of Tübingen",
+    "germany_rank": "#11",
+    "world_rank": "#213 (QS 2025)",
+    "location": "Tübingen, Baden-Württemberg",
+    "established": 1477,
+    "type": "Public University",
+    "student_statistics": { "total_students": "28,000", "international_students": "15%" },
+    "student_society": "Clubhaus, ESN Tübingen",
+    "academy": "U15, Excellence University",
+    "cost": { "tuition_fees": "€1,500 / semester (Non-EU)", "living_cost_monthly": "€850+" },
+    "admission_fees": "€158",
+    "deadline": "Winter: July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Machine Learning",
+        "eligibility": "Bachelor in CS/Math with strong stats.",
+        "criteria": "English C1. Very competitive.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Neural Information Processing",
+        "eligibility": "Bachelor in Physics/Bio/CS.",
+        "criteria": "English C1. Research oriented.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. Economics and Finance",
+        "eligibility": "Bachelor in Econ.",
+        "criteria": "English B2/C1. GRE optional.",
+        "fees": "€1,500/sem"
+      }
+    ]
+  },
+  {
+    "name": "FAU Erlangen-Nürnberg",
+    "germany_rank": "#12",
+    "world_rank": "#229 (QS 2025)",
+    "location": "Erlangen, Bavaria",
+    "established": 1743,
+    "type": "Public University",
+    "student_statistics": { "total_students": "39,000", "international_students": "16%" },
+    "student_society": "FabLab, ESN Erlangen",
+    "academy": "Coimbra Group",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€900+" },
+    "admission_fees": "€67",
+    "deadline": "Winter: July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Artificial Intelligence",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English C1. Coding test required.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Advanced Optical Technologies (MAOT)",
+        "eligibility": "Bachelor in Physics/Eng.",
+        "criteria": "English B2. High GPA.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Communications and Multimedia Engineering",
+        "eligibility": "Bachelor in EE.",
+        "criteria": "English B2.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "University of Göttingen",
+    "germany_rank": "#13",
+    "world_rank": "#232 (QS 2025)",
+    "location": "Göttingen, Lower Saxony",
+    "established": 1737,
+    "type": "Public University",
+    "student_statistics": { "total_students": "30,000", "international_students": "14%" },
+    "student_society": "ESN Göttingen",
+    "academy": "U15, Coimbra Group",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€800+" },
+    "admission_fees": "€400 (Includes Rail)",
+    "deadline": "Winter: April 15 (Non-EU) / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Applied Data Science",
+        "eligibility": "Bachelor in CS/Math/Bus.Info.",
+        "criteria": "English C1. Statistics credits required.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. International Economics",
+        "eligibility": "Bachelor in Econ.",
+        "criteria": "English C1. GRE Recommended.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Molecular Biology (Max Planck)",
+        "eligibility": "Bachelor in Bio.",
+        "criteria": "English C1. Extremely competitive.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "University of Bonn",
+    "germany_rank": "#14",
+    "world_rank": "#239 (QS 2025)",
+    "location": "Bonn, NRW",
+    "established": 1818,
+    "type": "Public University",
+    "student_statistics": { "total_students": "38,000", "international_students": "13%" },
+    "student_society": "AStA Bonn",
+    "academy": "U15, Excellence University",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€950+" },
+    "admission_fees": "€330",
+    "deadline": "Winter: May 1 (Non-EU) / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Economics",
+        "eligibility": "Bachelor in Econ.",
+        "criteria": "English B2/C1. GRE Required.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Computer Science",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English B2. Strong theory background.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Astrophysics",
+        "eligibility": "Bachelor in Physics.",
+        "criteria": "English B2.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "TU Darmstadt",
+    "germany_rank": "#15",
+    "world_rank": "#246 (QS 2025)",
+    "location": "Darmstadt, Hesse",
+    "established": 1877,
+    "type": "Public (TU)",
+    "student_statistics": { "total_students": "25,000", "international_students": "20%" },
+    "student_society": "AStA TU Darmstadt",
+    "academy": "TU9",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€950+" },
+    "admission_fees": "€280",
+    "deadline": "Winter: July 15 (Early application advised)",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Artificial Intelligence and Machine Learning",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English C1. GRE Required for Non-EU.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Information and Communication Engineering",
+        "eligibility": "Bachelor in EE.",
+        "criteria": "English C1. GRE Required.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Materials Science",
+        "eligibility": "Bachelor in MatSci/Chem.",
+        "criteria": "English C1.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "TU Dresden",
+    "germany_rank": "#16",
+    "world_rank": "#246 (QS 2025)",
+    "location": "Dresden, Saxony",
+    "established": 1828,
+    "type": "Public (TU)",
+    "student_statistics": { "total_students": "32,000", "international_students": "17%" },
+    "student_society": "StuRa, ESN Dresden",
+    "academy": "TU9, Excellence University",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€750+" },
+    "admission_fees": "€290",
+    "deadline": "Winter: May 31 (Non-EU) / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Computational Modeling and Simulation",
+        "eligibility": "Bachelor in CS/Math/Eng.",
+        "criteria": "English B2/C1. Aptitude test.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Distributed Systems Engineering",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English C1. Strong programming.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Nanoelectronic Systems",
+        "eligibility": "Bachelor in EE/Physics.",
+        "criteria": "English B2.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "University of Cologne",
+    "germany_rank": "#17",
+    "world_rank": "#268 (QS 2025)",
+    "location": "Cologne, NRW",
+    "established": 1388,
+    "type": "Public University",
+    "student_statistics": { "total_students": "50,000", "international_students": "11%" },
+    "student_society": "AStA Köln, PIM & CEMS Club",
+    "academy": "U15",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€1,000+" },
+    "admission_fees": "€320",
+    "deadline": "Winter: June 15 (Masters) / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Business Administration (Major: Finance/Marketing/SCM)",
+        "eligibility": "Bachelor in Business.",
+        "criteria": "English B2. GMAT recommended. Top 10-20% GPA.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Economics",
+        "eligibility": "Bachelor in Econ/Math.",
+        "criteria": "English B2. Strong math.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Physics of the Earth and Atmosphere",
+        "eligibility": "Bachelor in Physics/Geo.",
+        "criteria": "English B2.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "Goethe University Frankfurt",
+    "germany_rank": "#18",
+    "world_rank": "#302 (QS 2025)",
+    "location": "Frankfurt, Hesse",
+    "established": 1914,
+    "type": "Public University",
+    "student_statistics": { "total_students": "45,000", "international_students": "16%" },
+    "student_society": "AStA Frankfurt",
+    "academy": "U15",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€1,100+" },
+    "admission_fees": "€370",
+    "deadline": "Winter: May 31 (Money/Finance) / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Money and Finance",
+        "eligibility": "Bachelor in Econ/Math.",
+        "criteria": "English C1. GMAT/GRE Required.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Computer Science",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English B2.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.A. International Studies / Peace and Conflict",
+        "eligibility": "Bachelor in PolSci.",
+        "criteria": "English C1. Very competitive.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "name": "University of Stuttgart",
+    "germany_rank": "#19",
+    "world_rank": "#312 (QS 2025)",
+    "location": "Stuttgart, Baden-Württemberg",
+    "established": 1829,
+    "type": "Public (TU)",
+    "student_statistics": { "total_students": "24,000", "international_students": "21%" },
+    "student_society": "stuvus, ESN Stuttgart",
+    "academy": "TU9",
+    "cost": { "tuition_fees": "€1,500 / semester (Non-EU)", "living_cost_monthly": "€950+" },
+    "admission_fees": "€200",
+    "deadline": "Winter: July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Computer Science",
+        "eligibility": "Bachelor in CS.",
+        "criteria": "English C1. German A1 recommended.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. INFOTECH (Info Tech)",
+        "eligibility": "Bachelor in EE/CS.",
+        "criteria": "English C1. Priority for good GPA.",
+        "fees": "€1,500/sem"
+      },
+      {
+        "course_name": "M.Sc. COMMAS (Computational Mechanics)",
+        "eligibility": "Bachelor in Civil/Mech Eng.",
+        "criteria": "English C1. Very competitive.",
+        "fees": "€1,500/sem"
+      }
+    ]
+  },
+  {
+    "name": "University of Münster",
+    "germany_rank": "#20",
+    "world_rank": "#384 (QS 2025)",
+    "location": "Münster, NRW",
+    "established": 1780,
+    "type": "Public University",
+    "student_statistics": { "total_students": "45,000", "international_students": "8%" },
+    "student_society": "AStA Münster, ESN Münster",
+    "academy": "U15",
+    "cost": { "tuition_fees": "None (Free)", "living_cost_monthly": "€900+" },
+    "admission_fees": "€310",
+    "deadline": "Winter: May 31 (IS) / July 15",
+    "courses_and_eligibility": [
+      {
+        "course_name": "M.Sc. Information Systems",
+        "eligibility": "Bachelor in IS/CS/Business.",
+        "criteria": "English C1. Relevant credits.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Geoinformatics",
+        "eligibility": "Bachelor in Geo/CS.",
+        "criteria": "English B2.",
+        "fees": "None"
+      },
+      {
+        "course_name": "M.Sc. Physics",
+        "eligibility": "Bachelor in Physics.",
+        "criteria": "English C1.",
+        "fees": "None"
+      }
+    ]
+  },
+  {
+    "rank_group": "Page 3: Top 21-30",
+    "universities": [
+      {
+        "name": "Ruhr University Bochum (RUB)",
+        "germany_rank": "#21",
+        "world_rank": "#396 (QS)",
+        "location": "Bochum, NRW",
+        "type": "Public",
+        "student_statistics": { "total": "42,000", "international": "15%" },
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€340 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Computational Engineering", "eligibility": "Bachelor in Civil/Mech Eng.", "criteria": "English C1. Excellent Math grades.", "fees": "None" },
+          { "name": "M.Sc. Molecular & Developmental Stem Cell Biology", "eligibility": "Bachelor in Bio/Med.", "criteria": "English C1. Lab experience.", "fees": "None" },
+          { "name": "M.Sc. Cognitive Science", "eligibility": "Bachelor in Psych/Neuro/CS.", "criteria": "English C1. Competitive.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Leibniz University Hannover",
+        "germany_rank": "#22",
+        "world_rank": "#400-500 (QS)",
+        "location": "Hannover, Lower Saxony",
+        "type": "Public (TU9)",
+        "student_statistics": { "total": "29,000", "international": "14%" },
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€435 (Includes Transit)",
+        "deadline": "Winter: May 31 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Mechatronics and Robotics", "eligibility": "Bachelor in Mech/EE.", "criteria": "English B2. German A1 rec.", "fees": "None" },
+          { "name": "M.Sc. Optical Technologies", "eligibility": "Bachelor in Physics/Eng.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Water Resources & Env Mgmt", "eligibility": "Bachelor in Civil/Env Eng.", "criteria": "English B2. 2.5 GPA.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Johannes Gutenberg University Mainz",
+        "germany_rank": "#23",
+        "world_rank": "#446 (QS)",
+        "location": "Mainz, Rhineland-Palatinate",
+        "type": "Public",
+        "student_statistics": { "total": "31,000", "international": "10%" },
+        "cost": { "tuition": "None (Free)", "living_monthly": "€900+" },
+        "admission_fees": "€330",
+        "deadline": "Winter: July 15 | Summer: Jan 15",
+        "courses": [
+          { "name": "M.Sc. International Economics & Public Policy", "eligibility": "Bachelor in Econ.", "criteria": "English B2/C1. Good grades in Quant methods.", "fees": "None" },
+          { "name": "M.Sc. Physics", "eligibility": "Bachelor in Physics.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. American Studies", "eligibility": "Bachelor in American Studies/Eng.", "criteria": "English C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Würzburg",
+        "germany_rank": "#24",
+        "world_rank": "#454 (QS)",
+        "location": "Würzburg, Bavaria",
+        "type": "Public",
+        "student_statistics": { "total": "28,000", "international": "11%" },
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€145",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Satellite Technology", "eligibility": "Bachelor in Eng/Physics/CS.", "criteria": "English B2. German A1 recommended.", "fees": "None" },
+          { "name": "M.Sc. Biochemistry", "eligibility": "Bachelor in Bio/Chem.", "criteria": "English B2. Lab experience.", "fees": "None" },
+          { "name": "M.Sc. Quantum Engineering", "eligibility": "Bachelor in Physics/Nanotech.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Mannheim",
+        "germany_rank": "#25",
+        "world_rank": "#454 (QS - Top for Business)",
+        "location": "Mannheim, Baden-Württemberg",
+        "type": "Public (Business Focus)",
+        "student_statistics": { "total": "12,000", "international": "18%" },
+        "cost": { "tuition": "€1,500 / semester (Non-EU)", "living_monthly": "€900+" },
+        "admission_fees": "€195",
+        "deadline": "Winter: May 31",
+        "courses": [
+          { "name": "Master in Management (MMM)", "eligibility": "Bachelor in Business.", "criteria": "English C1. GMAT highly recommended.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in CS/Math.", "criteria": "English C1. Very competitive.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Economics", "eligibility": "Bachelor in Econ.", "criteria": "English C1. GRE recommended.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "University of Bremen",
+        "germany_rank": "#26",
+        "world_rank": "#503 (QS)",
+        "location": "Bremen",
+        "type": "Public",
+        "student_statistics": { "total": "19,000", "international": "14%" },
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€380 (Includes Transit)",
+        "deadline": "Winter: Varies (Check specific course)",
+        "courses": [
+          { "name": "M.Sc. Marine Biology", "eligibility": "Bachelor in Bio.", "criteria": "English C1. Research focused.", "fees": "None" },
+          { "name": "M.Sc. Space Engineering", "eligibility": "Bachelor in Eng.", "criteria": "English B2. Industry ties (Airbus).", "fees": "None" },
+          { "name": "M.Sc. Digital Media", "eligibility": "Bachelor in CS/Design.", "criteria": "English C1. Portfolio required.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Ulm",
+        "germany_rank": "#27",
+        "world_rank": "#542 (QS)",
+        "location": "Ulm, Baden-Württemberg",
+        "type": "Public",
+        "student_statistics": { "total": "10,000", "international": "15%" },
+        "cost": { "tuition": "€1,500 / semester (Non-EU)", "living_monthly": "€850+" },
+        "admission_fees": "€180",
+        "deadline": "Winter: May 15",
+        "courses": [
+          { "name": "M.Sc. Communications Technology", "eligibility": "Bachelor in EE.", "criteria": "English C1. GRE optional.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Finance", "eligibility": "Bachelor in Math/Econ.", "criteria": "English B2. Math test.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Molecular Medicine", "eligibility": "Bachelor in Bio/Med.", "criteria": "English C1. Research focus.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "University of Kiel (CAU)",
+        "germany_rank": "#28",
+        "world_rank": "#500-600 (QS)",
+        "location": "Kiel, Schleswig-Holstein",
+        "type": "Public",
+        "student_statistics": { "total": "27,000", "international": "10%" },
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€270",
+        "deadline": "Winter: June 15 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Computer Science", "eligibility": "Bachelor in CS.", "criteria": "English B2. Theoretical CS credits needed.", "fees": "None" },
+          { "name": "M.Sc. AgriGenomics", "eligibility": "Bachelor in Agri/Bio.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Digital Communications", "eligibility": "Bachelor in EE.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Konstanz",
+        "germany_rank": "#29",
+        "world_rank": "#400-500 (THE)",
+        "location": "Konstanz, Baden-Württemberg",
+        "type": "Public (Excellence)",
+        "student_statistics": { "total": "10,000", "international": "13%" },
+        "cost": { "tuition": "€1,500 / semester (Non-EU)", "living_monthly": "€950+" },
+        "admission_fees": "€190",
+        "deadline": "Winter: May 15",
+        "courses": [
+          { "name": "M.Sc. Social & Economic Data Science", "eligibility": "Bachelor in Econ/PolSci/CS.", "criteria": "English C1. Coding skills.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Politics & Public Admin", "eligibility": "Bachelor in PolSci.", "criteria": "English C1. Research methods focus.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Biological Sciences", "eligibility": "Bachelor in Bio.", "criteria": "English B2.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "University of Bayreuth",
+        "germany_rank": "#30",
+        "world_rank": "#500-600 (THE)",
+        "location": "Bayreuth, Bavaria",
+        "type": "Public",
+        "student_statistics": { "total": "13,000", "international": "11%" },
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€120",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Battery Materials & Tech", "eligibility": "Bachelor in Chem/MatSci.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.Sc. Biofabrication", "eligibility": "Bachelor in MatSci/Bio.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. African Studies", "eligibility": "Bachelor in Humanities.", "criteria": "English/French/German proficiency.", "fees": "None" }
+        ]
+      }
+    ]
+  },
+    {
+    "rank_group": "Page 4: Top 31-40",
+    "universities": [
+      {
+        "name": "Technische Universität Braunschweig",
+        "germany_rank": "#31",
+        "world_rank": "#500-600 (THE)",
+        "location": "Braunschweig, Lower Saxony",
+        "established": 1745,
+        "type": "Public (TU9)",
+        "student_statistics": { "total": "18,500", "international": "16%" },
+        "student_society": "AStA Braunschweig, Akaflieg (Gliding Club)",
+        "academy": "TU9 Member",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€400 (Includes Rail)",
+        "deadline": "Winter: July 15 | Summer: Jan 15",
+        "courses": [
+          { "name": "M.Sc. Computational Sciences in Engineering", "eligibility": "Bachelor in Eng/Math/Physics.", "criteria": "English C1. 2.5 GPA minimum.", "fees": "None" },
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in CS/Math.", "criteria": "English B2. Math credits required.", "fees": "None" },
+          { "name": "M.Sc. ProWater (Water Mgmt)", "eligibility": "Bachelor in Civil/Env Eng.", "criteria": "English B2. 2.5 GPA.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Potsdam",
+        "germany_rank": "#32",
+        "world_rank": "#601-800 (THE)",
+        "location": "Potsdam, Brandenburg",
+        "established": 1991,
+        "type": "Public",
+        "student_statistics": { "total": "21,000", "international": "13%" },
+        "student_society": "AStA Potsdam, Student Film Club",
+        "academy": "Research focus on Earth Sciences",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€316 (Includes Berlin Transit)",
+        "deadline": "Winter: June 1 (International)",
+        "courses": [
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in CS/Math.", "criteria": "English C1. Very competitive.", "fees": "None" },
+          { "name": "M.Sc. Astrophysics", "eligibility": "Bachelor in Physics.", "criteria": "English B2. Research oriented.", "fees": "None" },
+          { "name": "M.Sc. Cognitive Systems", "eligibility": "Bachelor in CS/Ling/Psych.", "criteria": "English C1. Programming skills.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "TU Dortmund University",
+        "germany_rank": "#33",
+        "world_rank": "#601-800 (THE)",
+        "location": "Dortmund, NRW",
+        "established": 1968,
+        "type": "Public (TU)",
+        "student_statistics": { "total": "32,000", "international": "12%" },
+        "student_society": "AStA DO, ESN Dortmund",
+        "academy": "Strong Logistics & CS",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€310",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in Statistics/Math/CS.", "criteria": "English B2. Aptitude test.", "fees": "None" },
+          { "name": "M.Sc. Automation and Robotics", "eligibility": "Bachelor in EE/Mech/CS.", "criteria": "English B2/C1. GRE Recommended.", "fees": "None" },
+          { "name": "M.Sc. Process Systems Engineering", "eligibility": "Bachelor in Chem Eng.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Duisburg-Essen",
+        "germany_rank": "#34",
+        "world_rank": "#601-800 (THE)",
+        "location": "Duisburg/Essen, NRW",
+        "established": 2003 ,
+        "type": "Public",
+        "student_statistics": { "total": "40,000", "international": "18%" },
+        "student_society": "AStA UDE, International Tutor Program",
+        "academy": "Nano-Integration focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€320",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Computer Engineering (ISE)", "eligibility": "Bachelor in EE/CS.", "criteria": "English B2. German A2 rec.", "fees": "None" },
+          { "name": "M.Sc. Mechanical Engineering (ISE)", "eligibility": "Bachelor in Mech Eng.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Water Science", "eligibility": "Bachelor in Chem/Bio/Env Sci.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Martin Luther University Halle-Wittenberg",
+        "germany_rank": "#35",
+        "world_rank": "#601-800 (THE)",
+        "location": "Halle, Saxony-Anhalt",
+        "established": 1502,
+        "type": "Public",
+        "student_statistics": { "total": "20,000", "international": "9%" },
+        "student_society": "StuRa Halle",
+        "academy": "Historic University",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+ (Very Affordable)" },
+        "admission_fees": "€250",
+        "deadline": "Winter: June 15 or July 15",
+        "courses": [
+          { "name": "M.Sc. Polymer Materials Science", "eligibility": "Bachelor in Chem/Physics.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Pharmaceutical Biotechnology", "eligibility": "Bachelor in Pharm/Bio.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. International Area Studies", "eligibility": "Bachelor in Social Sciences.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Giessen (JLU)",
+        "germany_rank": "#36",
+        "world_rank": "#601-800 (THE)",
+        "location": "Giessen, Hesse",
+        "established": 1607,
+        "type": "Public",
+        "student_statistics": { "total": "26,000", "international": "10%" },
+        "student_society": "AStA Giessen, Student Theatre",
+        "academy": "Life Sciences Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€300",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Agrobiotechnology", "eligibility": "Bachelor in Agri/Bio.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Transition Management", "eligibility": "Bachelor in Econ/Agri Econ.", "criteria": "English C1.", "fees": "None" },
+          { "name": "M.Sc. Mind, Brain and Behavior", "eligibility": "Bachelor in Psych/Bio.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Saarland",
+        "germany_rank": "#37",
+        "world_rank": "#601-800 (THE)",
+        "location": "Saarbrücken, Saarland",
+        "established": 1948,
+        "type": "Public",
+        "student_statistics": { "total": "16,500", "international": "18%" },
+        "student_society": "AStA Saarland, CS Student Council",
+        "academy": "Computer Science Excellence Cluster",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€297",
+        "deadline": "Winter: May 15 (CS) / July 15",
+        "courses": [
+          { "name": "M.Sc. Computer Science", "eligibility": "Bachelor in CS.", "criteria": "English C1. GRE recommended. Very prestigious.", "fees": "None" },
+          { "name": "M.Sc. Cybersecurity", "eligibility": "Bachelor in CS/Security.", "criteria": "English C1. Entrance Test.", "fees": "None" },
+          { "name": "M.Sc. Bioinformatics", "eligibility": "Bachelor in Bio/CS.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Rostock",
+        "germany_rank": "#38",
+        "world_rank": "#601-800 (THE)",
+        "location": "Rostock, Mecklenburg-Vorpommern",
+        "established": 1419,
+        "type": "Public",
+        "student_statistics": { "total": "13,000", "international": "10%" },
+        "student_society": "Local Erasmus Initiative",
+        "academy": "Oldest Uni in Baltic Region",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+" },
+        "admission_fees": "€200",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Electrical Engineering", "eligibility": "Bachelor in EE.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Computational Sci & Eng", "eligibility": "Bachelor in Eng/Math.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Physics", "eligibility": "Bachelor in Physics.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Marburg",
+        "germany_rank": "#39",
+        "world_rank": "#601-800 (THE)",
+        "location": "Marburg, Hesse",
+        "established": 1527,
+        "type": "Public",
+        "student_statistics": { "total": "22,000", "international": "12%" },
+        "student_society": "AStA Marburg (Very Active)",
+        "academy": "Historic/Social Sciences",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€320",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Economics of the Middle East", "eligibility": "Bachelor in Econ.", "criteria": "English B2. Arabic recommended.", "fees": "None" },
+          { "name": "M.Sc. Functional Materials", "eligibility": "Bachelor in Chem/Physics.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. Peace & Conflict Studies", "eligibility": "Bachelor in PolSci.", "criteria": "English B2/C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Technical University of Hamburg (TUHH)",
+        "germany_rank": "#40",
+        "world_rank": "#601-800 (THE)",
+        "location": "Hamburg",
+        "established": 1978,
+        "type": "Public (TU)",
+        "student_statistics": { "total": "7,500", "international": "18%" },
+        "student_society": "AStA TUHH, Robotik AG",
+        "academy": "Engineering Focused",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€1,000+ (Hamburg is pricey)" },
+        "admission_fees": "€340",
+        "deadline": "Winter: March 1 (Non-EU Early Deadline)",
+        "courses": [
+          { "name": "M.Sc. Microelectronics", "eligibility": "Bachelor in EE/Physics.", "criteria": "English C1. GRE Recommended.", "fees": "None" },
+          { "name": "M.Sc. Info & Comm Systems", "eligibility": "Bachelor in EE/CS.", "criteria": "English C1.", "fees": "None" },
+          { "name": "M.Sc. Chemical & Bioprocess Eng", "eligibility": "Bachelor in Chem Eng.", "criteria": "English C1. Very strict ECTS check.", "fees": "None" }
+        ]
+      }
+    ]
+  },
+  {
+    "rank_group": "Page 5: Top 41-50",
+    "universities": [
+      {
+        "name": "Bielefeld University",
+        "germany_rank": "#41",
+        "world_rank": "#1001 (QS)",
+        "location": "Bielefeld, NRW",
+        "established": 1969,
+        "type": "Public",
+        "student_statistics": { "total": "25,000", "international": "8%" },
+        "student_society": "AStA Bielefeld, AEGEE",
+        "academy": "Reform University",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€320 (Includes Transit)",
+        "deadline": "Winter: July 15 | Summer: Jan 15",
+        "courses": [
+          { "name": "M.Sc. Intelligent Systems", "eligibility": "Bachelor in Informatics/CogSci.", "criteria": "English C1. Strong AI interest.", "fees": "None" },
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in Math/Stats/CS.", "criteria": "English B2/C1.", "fees": "None" },
+          { "name": "M.Sc. Quantitative Economics", "eligibility": "Bachelor in Econ/Math.", "criteria": "English C1. GRE recommended.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Regensburg",
+        "germany_rank": "#42",
+        "world_rank": "#401-500 (THE)",
+        "location": "Regensburg, Bavaria",
+        "established": 1962,
+        "type": "Public",
+        "student_statistics": { "total": "21,000", "international": "7%" },
+        "student_society": "ESN Regensburg",
+        "academy": "Coimbra Group",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€179",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Adv. Synthesis & Catalysis", "eligibility": "Bachelor in Chemistry.", "criteria": "English B2. Lab skills required.", "fees": "None" },
+          { "name": "M.Sc. Computational Science", "eligibility": "Bachelor in Physics/Math.", "criteria": "English B2. Coding skills.", "fees": "None" },
+          { "name": "M.A. East-West Studies", "eligibility": "Bachelor in Humanities.", "criteria": "English C1. German A2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Heinrich Heine University Düsseldorf",
+        "germany_rank": "#43",
+        "world_rank": "#251-300 (THE)",
+        "location": "Düsseldorf, NRW",
+        "established": 1965,
+        "type": "Public",
+        "student_statistics": { "total": "35,000", "international": "11%" },
+        "student_society": "AStA HHU, Debating Club",
+        "academy": "Life Sciences Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€950+ (Expensive City)" },
+        "admission_fees": "€320 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. AI and Data Science", "eligibility": "Bachelor in CS/Math.", "criteria": "English B2. Coding aptitude test.", "fees": "None" },
+          { "name": "M.Sc. Industrial Pharmacy", "eligibility": "Bachelor in Pharm/Chem.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.Sc. Economics", "eligibility": "Bachelor in Econ.", "criteria": "English B2. GRE recommended.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Friedrich Schiller University Jena",
+        "germany_rank": "#44",
+        "world_rank": "#351-400 (THE)",
+        "location": "Jena, Thuringia",
+        "established": 1558,
+        "type": "Public",
+        "student_statistics": { "total": "17,000", "international": "14%" },
+        "student_society": "Int.Ro, ESN Jena",
+        "academy": "Coimbra Group",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+ (Affordable)" },
+        "admission_fees": "€260",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Photonics", "eligibility": "Bachelor in Physics/Eng.", "criteria": "English B2. Strong optics focus.", "fees": "None" },
+          { "name": "M.Sc. Economics", "eligibility": "Bachelor in Econ/Business.", "criteria": "English B2. 2.5 GPA.", "fees": "None" },
+          { "name": "M.Sc. Microbiology", "eligibility": "Bachelor in Bio.", "criteria": "English C1. Lab experience.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "RPTU Kaiserslautern-Landau",
+        "germany_rank": "#45",
+        "world_rank": "#601-800 (THE)",
+        "location": "Kaiserslautern, Rhineland-Palatinate",
+        "established": 1970,
+        "type": "Public (Tech Focus)",
+        "student_statistics": { "total": "20,000", "international": "20%" },
+        "student_society": "VWI, ISGS",
+        "academy": "DFKI AI Partner",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€260",
+        "deadline": "Winter: April 30 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Computer Science", "eligibility": "Bachelor in CS.", "criteria": "English C1. GRE Required.", "fees": "Assessment Fee €60" },
+          { "name": "M.Sc. Commercial Vehicle Tech", "eligibility": "Bachelor in Mech/EE.", "criteria": "English C1. German A1.", "fees": "Assessment Fee €60" },
+          { "name": "M.Sc. Embedded Computing", "eligibility": "Bachelor in EE/CS.", "criteria": "English C1. GRE Required.", "fees": "Assessment Fee €60" }
+        ]
+      },
+      {
+        "name": "Paderborn University",
+        "germany_rank": "#46",
+        "world_rank": "#601-800 (THE)",
+        "location": "Paderborn, NRW",
+        "established": 1972,
+        "type": "Public",
+        "student_statistics": { "total": "20,000", "international": "13%" },
+        "student_society": "Eurobiz",
+        "academy": "Strong CS Dept",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€320 (Includes Transit)",
+        "deadline": "Winter: May 31 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Computer Science", "eligibility": "Bachelor in CS.", "criteria": "English C1 (IELTS 7). GRE Rec.", "fees": "None" },
+          { "name": "M.Sc. Optoelectronics", "eligibility": "Bachelor in Physics/EE.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Intl Economics", "eligibility": "Bachelor in Econ/Mgmt.", "criteria": "English B2. GMAT recommended.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Siegen",
+        "germany_rank": "#47",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Siegen, NRW",
+        "established": 1972,
+        "type": "Public",
+        "student_statistics": { "total": "17,500", "international": "12%" },
+        "student_society": "ISA (International Student Assoc)",
+        "academy": "Sensor Tech Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€280",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Mechatronics", "eligibility": "Bachelor in Mech/EE.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.Sc. Physics", "eligibility": "Bachelor in Physics.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. Roads to Democracy", "eligibility": "Bachelor in History/PolSci.", "criteria": "English C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Wuppertal",
+        "germany_rank": "#48",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Wuppertal, NRW",
+        "established": 1972,
+        "type": "Public",
+        "student_statistics": { "total": "22,000", "international": "10%" },
+        "student_society": "IST Team",
+        "academy": "Safety Engineering",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€310",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Computer Simulation", "eligibility": "Bachelor in CS/Physics.", "criteria": "English C1.", "fees": "None" },
+          { "name": "M.Sc. Quality Engineering", "eligibility": "Bachelor in Eng.", "criteria": "German B2 (Mixed Language).", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Oldenburg",
+        "germany_rank": "#49",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Oldenburg, Lower Saxony",
+        "established": 1973,
+        "type": "Public",
+        "student_statistics": { "total": "15,000", "international": "9%" },
+        "student_society": "ISO Oldenburg",
+        "academy": "Hearing/Audio Research",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€400 (Includes Rail)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Engineering Physics", "eligibility": "Bachelor in Physics/Eng.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Renewable Energy", "eligibility": "Bachelor in Eng/Sci.", "criteria": "English B2. Work exp preferred.", "fees": "None" },
+          { "name": "M.Sc. Microbiology", "eligibility": "Bachelor in Bio.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Kassel",
+        "germany_rank": "#50",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Kassel, Hesse",
+        "established": 1971,
+        "type": "Public",
+        "student_statistics": { "total": "23,000", "international": "13%" },
+        "student_society": "ESN Kassel",
+        "academy": "Environmental Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€290",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Renewable Energy & Efficiency", "eligibility": "Bachelor in Eng.", "criteria": "English B2. 1 yr work exp.", "fees": "None" },
+          { "name": "M.Sc. Electrical Comm Eng", "eligibility": "Bachelor in EE.", "criteria": "English B2.", "fees": "None" }
+        ]
+      }
+    ]
+  },
+  {
+    "rank_group": "Page 6: Top 51-60",
+    "universities": [
+      {
+        "name": "University of Hohenheim",
+        "germany_rank": "#51",
+        "world_rank": "#151-200 (QS Agriculture)",
+        "location": "Stuttgart, Baden-Württemberg",
+        "established": 1818,
+        "type": "Public (Specialized Bio/Agri)",
+        "student_statistics": { "total": "9,000", "international": "14%" },
+        "student_society": "AStA Hohenheim, ISO",
+        "academy": "#1 Agri Research in Germany",
+        "cost": { "tuition": "€1,500 / semester (Non-EU)", "living_monthly": "€900+" },
+        "admission_fees": "€185",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Bioeconomy", "eligibility": "Bachelor in Bio/Econ.", "criteria": "English B2/C1.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Crop Sciences", "eligibility": "Bachelor in Agri Sci.", "criteria": "English B2. Lab skills.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Intl Business & Econ", "eligibility": "Bachelor in Business.", "criteria": "English C1 (TOEFL 95). Top 30% GPA.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "TU Bergakademie Freiberg",
+        "germany_rank": "#52",
+        "world_rank": "#301-400 (THE)",
+        "location": "Freiberg, Saxony",
+        "established": 1765,
+        "type": "Public (Mining/Tech)",
+        "student_statistics": { "total": "4,000", "international": "40%" },
+        "student_society": "International Centre",
+        "academy": "Resource Tech Excellence",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€650+ (Very Cheap)" },
+        "admission_fees": "€94",
+        "deadline": "Winter: April 30 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Sustainable Mining (SINReM)", "eligibility": "Bachelor in Eng/Sci.", "criteria": "English C1. Joint Degree.", "fees": "Varies" },
+          { "name": "M.Sc. Groundwater Mgmt", "eligibility": "Bachelor in Hydro/Civil.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Metallic Materials", "eligibility": "Bachelor in Metallurgy.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Chemnitz University of Technology",
+        "germany_rank": "#53",
+        "world_rank": "#601-800 (THE)",
+        "location": "Chemnitz, Saxony",
+        "established": 1836,
+        "type": "Public (TU)",
+        "student_statistics": { "total": "10,000", "international": "30%" },
+        "student_society": "Film Club",
+        "academy": "Merge Cluster",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€650+" },
+        "admission_fees": "€265 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Web Engineering", "eligibility": "Bachelor in CS.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.Sc. Embedded Systems", "eligibility": "Bachelor in EE/CS.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.Sc. Advanced Manufacturing", "eligibility": "Bachelor in Mech Eng.", "criteria": "English B2. German A1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Otto von Guericke University Magdeburg",
+        "germany_rank": "#54",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Magdeburg, Saxony-Anhalt",
+        "established": 1993,
+        "type": "Public",
+        "student_statistics": { "total": "14,000", "international": "25%" },
+        "student_society": "IKUS",
+        "academy": "Neuroscience Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+" },
+        "admission_fees": "€130",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Data & Knowledge Eng", "eligibility": "Bachelor in CS.", "criteria": "English C1 (TOEFL 90). No GRE.", "fees": "None" },
+          { "name": "M.Sc. Medical Systems Eng", "eligibility": "Bachelor in EE/CS.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Digital Engineering", "eligibility": "Bachelor in CS/Eng.", "criteria": "English C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Greifswald",
+        "germany_rank": "#55",
+        "world_rank": "#501-600 (THE)",
+        "location": "Greifswald, Mecklenburg-Vorpommern",
+        "established": 1456,
+        "type": "Public",
+        "student_statistics": { "total": "10,000", "international": "8%" },
+        "student_society": "Student Clubs",
+        "academy": "Plasma Physics",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€105",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Landscape Ecology", "eligibility": "Bachelor in Bio/Geo.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Infection Biology", "eligibility": "Bachelor in Bio/Biomed.", "criteria": "English B2. Lab exp mandatory.", "fees": "None" },
+          { "name": "M.Sc. Earth Sciences", "eligibility": "Bachelor in Geology.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Augsburg",
+        "germany_rank": "#56",
+        "world_rank": "#1001-1200 (QS)",
+        "location": "Augsburg, Bavaria",
+        "established": 1970,
+        "type": "Public",
+        "student_statistics": { "total": "20,000", "international": "10%" },
+        "student_society": "ESN Augsburg",
+        "academy": "Materials Resource Mgmt",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€127",
+        "deadline": "Winter: June 15",
+        "courses": [
+          { "name": "M.Sc. Materials Science", "eligibility": "Bachelor in MatSci/Chem.", "criteria": "English B2/C1.", "fees": "None" },
+          { "name": "M.A. Climate & Env Sciences", "eligibility": "Bachelor in Geo/Physics.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Adv Functional Materials", "eligibility": "Bachelor in Physics/Chem.", "criteria": "English C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Osnabrück",
+        "germany_rank": "#57",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Osnabrück, Lower Saxony",
+        "established": 1974,
+        "type": "Public",
+        "student_statistics": { "total": "14,000", "international": "11%" },
+        "student_society": "International Table",
+        "academy": "Cognitive Science Inst",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€350 (Includes Rail)",
+        "deadline": "Winter: July 15 (May 31 CogSci)",
+        "courses": [
+          { "name": "M.Sc. Cognitive Science", "eligibility": "Bachelor in AI/Psych/CS.", "criteria": "English C1. Highly Competitive.", "fees": "None" },
+          { "name": "M.Sc. Nanosciences", "eligibility": "Bachelor in Bio/Phys.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. Conflict Studies", "eligibility": "Bachelor in PolSci.", "criteria": "English C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Lübeck",
+        "germany_rank": "#58",
+        "world_rank": "#401-500 (THE)",
+        "location": "Lübeck, Schleswig-Holstein",
+        "established": 1964,
+        "type": "Public (Med/Tech)",
+        "student_statistics": { "total": "5,000", "international": "8%" },
+        "student_society": "Student House",
+        "academy": "Life Science Excellence",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€270",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Infection Biology", "eligibility": "Bachelor in Bio.", "criteria": "English B2. 2.5 GPA.", "fees": "None" },
+          { "name": "M.Sc. Biomedical Eng", "eligibility": "Bachelor in Eng/Phys.", "criteria": "English B2. Math proficient.", "fees": "None" },
+          { "name": "M.Sc. Media Informatics", "eligibility": "Bachelor in CS.", "criteria": "English B2. Portfolio.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Bamberg",
+        "germany_rank": "#59",
+        "world_rank": "#1001+ (QS)",
+        "location": "Bamberg, Bavaria",
+        "established": 1647,
+        "type": "Public",
+        "student_statistics": { "total": "12,000", "international": "12%" },
+        "student_society": "Feki.de",
+        "academy": "Social Sci & InfoSys",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€105",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Intl Software Systems", "eligibility": "Bachelor in CS.", "criteria": "English C1. 2.5 GPA.", "fees": "None" },
+          { "name": "M.A. English Studies", "eligibility": "Bachelor in English.", "criteria": "English C1.", "fees": "None" },
+          { "name": "M.Sc. Survey Statistics", "eligibility": "Bachelor in Stats/Soc.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Leuphana University of Lüneburg",
+        "germany_rank": "#60",
+        "world_rank": "#501-600 (THE)",
+        "location": "Lüneburg, Lower Saxony",
+        "established": 1946,
+        "type": "Public (Liberal Arts)",
+        "student_statistics": { "total": "10,000", "international": "10%" },
+        "student_society": "Sustainability Groups",
+        "academy": "Sustainability Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€370 (Includes Rail)",
+        "deadline": "Winter: June 1 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Mgmt & Data Science", "eligibility": "Bachelor in Bus/CS.", "criteria": "English C1. GMAT sometimes req.", "fees": "None" },
+          { "name": "M.Sc. Sustainability Sci", "eligibility": "Bachelor in Env Sci.", "criteria": "English C1. Interdisciplinary.", "fees": "None" },
+          { "name": "LL.M. Intl Economic Law", "eligibility": "Bachelor in Law.", "criteria": "English C1.", "fees": "None" }
+        ]
+      }
+    ]
+  },
+    {
+    "rank_group": "Page 7: Top 61-70 (Including Top Applied Sciences)",
+    "universities": [
+      {
+        "name": "TU Ilmenau",
+        "germany_rank": "#61",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Ilmenau, Thuringia",
+        "established": 1894,
+        "type": "Public (Technical University)",
+        "student_statistics": { "total": "5,000", "international": "30%" },
+        "student_society": "SWING (Student Org)",
+        "academy": "Media Technology Leader",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€650+ (Very Affordable)" },
+        "admission_fees": "€100",
+        "deadline": "Winter: July 15 | Summer: Jan 15",
+        "courses": [
+          { "name": "M.Sc. Media Technology", "eligibility": "Bachelor in EE/Media Tech.", "criteria": "English B2. Tech focus.", "fees": "None" },
+          { "name": "M.Sc. Communications & Signal Processing", "eligibility": "Bachelor in EE.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Research in Computer & Systems Eng", "eligibility": "Bachelor in CS/Eng.", "criteria": "English B2/C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Passau",
+        "germany_rank": "#62",
+        "world_rank": "#301-350 (THE Young Univ)",
+        "location": "Passau, Bavaria",
+        "established": 1978,
+        "type": "Public University",
+        "student_statistics": { "total": "11,000", "international": "14%" },
+        "student_society": "AEGEE Passau",
+        "academy": "Law & CS Excellence",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€105",
+        "deadline": "Winter: June 15 or July 15",
+        "courses": [
+          { "name": "M.Sc. Computer Science", "eligibility": "Bachelor in CS.", "criteria": "English C1. Strong theory focus.", "fees": "None" },
+          { "name": "M.Sc. Artificial Intelligence Engineering", "eligibility": "Bachelor in CS/AI.", "criteria": "English B2/C1.", "fees": "None" },
+          { "name": "M.A. Development Studies", "eligibility": "Bachelor in Social Sci.", "criteria": "English B2. German A1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Hildesheim",
+        "germany_rank": "#63",
+        "world_rank": "Unranked (Specialized)",
+        "location": "Hildesheim, Lower Saxony",
+        "established": 1978,
+        "type": "Public University",
+        "student_statistics": { "total": "8,500", "international": "10%" },
+        "student_society": "AStA Hildesheim",
+        "academy": "Data Analytics Hub",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€400 (Includes Rail)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Data Analytics", "eligibility": "Bachelor in CS/Math/Stats.", "criteria": "English C1. Highly Competitive.", "fees": "None" },
+          { "name": "M.Sc. Software Engineering", "eligibility": "Bachelor in CS.", "criteria": "English B2. German A1 rec.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Rhine-Waal University of Applied Sciences",
+        "germany_rank": "#64",
+        "world_rank": "Unranked (Applied Sci)",
+        "location": "Kleve/Kamp-Lintfort, NRW",
+        "established": 2009,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "7,300", "international": "50%+" },
+        "student_society": "AStA HSRW",
+        "academy": "Most International UAS",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€320 (Includes Rail)",
+        "deadline": "Winter: July 15 (Often extended)",
+        "courses": [
+          { "name": "M.Sc. Information Engineering and CS", "eligibility": "Bachelor in CS.", "criteria": "English B2. 2.5 GPA.", "fees": "None" },
+          { "name": "M.Sc. Mechanical Engineering", "eligibility": "Bachelor in Mech Eng.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Sustainable Development Mgmt", "eligibility": "Bachelor in Econ/SocSci.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Deggendorf Institute of Technology (DIT)",
+        "germany_rank": "#65",
+        "world_rank": "Unranked (Applied Sci)",
+        "location": "Deggendorf, Bavaria",
+        "established": 1994,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "8,500", "international": "40%" },
+        "student_society": "ESN Deggendorf",
+        "academy": "AI & Tech Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+ (Affordable)" },
+        "admission_fees": "€72",
+        "deadline": "Winter: July 15 (Apply Early!)",
+        "courses": [
+          { "name": "M.Sc. Artificial Intelligence for Smart Sensors", "eligibility": "Bachelor in EE/CS.", "criteria": "English B2. Aptitude Test.", "fees": "None" },
+          { "name": "M.Sc. Electrical Engineering", "eligibility": "Bachelor in EE.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Eng. Mechatronic & Cyber-Physical Systems", "eligibility": "Bachelor in Mechatronics.", "criteria": "English B2. 1 yr work exp sometimes req.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "TH Köln (Cologne University of Applied Sciences)",
+        "germany_rank": "#66",
+        "world_rank": "Unranked (Top UAS)",
+        "location": "Cologne, NRW",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "27,000", "international": "15%" },
+        "student_society": "Karibu (Buddy Program)",
+        "academy": "Largest UAS in Germany",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€950+" },
+        "admission_fees": "€320 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Web Science", "eligibility": "Bachelor in CS.", "criteria": "English B2. Interview.", "fees": "None" },
+          { "name": "M.Sc. Automation & IT", "eligibility": "Bachelor in EE/Automation.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. International Business", "eligibility": "Bachelor in Business.", "criteria": "English C1. 2.3 GPA.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "HTW Berlin",
+        "germany_rank": "#67",
+        "world_rank": "Unranked (Applied Sci)",
+        "location": "Berlin",
+        "established": 1994,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "14,000", "international": "20%" },
+        "student_society": "AStA HTW",
+        "academy": "Creative Comp & Biz",
+        "cost": { "tuition": "None (Free) *Except MBA", "living_monthly": "€1,000+" },
+        "admission_fees": "€310 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Project Mgmt & Data Science", "eligibility": "Bachelor in any field.", "criteria": "English C1. *Tuition: €16,000 (Paid)*.", "fees": "€16,000 (Total)" },
+          { "name": "M.A. Intl Business", "eligibility": "Bachelor in Business.", "criteria": "English C1. Aptitude test.", "fees": "None" },
+          { "name": "M.Sc. Professional IT Business", "eligibility": "Bachelor in CS/Bus.", "criteria": "English C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Trier",
+        "germany_rank": "#68",
+        "world_rank": "#801-1000 (THE)",
+        "location": "Trier, Rhineland-Palatinate",
+        "established": 1473,
+        "type": "Public University",
+        "student_statistics": { "total": "11,000", "international": "12%" },
+        "student_society": "International Center",
+        "academy": "Humanities & NLP",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€285",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Natural Language Processing", "eligibility": "Bachelor in Comp Ling/CS.", "criteria": "English B2. Strong coding.", "fees": "None" },
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in Math/CS.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Economics", "eligibility": "Bachelor in Econ.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Fulda University of Applied Sciences",
+        "germany_rank": "#69",
+        "world_rank": "Unranked (Applied Sci)",
+        "location": "Fulda, Hesse",
+        "established": 1974,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "9,000", "international": "16%" },
+        "student_society": "AStA Fulda",
+        "academy": "Intercultural Comm Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+" },
+        "admission_fees": "€300 (Includes Rail)",
+        "deadline": "Winter: May 31 (Non-EU) / July 15",
+        "courses": [
+          { "name": "M.Sc. Global Software Development", "eligibility": "Bachelor in CS.", "criteria": "English B2/C1. Programming.", "fees": "None" },
+          { "name": "M.A. Intercultural Communication & European Studies", "eligibility": "Bachelor in SocSci.", "criteria": "English C1 + German A2.", "fees": "None" },
+          { "name": "M.Sc. Intl Food Business", "eligibility": "Bachelor in Food/Bus.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hamburg University of Applied Sciences (HAW)",
+        "germany_rank": "#70",
+        "world_rank": "Unranked (Applied Sci)",
+        "location": "Hamburg",
+        "established": 1970,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "16,000", "international": "14%" },
+        "student_society": "International Office",
+        "academy": "Engineering & Health",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€1,100+" },
+        "admission_fees": "€340 (Includes Transit)",
+        "deadline": "Winter: June 15 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Renewable Energy Systems", "eligibility": "Bachelor in Energy Eng.", "criteria": "English B2. 2.5 GPA.", "fees": "None" },
+          { "name": "M.Sc. Biomedical Engineering", "eligibility": "Bachelor in Eng/MedTech.", "criteria": "English B2. Research interest.", "fees": "None" },
+          { "name": "M.A. Intl Business", "eligibility": "Bachelor in Business.", "criteria": "English C1.", "fees": "None" }
+        ]
+      }
+    ]
+    },
+  {
+    "rank_group": "Page 8: Top 71-80 (Focus on Top Applied Sciences)",
+    "universities": [
+      {
+        "name": "Hof University of Applied Sciences",
+        "germany_rank": "#71",
+        "world_rank": "Unranked (Top for Industry Ties)",
+        "location": "Hof, Bavaria",
+        "established": 1994,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "3,800", "international": "20%" },
+        "student_society": "Einstein1 (Digital Incubator)",
+        "academy": "Digitalization & Water Tech",
+        "cost": { "tuition": "Varies (Standard: Free | Graduate School: Paid)", "living_monthly": "€700 - €850 (Affordable)" },
+        "admission_fees": "€145",
+        "deadline": "Winter: May 31 (Non-EU) | Summer: Nov 30",
+        "courses": [
+          { "name": "M.Sc. Artificial Intelligence and Robotics", "eligibility": "Bachelor in CS/Eng.", "criteria": "English C1. 2.5 GPA. Aptitude interview.", "fees": "None (Standard)" },
+          { "name": "M.Sc. Sustainability Management", "eligibility": "Bachelor in any field.", "criteria": "English B2. 1 yr work exp.", "fees": "Check Website (Grad School often paid)" },
+          { "name": "M.Sc. Global Management", "eligibility": "Bachelor in Business.", "criteria": "English B2. German A1.", "fees": "Check Website" }
+        ]
+      },
+      {
+        "name": "Technische Hochschule Ingolstadt (THI)",
+        "germany_rank": "#72",
+        "world_rank": "Unranked (Top Automotive)",
+        "location": "Ingolstadt, Bavaria",
+        "established": 1994,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "6,500", "international": "15%" },
+        "student_society": "N.I.C.E. (Network for Int. Cultural Exchange)",
+        "academy": "AI Motion Node (Audi/BMW Hub)",
+        "cost": { "tuition": "€500 per semester (Rising to €1,200 in 2026)", "living_monthly": "€850+" },
+        "admission_fees": "€72",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Automotive Production Engineering", "eligibility": "Bachelor in Mech/Auto Eng.", "criteria": "English B2. German A1.", "fees": "€500-1,200/sem" },
+          { "name": "M.Sc. International Automotive Engineering", "eligibility": "Bachelor in Eng.", "criteria": "English B2. 1 yr work exp recommended.", "fees": "€500-1,200/sem" },
+          { "name": "M.Sc. Renewable Energy Systems", "eligibility": "Bachelor in EE/Mech.", "criteria": "English B2.", "fees": "€500-1,200/sem" }
+        ]
+      },
+      {
+        "name": "TH Würzburg-Schweinfurt (THWS)",
+        "germany_rank": "#73",
+        "world_rank": "Unranked (Applied Sci)",
+        "location": "Würzburg/Schweinfurt, Bavaria",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "9,300", "international": "25% (High)" },
+        "student_society": "International Student Network",
+        "academy": "Robotics & TWIN Programs",
+        "cost": { "tuition": "€1,500 per semester (Non-EU)", "living_monthly": "€750+" },
+        "admission_fees": "€170",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Artificial Intelligence", "eligibility": "Bachelor in CS.", "criteria": "English B2. Coding Assessment.", "fees": "€1,500/sem" },
+          { "name": "M.Eng. International Business with Engineering", "eligibility": "Bachelor in Eng/Bus.", "criteria": "English B2.", "fees": "€1,500/sem" },
+          { "name": "MBA International Business", "eligibility": "Bachelor (Non-Business).", "criteria": "English B2. GMAT recommended.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "Reutlingen University",
+        "germany_rank": "#74",
+        "world_rank": "Unranked (#1 Business School for UAS)",
+        "location": "Reutlingen, Baden-Württemberg",
+        "established": 1855,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "5,800", "international": "20%" },
+        "student_society": "ESB Student Network",
+        "academy": "ESB Business School Excellence",
+        "cost": { "tuition": "€1,500 per semester (Non-EU)", "living_monthly": "€850+" },
+        "admission_fees": "€167",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. International Management (MBA)", "eligibility": "Bachelor in Business.", "criteria": "English C1. GMAT Required.", "fees": "€1,500/sem + Program Fee" },
+          { "name": "M.Sc. Textile Chain Research", "eligibility": "Bachelor in Textile/Chem.", "criteria": "English B2.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Digital Industrial Management", "eligibility": "Bachelor in Eng/Mgmt.", "criteria": "English B2.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "Esslingen University of Applied Sciences",
+        "germany_rank": "#75",
+        "world_rank": "Unranked (Top Engineering)",
+        "location": "Esslingen, Baden-Württemberg",
+        "established": 1868,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "6,300", "international": "15%" },
+        "student_society": "Formula Student Team",
+        "academy": "Automotive Systems Leader",
+        "cost": { "tuition": "€1,500 per semester (Non-EU)", "living_monthly": "€900+ (Near Stuttgart)" },
+        "admission_fees": "€180",
+        "deadline": "Winter: March 31 (Very Early!)",
+        "courses": [
+          { "name": "M.Eng. Automotive Systems", "eligibility": "Bachelor in Auto/Mech/EE.", "criteria": "English C1. GMAT Recommended.", "fees": "€1,500/sem" },
+          { "name": "M.Eng. Design and Development in Auto. and Mech. Eng.", "eligibility": "Bachelor in Mech Eng.", "criteria": "English C1. CAD skills.", "fees": "€1,500/sem" },
+          { "name": "MBA International Industrial Management", "eligibility": "Bachelor in Eng/Bus.", "criteria": "English C1. GMAT/GRE Required.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "FH Aachen University of Applied Sciences",
+        "germany_rank": "#76",
+        "world_rank": "Unranked (Top UAS for Eng)",
+        "location": "Aachen, NRW",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "15,000", "international": "18%" },
+        "student_society": "AStA FH Aachen",
+        "academy": "Solar & Nuclear Tech",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€320 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Mechatronics", "eligibility": "Bachelor in Mech/EE.", "criteria": "English B2. GRE recommended.", "fees": "None" },
+          { "name": "M.Sc. Nuclear Applications", "eligibility": "Bachelor in Physics/Chem/Eng.", "criteria": "English B2. Unique niche course.", "fees": "None" },
+          { "name": "M.Sc. Energy Systems", "eligibility": "Bachelor in Energy/EE.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Frankfurt University of Applied Sciences",
+        "germany_rank": "#77",
+        "world_rank": "Unranked (Urban Focus)",
+        "location": "Frankfurt, Hesse",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "15,000", "international": "20%" },
+        "student_society": "International Career Service",
+        "academy": "Logistics & Architecture",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€1,100+ (Expensive City)" },
+        "admission_fees": "€390 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. High Integrity Systems (IT)", "eligibility": "Bachelor in CS.", "criteria": "English C1. Coding test.", "fees": "None" },
+          { "name": "M.Sc. Urban Agglomerations", "eligibility": "Bachelor in Arch/Civil/Geo.", "criteria": "English B2. Portfolio.", "fees": "None" },
+          { "name": "M.Sc. Global Logistics", "eligibility": "Bachelor in Bus/Eng.", "criteria": "English B2. GMAT optional.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Anhalt (Anhalt UAS)",
+        "germany_rank": "#78",
+        "world_rank": "Unranked (Design/Tech)",
+        "location": "Bernburg/Dessau/Köthen, Saxony-Anhalt",
+        "established": 1991,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "7,800", "international": "25%" },
+        "student_society": "Bauhaus Club",
+        "academy": "Bauhaus Design Heritage",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€650+ (Very Cheap)" },
+        "admission_fees": "€86",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.A. Architectural and Cultural Heritage", "eligibility": "Bachelor in Arch.", "criteria": "English B2. Portfolio.", "fees": "None" },
+          { "name": "M.Sc. Biomedical Engineering", "eligibility": "Bachelor in Eng/MedTech.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Photovoltaics Engineering", "eligibility": "Bachelor in EE/Physics.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "University of Koblenz",
+        "germany_rank": "#79",
+        "world_rank": "Unranked (Research)",
+        "location": "Koblenz, Rhineland-Palatinate",
+        "established": 1990,
+        "type": "Public University",
+        "student_statistics": { "total": "9,000", "international": "10%" },
+        "student_society": "AStA Koblenz",
+        "academy": "Web Science Hub",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€235",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Web and Data Science", "eligibility": "Bachelor in CS/Math.", "criteria": "English B2. Strong theory focus.", "fees": "None" },
+          { "name": "M.Sc. E-Government", "eligibility": "Bachelor in CS/Admin.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Mathematical Modeling", "eligibility": "Bachelor in Math/Physics.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Darmstadt (h_da)",
+        "germany_rank": "#80",
+        "world_rank": "Unranked (Top UAS)",
+        "location": "Darmstadt, Hesse",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "16,000", "international": "18%" },
+        "student_society": "Campus Dieburg Media",
+        "academy": "Media & Engineering",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€900+" },
+        "admission_fees": "€337 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Electrical Eng & IT", "eligibility": "Bachelor in EE.", "criteria": "English C1. 2.5 GPA.", "fees": "None" },
+          { "name": "M.A. Leadership in the Creative Industries", "eligibility": "Bachelor in Media/Design.", "criteria": "English C1. Portfolio/Exp.", "fees": "None" },
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in CS/Math.", "criteria": "English C1.", "fees": "None" }
+        ]
+      }
+    ]
+  },
+  {
+    "rank_group": "Page 9: Top 81-90 (High Employability / Applied Sciences)",
+    "universities": [
+      {
+        "name": "Munich University of Applied Sciences (HM)",
+        "germany_rank": "#81",
+        "world_rank": "Unranked (Top 5 for Employability in DE)",
+        "location": "Munich, Bavaria",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "18,000", "international": "14%" },
+        "student_society": "International Club Munich",
+        "academy": "Industry Partnerships (BMW, Siemens)",
+        "cost": { "tuition": "Varies (Approx €500 - €1,500 for Non-EU)", "living_monthly": "€1,200+ (Expensive)" },
+        "admission_fees": "€147",
+        "deadline": "Winter: May 31 (Recommended) / July 15",
+        "courses": [
+          { "name": "M.Sc. Micro- and Nanotechnology", "eligibility": "Bachelor in Sci/Eng.", "criteria": "English B2. Aptitude test.", "fees": "Check Website" },
+          { "name": "M.Eng. Paper Technology", "eligibility": "Bachelor in Process/Chem Eng.", "criteria": "English B2. Unique niche course.", "fees": "Check Website" },
+          { "name": "M.A. Business Innovation & Mgmt", "eligibility": "Bachelor in Business.", "criteria": "English C1. Work exp required.", "fees": "Check Website" }
+        ]
+      },
+      {
+        "name": "Nuremberg Institute of Technology (TH Nürnberg)",
+        "germany_rank": "#82",
+        "world_rank": "Unranked (Top UAS)",
+        "location": "Nuremberg, Bavaria",
+        "established": 1823,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "13,000", "international": "12%" },
+        "student_society": "International Office",
+        "academy": "Polymer & Energy Tech",
+        "cost": { "tuition": "Approx €1,500 per semester (Non-EU)", "living_monthly": "€900+" },
+        "admission_fees": "€127",
+        "deadline": "Winter: June 15",
+        "courses": [
+          { "name": "M.Sc. International Finance and Economics", "eligibility": "Bachelor in Econ/Bus.", "criteria": "English B2. GMAT highly recommended.", "fees": "€1,500/sem" },
+          { "name": "M.Eng. International Business and Technology", "eligibility": "Bachelor in Eng.", "criteria": "English B2. German A1.", "fees": "€1,500/sem" },
+          { "name": "M.A. International Marketing", "eligibility": "Bachelor in Business.", "criteria": "English C1.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "Berlin School of Economics and Law (HWR Berlin)",
+        "germany_rank": "#83",
+        "world_rank": "Unranked (Top for Business)",
+        "location": "Berlin",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "11,500", "international": "16%" },
+        "student_society": "AStA HWR",
+        "academy": "Business & Law Excellence",
+        "cost": { "tuition": "None (Free) *MBA is paid*", "living_monthly": "€1,000+" },
+        "admission_fees": "€315 (Includes Transit)",
+        "deadline": "Winter: May 31 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. International Finance", "eligibility": "Bachelor in Finance.", "criteria": "English C1. Very competitive.", "fees": "None" },
+          { "name": "M.Sc. Global Supply Chain Management", "eligibility": "Bachelor in Bus/Logistics.", "criteria": "English C1. 2.5 GPA.", "fees": "None" },
+          { "name": "M.A. International Economics", "eligibility": "Bachelor in Econ.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Berliner Hochschule für Technik (BHT)",
+        "germany_rank": "#84",
+        "world_rank": "Unranked (Engineering Focus)",
+        "location": "Berlin",
+        "established": 1823 ,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "13,000", "international": "15%" },
+        "student_society": "City Tech Club",
+        "academy": "Urban Tech & Life Sci",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€1,000+" },
+        "admission_fees": "€310 (Includes Transit)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Data Science", "eligibility": "Bachelor in CS/Math.", "criteria": "English C1. Strong coding req.", "fees": "None" },
+          { "name": "M.Sc. Computational Engineering", "eligibility": "Bachelor in Mech/Civil.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Packaging Technology", "eligibility": "Bachelor in Food/Pkg Tech.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "HTW Dresden",
+        "germany_rank": "#85",
+        "world_rank": "Unranked (Top in Saxony)",
+        "location": "Dresden, Saxony",
+        "established": 1992,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "5,000", "international": "20%" },
+        "student_society": "Faranto e.V.",
+        "academy": "Applied Informatics",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+ (Very Affordable)" },
+        "admission_fees": "€280 (Includes Transit)",
+        "deadline": "Winter: June 15",
+        "courses": [
+          { "name": "M.Sc. Environmental Engineering", "eligibility": "Bachelor in Eng/Sci.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. International Business", "eligibility": "Bachelor in Bus.", "criteria": "English C1.", "fees": "None" },
+          { "name": "M.Sc. Computer Engineering (Joint)", "eligibility": "Bachelor in EE/CS.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Furtwangen University (HFU)",
+        "germany_rank": "#86",
+        "world_rank": "Unranked (Hidden Gem)",
+        "location": "Furtwangen, Baden-Württemberg",
+        "established": 1850,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "6,000", "international": "20%" },
+        "student_society": "International Student Community",
+        "academy": "Media & CS Leader",
+        "cost": { "tuition": "€1,500 per semester (Non-EU)", "living_monthly": "€750+ (Cheap Rent)" },
+        "admission_fees": "€140",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Smart Systems", "eligibility": "Bachelor in Eng/CS.", "criteria": "English B2.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Biomedical Engineering", "eligibility": "Bachelor in MedTech.", "criteria": "English B2.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Business Consulting (MBA-style)", "eligibility": "Bachelor in Bus/IT.", "criteria": "English C1. Competitive.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "Kiel University of Applied Sciences",
+        "germany_rank": "#87",
+        "world_rank": "Unranked (Maritime Focus)",
+        "location": "Kiel, Schleswig-Holstein",
+        "established": 1969,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "7,800", "international": "10%" },
+        "student_society": "AStA FH Kiel",
+        "academy": "Wind & Marine Eng",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€270",
+        "deadline": "Winter: May 15 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Information Engineering", "eligibility": "Bachelor in CS/IT.", "criteria": "English B2. 2.5 GPA.", "fees": "None" },
+          { "name": "M.Sc. Industrial Engineering", "eligibility": "Bachelor in Ind. Eng.", "criteria": "English C1. German A1.", "fees": "None" },
+          { "name": "M.A. Financial Accounting", "eligibility": "Bachelor in Finance.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Bremen (City UAS)",
+        "germany_rank": "#88",
+        "world_rank": "Unranked (Very International)",
+        "location": "Bremen",
+        "established": 1982,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "8,700", "international": "30%" },
+        "student_society": "International Modul",
+        "academy": "Aerospace & Shipping",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€800+" },
+        "admission_fees": "€380 (Includes Rail)",
+        "deadline": "Winter: June 15",
+        "courses": [
+          { "name": "M.Sc. Electronics Engineering", "eligibility": "Bachelor in EE.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Aerospace Technologies", "eligibility": "Bachelor in Aero/Mech.", "criteria": "English B2. Industry ties.", "fees": "None" },
+          { "name": "MBA Global Management", "eligibility": "Bachelor + 1 yr work exp.", "criteria": "English C1. *Paid Course (~€15k)*.", "fees": "€15,000 Total" }
+        ]
+      },
+      {
+        "name": "Technische Hochschule Mittelhessen (THM)",
+        "germany_rank": "#89",
+        "world_rank": "Unranked (Largest UAS in Hesse)",
+        "location": "Giessen/Friedberg, Hesse",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "18,000", "international": "12%" },
+        "student_society": "Buddy Program",
+        "academy": "Applied Engineering",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€280",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Control, Computer & Comm Eng", "eligibility": "Bachelor in EE/CS.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.Sc. Supply Chain Management", "eligibility": "Bachelor in Bus/Logistics.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. International Marketing", "eligibility": "Bachelor in Bus.", "criteria": "English B2. German A1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Bonn-Rhein-Sieg",
+        "germany_rank": "#90",
+        "world_rank": "Unranked (Research UAS)",
+        "location": "Sankt Augustin/Rheinbach, NRW",
+        "established": 1995,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "9,000", "international": "18%" },
+        "student_society": "Study Buddy",
+        "academy": "Biology & Robotics",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€300 (Includes Rail)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Autonomous Systems (Robotics)", "eligibility": "Bachelor in CS/Math/EE.", "criteria": "English C1. Strong Math. Research focus.", "fees": "None" },
+          { "name": "M.Sc. Biomedical Sciences", "eligibility": "Bachelor in Bio/Med.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. NGO Management (MBA)", "eligibility": "Bachelor + Work Exp.", "criteria": "English B2. *Paid (~€5k)*.", "fees": "Approx €5,000" }
+        ]
+      }
+    ]
+  },
+  {
+    "rank_group": "Page 10: Top 91-100 (Hidden Gems & Specialized UAS)",
+    "universities": [
+      {
+        "name": "Hochschule Offenburg (Offenburg UAS)",
+        "germany_rank": "#91",
+        "world_rank": "Unranked (Top Energy/Media)",
+        "location": "Offenburg, Baden-Württemberg",
+        "established": 1964,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "4,500", "international": "25%" },
+        "student_society": "Senior Service (Mentors)",
+        "academy": "Media & Energy Excellence",
+        "cost": { "tuition": "€1,500 per semester (Non-EU)", "living_monthly": "€750+" },
+        "admission_fees": "€284",
+        "deadline": "Winter: July 15 (Apply via Uni-Assist)",
+        "courses": [
+          { "name": "M.Sc. Renewable Energy & Data Eng", "eligibility": "Bachelor in Energy/EE.", "criteria": "English B2/C1.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Process Engineering (MPE)", "eligibility": "Bachelor in Process Eng.", "criteria": "English B2.", "fees": "€1,500/sem" },
+          { "name": "MBA International Business Consulting", "eligibility": "Bachelor + 2 yrs work exp.", "criteria": "English C1. *Paid Course (€10k)*.", "fees": "Approx €10,400 Total" }
+        ]
+      },
+      {
+        "name": "FH South Westphalia (Standort Soest)",
+        "germany_rank": "#92",
+        "world_rank": "Unranked (Popular for IMP)",
+        "location": "Soest, NRW",
+        "established": 2002,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "12,000", "international": "25% (Soest Campus)" },
+        "student_society": "International Student Council",
+        "academy": "Management & Engineering",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€650+ (Very Cheap)" },
+        "admission_fees": "€300 (Includes Rail)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Systems Engineering & Eng Mgmt", "eligibility": "Bachelor in Eng.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.A. International Management & Info Systems", "eligibility": "Bachelor in Bus/IT.", "criteria": "English B2. 2.5 GPA.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Ravensburg-Weingarten (RWU)",
+        "germany_rank": "#93",
+        "world_rank": "Unranked (Tech Focus)",
+        "location": "Weingarten, Baden-Württemberg",
+        "established": 1964,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "3,800", "international": "18%" },
+        "student_society": "International Office",
+        "academy": "Mobility & Tech",
+        "cost": { "tuition": "€1,500 per semester (Non-EU)", "living_monthly": "€750+" },
+        "admission_fees": "€160",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Mechatronics", "eligibility": "Bachelor in Mech/EE.", "criteria": "English B2. German A1.", "fees": "€1,500/sem" },
+          { "name": "M.Sc. Electrical Engineering & Embedded Systems", "eligibility": "Bachelor in EE.", "criteria": "English B2.", "fees": "€1,500/sem" },
+          { "name": "M.A. International Business Mgmt", "eligibility": "Bachelor in Business.", "criteria": "English C1.", "fees": "€1,500/sem" }
+        ]
+      },
+      {
+        "name": "Hochschule Schmalkalden",
+        "germany_rank": "#94",
+        "world_rank": "Unranked (Top CS)",
+        "location": "Schmalkalden, Thuringia",
+        "established": 1991,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "2,500", "international": "30% (Very High)" },
+        "student_society": "ESN Schmalkalden",
+        "academy": "Computer Science Hub",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€600+ (Extremely Cheap)" },
+        "admission_fees": "€130",
+        "deadline": "Winter: June 15",
+        "courses": [
+          { "name": "M.Sc. Applied Computer Science", "eligibility": "Bachelor in CS.", "criteria": "English B2. Programming Test.", "fees": "None" },
+          { "name": "M.A. International Business & Economics", "eligibility": "Bachelor in Econ.", "criteria": "English B2. 2.5 GPA.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Mittweida",
+        "germany_rank": "#95",
+        "world_rank": "Unranked (Unique Niches)",
+        "location": "Mittweida, Saxony",
+        "established": 1867,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "6,000", "international": "20%" },
+        "student_society": "Cosmopolitan Club",
+        "academy": "Forensics & Blockchain",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€600 - €700" },
+        "admission_fees": "€96",
+        "deadline": "Winter: May 15 (Non-EU)",
+        "courses": [
+          { "name": "M.Sc. Blockchain & Distributed Ledger Tech", "eligibility": "Bachelor in CS/Math/Fin.", "criteria": "English B2. Unique course.", "fees": "None" },
+          { "name": "M.Sc. Cybercrime / Cybersecurity", "eligibility": "Bachelor in CS/IT Law.", "criteria": "German B2 (Often Mixed). Check specific track.", "fees": "None" },
+          { "name": "M.Sc. Applied Mathematics", "eligibility": "Bachelor in Math.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Worms (Worms UAS)",
+        "germany_rank": "#96",
+        "world_rank": "Unranked (Aviation Leader)",
+        "location": "Worms, Rhineland-Palatinate",
+        "established": 1978,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "3,700", "international": "25%" },
+        "student_society": "AStA Worms",
+        "academy": "Aviation & Tourism Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€750+" },
+        "admission_fees": "€150",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.A. Aviation Management", "eligibility": "Bachelor in Bus/Aviation.", "criteria": "English C1. 1 yr work exp often req.", "fees": "None" },
+          { "name": "M.A. International Tourism Management", "eligibility": "Bachelor in Tourism.", "criteria": "English C1.", "fees": "None" },
+          { "name": "M.A. Global Trade Management", "eligibility": "Bachelor in Trade/Bus.", "criteria": "English C1.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "TH Brandenburg",
+        "germany_rank": "#97",
+        "world_rank": "Unranked (Tech)",
+        "location": "Brandenburg an der Havel, Brandenburg",
+        "established": 1992,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "2,600", "international": "15%" },
+        "student_society": "AStA THB",
+        "academy": "Security & Media",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+" },
+        "admission_fees": "€275 (Includes Transit to Berlin)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Security Management", "eligibility": "Bachelor in CS/Security.", "criteria": "English B2. *Fee based (€5k)*.", "fees": "€5,000 Total" },
+          { "name": "M.Sc. Computer Science", "eligibility": "Bachelor in CS.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "Hochschule Stralsund",
+        "germany_rank": "#98",
+        "world_rank": "Unranked (Baltic Coast)",
+        "location": "Stralsund, Mecklenburg-Vorpommern",
+        "established": 1991,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "2,300", "international": "15%" },
+        "student_society": "Baltic Racing Team",
+        "academy": "Renewable Energy Focus",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€650+" },
+        "admission_fees": "€110",
+        "deadline": "Winter: June 15",
+        "courses": [
+          { "name": "M.Sc. Renewable Energy Systems", "eligibility": "Bachelor in Eng.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. Tourism Development Strategies", "eligibility": "Bachelor in Tourism.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "OTH Regensburg",
+        "germany_rank": "#99",
+        "world_rank": "Unranked (Top Bavarian UAS)",
+        "location": "Regensburg, Bavaria",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "11,000", "international": "10%" },
+        "student_society": "Connect (Industry Fair)",
+        "academy": "Tech Partner of Uni Regensburg",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€850+" },
+        "admission_fees": "€168",
+        "deadline": "Winter: June 15",
+        "courses": [
+          { "name": "M.Sc. Electrical & Microsystems Eng", "eligibility": "Bachelor in EE.", "criteria": "English B2. German A1.", "fees": "None" },
+          { "name": "M.Sc. Mathematics", "eligibility": "Bachelor in Math.", "criteria": "English B2.", "fees": "None" }
+        ]
+      },
+      {
+        "name": "TH Ostwestfalen-Lippe (TH OWL)",
+        "germany_rank": "#100",
+        "world_rank": "Unranked (Specialized)",
+        "location": "Lemgo/Detmold, NRW",
+        "established": 1971,
+        "type": "Public (UAS)",
+        "student_statistics": { "total": "6,500", "international": "12%" },
+        "student_society": "Innovation Campus",
+        "academy": "Food Tech & Lighting",
+        "cost": { "tuition": "None (Free)", "living_monthly": "€700+" },
+        "admission_fees": "€320 (Includes Rail)",
+        "deadline": "Winter: July 15",
+        "courses": [
+          { "name": "M.Sc. Information Technology", "eligibility": "Bachelor in IT/EE.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.Sc. Production Engineering & Mgmt", "eligibility": "Bachelor in Prod/Mech Eng.", "criteria": "English B2.", "fees": "None" },
+          { "name": "M.A. Lighting Design", "eligibility": "Bachelor in Arch/Design.", "criteria": "English B2. Portfolio. Top global course.", "fees": "None" }
+        ]
+      }
+    ]
+  }
+]
+
+
+
+
+
+

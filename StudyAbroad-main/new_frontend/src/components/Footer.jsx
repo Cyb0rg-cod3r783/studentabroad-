@@ -16,7 +16,7 @@ const Footer = () => {
                                 <path d="M16 16V24" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             <span className="font-bold text-xl font-heading">
-                                Study Abroad Final Boss
+                                Study Abroad
                             </span>
                         </Link>
                         <p className="text-gray-400 mb-8 leading-relaxed">
@@ -90,7 +90,7 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-                    <p>© 2024 Study Abroad Final Boss. All rights reserved.</p>
+                    <p>© 2024 Study Abroad. All rights reserved.</p>
                     <div className="flex gap-6">
                         <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
                         <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

@@ -90,6 +90,155 @@ const expenseItems = [
     { icon: Layers, label: "Miscellaneous", value: "$200", percentage: "9.2%", color: "bg-red-500" },
 ];
 
+// Visa Requirements Data for each country
+const visaRequirements = {
+    US: {
+        processingTime: "3-5 weeks",
+        applicationCost: "$160 + $350 SEVIS fee",
+        requiredDocuments: [
+            "Valid passport (6 months beyond stay)",
+            "Form I-20 from US institution",
+            "SEVIS fee payment receipt",
+            "Visa application form DS-160",
+            "Passport-sized photographs",
+            "Proof of financial support",
+            "Academic transcripts and certificates",
+            "English proficiency test scores"
+        ],
+        applicationProcess: [
+            "Receive Form I-20 from university",
+            "Pay SEVIS I-901 fee online",
+            "Complete DS-160 form online",
+            "Schedule visa interview",
+            "Attend visa interview at embassy",
+            "Wait for visa processing",
+            "Receive passport with visa"
+        ]
+    },
+    GB: {
+        processingTime: "3-6 weeks",
+        applicationCost: "£363 (standard) or £490 (priority)",
+        requiredDocuments: [
+            "Valid passport",
+            "CAS (Confirmation of Acceptance for Studies) from university",
+            "Tuberculosis (TB) test certificate (if required)",
+            "Financial evidence showing sufficient funds",
+            "Academic qualifications and transcripts",
+            "English language proficiency test results",
+            "Passport-sized photographs",
+            "Biometric residence permit (BRP) collection letter"
+        ],
+        applicationProcess: [
+            "Receive CAS from your university",
+            "Complete online Tier 4 visa application",
+            "Pay visa application fee and IHS surcharge",
+            "Book biometric appointment at visa application center",
+            "Attend biometric appointment and submit documents",
+            "Wait for visa decision",
+            "Collect BRP upon arrival in UK"
+        ]
+    },
+    CA: {
+        processingTime: "4-8 weeks",
+        applicationCost: "CAD $150 (study permit) + CAD $85 (biometrics)",
+        requiredDocuments: [
+            "Valid passport",
+            "Letter of acceptance from DLI (Designated Learning Institution)",
+            "Proof of financial support (GIC or bank statements)",
+            "Medical examination certificate (if required)",
+            "Police clearance certificate",
+            "Biometric information",
+            "Statement of purpose",
+            "Academic transcripts and certificates"
+        ],
+        applicationProcess: [
+            "Receive letter of acceptance from Canadian institution",
+            "Create online account on IRCC website",
+            "Complete study permit application form",
+            "Pay application and biometric fees",
+            "Submit biometrics at VAC (Visa Application Center)",
+            "Submit all required documents online",
+            "Wait for visa processing and decision",
+            "Receive passport request and submit passport"
+        ]
+    },
+    AU: {
+        processingTime: "4-8 weeks",
+        applicationCost: "AUD $650 (subclass 500 visa)",
+        requiredDocuments: [
+            "Valid passport",
+            "Confirmation of Enrolment (CoE) from Australian institution",
+            "Genuine Temporary Entrant (GTE) statement",
+            "Proof of financial capacity",
+            "English language proficiency test results",
+            "Health insurance (OSHC - Overseas Student Health Cover)",
+            "Health examination certificate (if required)",
+            "Character certificate and police clearance"
+        ],
+        applicationProcess: [
+            "Receive CoE from Australian institution",
+            "Obtain OSHC health insurance",
+            "Create ImmiAccount on Department of Home Affairs website",
+            "Complete online visa application (subclass 500)",
+            "Pay visa application fee",
+            "Attend health examination (if required)",
+            "Submit biometrics (if required)",
+            "Wait for visa decision",
+            "Receive visa grant notification"
+        ]
+    },
+    DE: {
+        processingTime: "4-12 weeks",
+        applicationCost: "€75 (visa fee)",
+        requiredDocuments: [
+            "Valid passport",
+            "Letter of admission from German university",
+            "Proof of financial resources (€11,208 per year)",
+            "Health insurance certificate",
+            "Academic qualifications and transcripts",
+            "German language proficiency certificate (if required)",
+            "Biometric passport photos",
+            "Motivation letter and CV"
+        ],
+        applicationProcess: [
+            "Receive admission letter from German university",
+            "Open blocked account (Sperrkonto) with required funds",
+            "Obtain health insurance coverage",
+            "Book appointment at German embassy/consulate",
+            "Complete visa application form",
+            "Attend visa interview at embassy",
+            "Submit all required documents",
+            "Wait for visa processing",
+            "Receive visa and travel to Germany"
+        ]
+    },
+    FR: {
+        processingTime: "2-4 weeks",
+        applicationCost: "€50 (visa fee) + Campus France fee",
+        requiredDocuments: [
+            "Valid passport",
+            "Pre-consular registration certificate from Campus France",
+            "Letter of admission from French institution",
+            "Proof of financial resources (€615/month)",
+            "Health insurance certificate",
+            "Academic transcripts and diplomas",
+            "French language proficiency certificate (if required)",
+            "Accommodation proof or attestation d'hébergement"
+        ],
+        applicationProcess: [
+            "Complete Campus France online registration",
+            "Attend Campus France interview",
+            "Receive admission from French institution",
+            "Complete visa application on France-Visas website",
+            "Book appointment at French consulate",
+            "Attend visa appointment and submit documents",
+            "Pay visa fee",
+            "Wait for visa processing",
+            "Collect passport with visa"
+        ]
+    }
+};
+
 const DestinationsPage = () => {
     const [lifestyle, setLifestyle] = useState('Moderate');
     const [visaCountry, setVisaCountry] = useState('US');
@@ -386,21 +535,19 @@ const DestinationsPage = () => {
                     </div>
 
                     {/* Country Tabs */}
-                    <div className="flex justify-center gap-4 mb-16">
-                        {['US United States', 'GB United Kingdom', 'CA Canada', 'AU Australia'].map((tab) => {
-                            const [code, ...nameParts] = tab.split(' ');
-                            const name = nameParts.join(' ');
-                            const isActive = visaCountry === code;
+                    <div className="flex flex-wrap justify-center gap-4 mb-16">
+                        {destinations.map((dest) => {
+                            const isActive = visaCountry === dest.code;
                             return (
                                 <button
-                                    key={code}
-                                    onClick={() => setVisaCountry(code)}
+                                    key={dest.code}
+                                    onClick={() => setVisaCountry(dest.code)}
                                     className={`px-6 py-3 rounded-xl font-semibold border transition-all flex items-center gap-2 ${isActive
                                         ? 'bg-[#1A1B4B] text-white border-[#1A1B4B] shadow-lg'
                                         : 'bg-white text-gray-600 border-gray-200 hover:border-gray-300'
                                         }`}
                                 >
-                                    <span className="font-bold">{code}</span> {name}
+                                    <span className="font-bold">{dest.code}</span> {dest.country}
                                 </button>
                             );
                         })}
@@ -419,14 +566,14 @@ const DestinationsPage = () => {
                                     <div className="bg-blue-100 p-2 rounded-lg text-blue-600"><Zap size={20} /></div>
                                     <div>
                                         <p className="text-xs text-gray-500 font-semibold">Processing Time</p>
-                                        <p className="font-bold text-[#1A1B4B]">3-5 weeks</p>
+                                        <p className="font-bold text-[#1A1B4B]">{visaRequirements[visaCountry]?.processingTime || "N/A"}</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4 text-left p-4 bg-green-50 rounded-xl">
                                     <div className="bg-green-100 p-2 rounded-lg text-green-600"><DollarSign size={20} /></div>
                                     <div>
                                         <p className="text-xs text-gray-500 font-semibold">Application Cost</p>
-                                        <p className="font-bold text-[#1A1B4B]">$160 + $350 SEVIS fee</p>
+                                        <p className="font-bold text-[#1A1B4B]">{visaRequirements[visaCountry]?.applicationCost || "N/A"}</p>
                                     </div>
                                 </div>
                             </div>
@@ -451,21 +598,14 @@ const DestinationsPage = () => {
                                     <h3 className="text-xl font-bold text-[#1A1B4B]">Required Documents</h3>
                                 </div>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8">
-                                    {[
-                                        "Valid passport (6 months beyond stay)",
-                                        "Form I-20 from US institution",
-                                        "SEVIS fee payment receipt",
-                                        "Visa application form DS-160",
-                                        "Passport-sized photographs",
-                                        "Proof of financial support",
-                                        "Academic transcripts and certificates",
-                                        "English proficiency test scores"
-                                    ].map((doc, i) => (
+                                    {visaRequirements[visaCountry]?.requiredDocuments?.map((doc, i) => (
                                         <div key={i} className="flex items-start gap-3">
                                             <span className="font-bold text-blue-600 text-sm mt-0.5">{i + 1}</span>
                                             <span className="text-gray-600 text-sm">{doc}</span>
                                         </div>
-                                    ))}
+                                    )) || (
+                                        <div className="text-gray-500 text-sm">No documents available</div>
+                                    )}
                                 </div>
                             </div>
 
@@ -479,26 +619,25 @@ const DestinationsPage = () => {
                                 </div>
 
                                 <div className="space-y-0 relative">
-                                    <div className="absolute left-[19px] top-4 bottom-4 w-0.5 bg-gray-200"></div>
-                                    {[
-                                        "Receive Form I-20 from university",
-                                        "Pay SEVIS I-901 fee online",
-                                        "Complete DS-160 form online",
-                                        "Schedule visa interview",
-                                        "Attend visa interview at embassy",
-                                        "Wait for visa processing",
-                                        "Receive passport with visa"
-                                    ].map((step, i) => (
-                                        <div key={i} className="flex gap-6 relative group pb-8 last:pb-0">
-                                            <div className="w-10 h-10 rounded-full bg-[#4353FF] text-white font-bold flex items-center justify-center flex-shrink-0 z-10 border-4 border-white shadow-sm group-hover:scale-110 transition-transform">
-                                                {i + 1}
+                                    {visaRequirements[visaCountry]?.applicationProcess && (
+                                        <div className="absolute left-[19px] top-4 bottom-4 w-0.5 bg-gray-200"></div>
+                                    )}
+                                    {visaRequirements[visaCountry]?.applicationProcess?.map((step, i) => {
+                                        const totalSteps = visaRequirements[visaCountry]?.applicationProcess?.length || 0;
+                                        return (
+                                            <div key={i} className="flex gap-6 relative group pb-8 last:pb-0">
+                                                <div className="w-10 h-10 rounded-full bg-[#4353FF] text-white font-bold flex items-center justify-center flex-shrink-0 z-10 border-4 border-white shadow-sm group-hover:scale-110 transition-transform">
+                                                    {i + 1}
+                                                </div>
+                                                <div className="pt-1.5">
+                                                    <h4 className="font-bold text-[#1A1B4B] mb-1">{step}</h4>
+                                                    <p className="text-xs text-gray-400">Step {i + 1} of {totalSteps}</p>
+                                                </div>
                                             </div>
-                                            <div className="pt-1.5">
-                                                <h4 className="font-bold text-[#1A1B4B] mb-1">{step}</h4>
-                                                <p className="text-xs text-gray-400">Step {i + 1} of 7</p>
-                                            </div>
-                                        </div>
-                                    ))}
+                                        );
+                                    }) || (
+                                        <div className="text-gray-500 text-sm">No process information available</div>
+                                    )}
                                 </div>
                             </div>
                         </div>

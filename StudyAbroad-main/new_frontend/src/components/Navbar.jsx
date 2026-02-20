@@ -29,7 +29,7 @@ const Navbar = () => {
                         <path d="M16 16V24" stroke="#1A1B4B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <span className="text-[#1A1B4B] font-bold text-xl font-heading">
-                        Study Abroad Final Boss
+                        Study Abroad
                     </span>
                 </Link>
 

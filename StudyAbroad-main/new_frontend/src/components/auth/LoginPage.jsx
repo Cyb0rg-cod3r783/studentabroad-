@@ -46,7 +46,7 @@ const LoginPage = () => {
                 <div className="relative z-20 flex flex-col justify-between h-full p-16">
                     <div className="flex items-center gap-2 font-bold text-2xl">
                         <span className="bg-white/20 p-2 rounded-lg backdrop-blur-sm">🎓</span>
-                        Study Abroad Final Boss
+                        Study Abroad
                     </div>
 
                     <div className="space-y-6">
